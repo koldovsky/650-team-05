@@ -1,0 +1,8 @@
+.countdown{
+    display: flex;
+    transform: scale(2);
+}
+
+.time{
+    display: flex;
+}
