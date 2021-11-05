@@ -1,0 +1,16 @@
+
+a {
+    text-decoration: none;
+}
+
+#faq {
+    background-image:url(../img/cta-offer/cta-offer-background.png) ;
+}
+
+h1  {display: none;}
+
+.header-top {
+    background-color: red;
+    text-decoration: none;
+    display: inline;
+}
