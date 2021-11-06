@@ -14,3 +14,19 @@ h1  {display: none;}
     text-decoration: none;
     display: inline;
 }
+
+footer #footer {
+    background-color: #232323;
+    color: white;
+    font-family: sans-serif;   
+    text-align: left; 
+}
+
+a.social-icon-container{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 30px; 
+    height: 30px;
+    filter: blur(100%);
+}
