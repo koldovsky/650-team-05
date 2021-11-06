@@ -15,30 +15,24 @@ h1  {display: none;}
     display: inline;
 }
 
-footer {
+#footer {
     background-color: #232323;
     color: white;
     font-family: sans-serif;   
-    text-align: left; 
-    grid-column-gap: 20px;
-    width: 100%;
+    text-align: left;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+
+.social-icon-container img{
+    width: 25px;
+    height: 25px;
     
 }
-
-#footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;    
-    text-align: left;
-   
-}
-
-.social-icon-container{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-}
-
+    
 .footer-visit-us, .numbers-to-contact, #footer-navigation, .left-panel-footer{
 display: flex;
 flex-direction:column;
