@@ -1,3 +1,4 @@
+/* Oleksandr Sheniak CSS code */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Grand+Hotel&family=Playfair+Display:wght@600&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,400;1,400&family=Grand+Hotel&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,600&display=swap');
@@ -5,20 +6,17 @@
 :root {
     --beigecolor: #f9f4ee;
     --blackcolor: #000;
-    --button-darkgreycolor: #232323;
-    --button-redcolor: #bb2528;
+    --a-darkgreycolor: #232323;
+    --a-redcolor: #bb2528;
+    --a-whitecolor : #fff;
     --darkgreycolor: #232323;
     --redcolor: #bb2528;
     --whitecolor: #fff;
     --h2cololor: #bb2528; 
-
 }
+
 a {
     text-decoration: none;
-}
-
-#faq {
-    background-image:url(../img/cta-offer/cta-offer-background.png) ;
 }
 
 h1  {display: none;}
@@ -27,6 +25,64 @@ h2 {
     color: var(--redcolor);
     font-size: 22px;
     font-family: 'Grand Hotel', cursive;
+}
+
+#cta-offer {
+    background-image:url(../img/cta-offer/cta-offer-background.png) ;
+    height: 600px;
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+}
+
+.cta-form {
+    background-color: var(--whitecolor);
+    height: 510px;
+    width: 540px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+}
+
+.cta-buttons {
+padding: 20px;
+margin: 20px 20px 20px -40px;
+}
+
+.button-red {
+    background-color: var(--a-redcolor);
+    color: var(--whitecolor);
+    font-size: 10.8px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px;
+    margin: 20px;
+}
+
+.button-red:hover {
+    background-color: var(--a-darkgreycolor);
+    color: var(--whitecolor);
+    font-size: 10.8px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px;
+    margin: 20px;
+}
+
+.button-white {
+    background-color: var(--a-whitecolor);
+    color: var(--a-darkgreycolor);
+    border-color: var(--a-darkgreycolor);
+    border-width: thick;
+    font-size: 10.8px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px;
+    margin: 20px;
+}
+
+.button-white:hover {
+    background-color: var(--a-darkgreycolor);
+    color: var(--a-whitecolor);
+    font-size: 10.8px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px;
+    margin: 20px;
 }
 
 .cta-text-large {
@@ -78,6 +134,7 @@ h2 {
     text-decoration: none;
     display: inline;
 }
+/* Oleksandr Sheniak CSS code */
 
 body {
 	color: rgb(79, 79, 79);
