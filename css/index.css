@@ -1,6 +1,8 @@
 /* Oleksandr Sheniak CSS code */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Grand+Hotel&family=Playfair+Display:wght@600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,400;1,400&family=Grand+Hotel&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,600&display=swap');
+
 :root {
     --beigecolor: #f9f4ee;
     --blackcolor: #000;
@@ -10,6 +12,7 @@
     --darkgreycolor: #232323;
     --redcolor: #bb2528;
     --whitecolor: #fff;
+    --h2cololor: #bb2528; 
 }
 
 a {
@@ -261,4 +264,44 @@ footer{
 
 .footer-contacts-us{
     padding: 0px 15px 0px 15px;
+}
+
+/*Natalia blocks*/
+/*block3-feature*/
+
+
+.features-title-name {
+    font-size: 24px;
+    font-family: Playfair Display,serif;
+    font-weight: 500;
+    color: #232323;
+}
+
+.features-text {
+    font-size: 16px;
+    font-family: Fira Sans,sans-serif;
+    font-weight: 400;
+    color: #737373;
+}
+
+/*block5-shop-bestsellers*/
+.shop-bestsellers-title-name {
+    font-size: 22px;
+    font-family: Grand Hotel,undefined;
+    font-weight: 400;
+    color: #bb2528!important;
+}
+
+.shop-bestsellers-big-text {
+    font-size: 42px;
+    font-family: Playfair Display,serif;
+    font-weight: 600;
+    color: #232323;
+}
+
+.shop-bestsellers-text {
+    font-size: 18px;
+    font-family: Fira Sans,sans-serif;
+    font-weight: 400;
+    color: #737373;
 }
