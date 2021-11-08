@@ -1,5 +1,5 @@
 // --------------------------------------- countdown ---------------------------------------
-const days = document.getElementById("days");
+let days = document.getElementById("days");
 const hours = document.getElementById("hours");
 const minutes = document.getElementById("minutes");
 const seconds = document.getElementById("seconds");
@@ -16,11 +16,15 @@ function updateCountDown() {
     const m = Math.floor(diff / 1000 / 60) % 60;
     const s = Math.floor(diff / 1000) % 60;
 
-    // days.innerHTML = d;
-    // hours.innerHTML = h < 10 ? "0" + h : h;
-    // minutes.innerHTML = m < 10 ? "0" + m : m;
-    // seconds.innerHTML = s < 10 ? "0" + s : s;
+    days.innerText = d;
     console.log(d);
+    hours.innerHTML = h < 10 ? "0" + h : h;
+    console.log(d);
+    minutes.innerHTML = m < 10 ? "0" + m : m;
+    console.log(d);
+    seconds.innerHTML = s < 10 ? "0" + s : s;
+    console.log(d);
+
 }
 
 setInterval(updateCountDown, 1000)
