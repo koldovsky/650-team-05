@@ -17,6 +17,15 @@
 
 a {
     text-decoration: none;
+    color: var(--a-whitecolor);
+}
+
+a.header-black-text {
+    color: var(--a-darkgreycolor);
+    padding: 0px 20px 0px 20px;  
+}
+a.social-icons {
+    padding: 0px 10px 0px 10px;  
 }
 
 h1  {display: none;}
@@ -68,8 +77,7 @@ margin: 20px 20px 20px -40px;
 .button-white {
     background-color: var(--a-whitecolor);
     color: var(--a-darkgreycolor);
-    border-color: var(--a-darkgreycolor);
-    border-width: thick;
+    border: 2px solid var(--a-darkgreycolor);
     font-size: 10.8px;
     font-family: 'Fira Sans', sans-serif;
     padding: 10px;
@@ -129,10 +137,42 @@ margin: 20px 20px 20px -40px;
     font-family: 'Fira Sans', sans-serif;
 }
 
+.header-logo {
+    height: 100px;
+    padding: 10px;
+    margin: -20px 0px 0px 50px;
+}
+
 .header-top {
-    background-color: red;
+    background-color: var(--redcolor);
+    color: var(--a-whitecolor);
+    display: flex;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 30px;
+    justify-content:space-around ;
+    padding: 10px;
     text-decoration: none;
-    display: inline;
+}
+.header.span {
+    color: var(--a-whitecolor);
+}
+
+.header-bottom {
+    color: var(--blackcolor);
+    display: flex;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100px;
+    justify-content:space-around ;
+    margin: 30px 0px 0px 0px;
+}
+nav.navbar {
+    margin-top: 25px;
+    margin-left: 400px;
+}
+nav.social {
+    margin-top: 20px;
 }
 /* Oleksandr Sheniak CSS code */
 
