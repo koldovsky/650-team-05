@@ -12,7 +12,7 @@
     --darkgreycolor: #232323;
     --redcolor: #bb2528;
     --whitecolor: #fff;
-    --h2cololor: #bb2528; 
+    --a-grey: #737373; 
 }
 
 a {
@@ -268,20 +268,18 @@ footer{
 
 /*Natalia blocks*/
 /*block3-feature*/
-
-
 .features-title-name {
     font-size: 24px;
     font-family: Playfair Display,serif;
     font-weight: 500;
-    color: #232323;
+    color: var(--darkgreycolor);
 }
 
 .features-text {
     font-size: 16px;
     font-family: Fira Sans,sans-serif;
     font-weight: 400;
-    color: #737373;
+    color: var(--a-grey);
 }
 
 /*block5-shop-bestsellers*/
@@ -289,19 +287,26 @@ footer{
     font-size: 22px;
     font-family: Grand Hotel,undefined;
     font-weight: 400;
-    color: #bb2528!important;
+    color: var(--a-redcolor)!important;
 }
 
 .shop-bestsellers-big-text {
     font-size: 42px;
     font-family: Playfair Display,serif;
     font-weight: 600;
-    color: #232323;
+    color: var(--a-darkgreycolor);
 }
 
 .shop-bestsellers-text {
     font-size: 18px;
     font-family: Fira Sans,sans-serif;
     font-weight: 400;
-    color: #737373;
+    color: var(--a-grey);
+}
+
+.shop-bestsellers-products-name {
+    font-size: 18px;
+    font-family: Fira Sans,sans-serif;
+    font-weight: 400;
+    color: var(--a-grey);
 }
