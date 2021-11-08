@@ -10,7 +10,6 @@
     --a-redcolor: #bb2528;
     --a-whitecolor : #fff;
     --darkgreycolor: #232323;
-    --redcolor: #bb2528;
     --whitecolor: #fff;
     --a-grey: #737373; 
 }
@@ -310,3 +309,29 @@ footer{
     font-weight: 400;
     color: var(--a-grey);
 }
+.shop-bestsellers-products-name:hover {
+    color: var(--a-redcolor);
+}
+.shop-bestsellers-price {
+    font-size: 18px;
+    font-family: Fira Sans,sans-serif;
+    font-weight: 400;
+    color: var(--a-redcolor);
+}
+
+.shop-bestsellers-button{
+    border-width: 2px;
+    border-radius: 0;
+    border-color: var(--a-redcolor);
+    border-style: solid;
+    position: absolute;
+    align-items: center;
+}
+ 
+.shop-bestsellers-button-name {
+    font-size: 10,8px;
+    font-family: Fira Sans,sans-serif;
+    font-weight: 700;
+    color: var(--a-redcolor);
+}
+/**/
