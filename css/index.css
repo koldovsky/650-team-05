@@ -358,3 +358,32 @@ footer{
     font-weight: 400;
     color: var(--a-whitecolor);
 }
+
+
+.shop-product9-name{
+    
+    font-size: 18px;
+    font-family: Fira Sans,sans-serif;
+    font-weight: 400;
+    color: var(--a-grey);
+}
+
+.shop-product9-name:hover {
+    color: var(--a-redcolor);
+    text-decoration: underline;
+}
+
+
+.shop-product9-price{
+    font-size: 18px;
+    font-family: Fira Sans,sans-serif;
+    font-weight: 400;
+    color: var(--a-redcolor);
+}
+
+.shop-product9-button{
+    font-size: 10.8px;
+    border: var(--a-redcolor) 3px solid;
+    padding: 10px;
+    background: white;
+}
