@@ -278,35 +278,6 @@ nav.social {
     color: var(--a-whitecolor);
 }
 
-
-.shop-product-name{
-    
-    font-size: 18px;
-    font-family: Fira Sans,sans-serif;
-    font-weight: 400;
-    color: var(--a-grey);
-}
-
-.shop-product-name:hover {
-    color: var(--a-redcolor);
-    text-decoration: underline;
-}
-
-
-.shop-product-price{
-    font-size: 18px;
-    font-family: Fira Sans,sans-serif;
-    font-weight: 400;
-    color: var(--a-redcolor);
-}
-
-.shop-product-button{
-    font-size: 10.8px;
-    border: var(--a-redcolor) 3px solid;
-    padding: 10px;
-    background: white;
-}
-
 .partners-blog-right-list {
     font-size: 16px;
     font-family: Fira Sans,sans-serif;
