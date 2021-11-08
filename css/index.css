@@ -327,11 +327,14 @@ footer{
     position: absolute;
     align-items: center;
 }
- 
+  
 .shop-bestsellers-button-name {
     font-size: 10,8px;
     font-family: Fira Sans,sans-serif;
     font-weight: 700;
     color: var(--a-redcolor);
+    text-align: center;
 }
+ 
+    
 /**/
