@@ -1,7 +1,7 @@
 /* Oleksandr Sheniak CSS code */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Grand+Hotel&family=Playfair+Display:wght@600&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,400;1,400&family=Grand+Hotel&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,400;1,400&family=Grand+Hotel&family=PT+Sans&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,600&display=swap');
 
 :root {
     --beigecolor: #f9f4ee;
@@ -335,6 +335,25 @@ footer{
     color: var(--a-redcolor);
     text-align: center;
 }
- 
     
-/**/
+/*block10-partner-blog*/
+.partners-blog-left-block-decoration {
+    font-size: 16px;
+    font-family: Fira Sans,sans-serif;
+    font-weight: 700;
+    color: var(--a-whitecolor);
+}
+
+.partners-blog-left-block-block-text {
+    font-size: 30px;
+    font-family: Playfair Display,serif;
+    font-weight: 700;
+    color: var(--a-whitecolor);
+}
+
+.partners-blog-left-block-block-date {
+    font-size: 14px;
+    font-family: PT Sans,sans-serif;
+    font-weight: 400;
+    color: var(--a-whitecolor);
+}
