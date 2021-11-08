@@ -362,7 +362,7 @@ footer{
 <<<<<<< HEAD
 
 
-.shop-product9-name{
+.shop-product-name{
     
     font-size: 18px;
     font-family: Fira Sans,sans-serif;
@@ -370,20 +370,20 @@ footer{
     color: var(--a-grey);
 }
 
-.shop-product9-name:hover {
+.shop-product-name:hover {
     color: var(--a-redcolor);
     text-decoration: underline;
 }
 
 
-.shop-product9-price{
+.shop-product-price{
     font-size: 18px;
     font-family: Fira Sans,sans-serif;
     font-weight: 400;
     color: var(--a-redcolor);
 }
 
-.shop-product9-button{
+.shop-product-button{
     font-size: 10.8px;
     border: var(--a-redcolor) 3px solid;
     padding: 10px;
