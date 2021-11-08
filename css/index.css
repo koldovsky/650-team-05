@@ -343,6 +343,7 @@ footer{
     font-family: Fira Sans,sans-serif;
     font-weight: 700;
     color: var(--a-whitecolor);
+    text-transform: uppercase;
 }
 
 .partners-blog-left-block-block-text {
@@ -358,6 +359,7 @@ footer{
     font-weight: 400;
     color: var(--a-whitecolor);
 }
+<<<<<<< HEAD
 
 
 .shop-product9-name{
@@ -386,4 +388,31 @@ footer{
     border: var(--a-redcolor) 3px solid;
     padding: 10px;
     background: white;
+=======
+.partners-blog-right-list {
+    font-size: 16px;
+    font-family: Fira Sans,sans-serif;
+    font-weight: 700;
+    color: var(--blackcolor);
+    text-transform: uppercase;
+}
+.partners-blog-right-block-title {
+    font-size: 24px;
+    font-family: Playfair Display,serif;
+    font-weight: 500;
+    color: var(--a-darkgreycolor);
+}
+
+.partners-blog-right-block-text {
+    font-size: 16px;
+    font-family: Fira Sans,sans-serif;
+    font-weight: 400;
+    color: var(--a-grey);
+}
+.partners-blog-right-block-date {
+    font-size: 14px;
+    font-family: PT Sans,sans-serif;
+    font-weight: 400;
+    color: var(--blackcolor);
+>>>>>>> d53f6d2aa754c31561b94bf6e83b7fe978787b76
 }
