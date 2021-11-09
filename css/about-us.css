@@ -6,6 +6,9 @@
     margin-bottom: 150px;
 }
 
+section div .about-us-img-background {
+}
+
 section div .about-us-text-header {
     color: var(--redcolor);
     font-size: 22px;
@@ -35,6 +38,7 @@ section div .about-us-text-all-kind {
 }
 
 section div .about-us-text-on-img {
+    width: 50vw;
     color: #4f4f4f;
     font-size: 18px;
     font-weight: 400;
