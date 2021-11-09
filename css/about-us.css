@@ -6,20 +6,6 @@
     margin-bottom: 150px;
 }
 
-
-
-section div .about-us-text-header {
-    color: var(--redcolor);
-    font-size: 22px;
-    font-family: 'Grand Hotel', cursive;
-    font-weight: 100;
-    margin-bottom: 5px;
-}
-
-section div .about-us-img-symbol {
-    width: 8%;
-}
-
 @media (min-width: 751px){
 
     .about-us {
@@ -32,25 +18,45 @@ section div .about-us-img-symbol {
     }
 }
 
+section .about-us-img-background {
+}
+
+section .about-us-elements-on-img {
+    
+    background: #F9F4EE;
+}
+
+section div .about-us-text-header {
+    color: var(--redcolor);
+    font-size: 22px;
+    font-family: 'Grand Hotel', cursive;
+    font-weight: 100;
+    margin: 100px 0px 5px 50px;
+}
+
 section div .about-us-text-all-kind {
     font-size: 56px;
     font-family: Playfair Display,serif;
     font-weight: 600;
+    margin: 0px 0px 5px 50px;
+}
+
+section div .about-us-img-symbol {
+    width: 15%;
+    margin: 0px 0px 5px 50px;
 }
 
 section div .about-us-text-on-img {
-    width: 50vw;
+    width: 45vw;
     color: #4f4f4f;
     font-size: 18px;
     font-weight: 400;
     font-family: Fira Sans,serif;
-}
-
-section div .about-us-elements-on-img {
-    background: #F9F4EE;
+    margin: 0px 0px 5px 50px;
 }
 
 section div .about-us-carousel-img {
+    margin: 0px 0px 5px 50px;
     display: flex;
     width: 11%;
 }
