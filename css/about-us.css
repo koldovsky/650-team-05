@@ -3,6 +3,18 @@
     margin-bottom: 150px;
 }
 
+section div .about-us-text-header {
+    color: var(--redcolor);
+    font-size: 22px;
+    font-family: 'Grand Hotel', cursive;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+section div .about-us-img-symbol {
+    width: 8%;
+}
+
 @media (min-width: 751px){
 
     .about-us {
@@ -11,5 +23,10 @@
 }
 
 .about-us-elements-on-img {
-    background: #F8F3ED;
+    background: #F9F4EE;
+}
+
+section .about-us-carousel-img {
+    display: flex;
+    width: 11%;
 }
