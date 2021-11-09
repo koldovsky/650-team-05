@@ -19,6 +19,10 @@ section .shop-tabs-buttons {
 display: flex;
 }
 
+section .shop-tabs-product {
+    
+}
+
 
 section .shop-tabs-product-name{
 font-size: 18px;

@@ -1,4 +1,15 @@
 .about-us {
-    display: flex;
-    
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+@media (min-width: 751px){
+
+    .about-us {
+        display: flex;
+    }
+}
+
+.about-us-elements-on-img {
+    background: #F8F3ED;
 }
