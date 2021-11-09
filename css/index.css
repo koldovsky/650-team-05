@@ -1,6 +1,11 @@
 /* Oleksandr Sheniak CSS code */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Grand+Hotel&family=PT+Sans&family=Playfair+Display:wght@600&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --a-darkgreycolor: #232323;
     --a-grey: #737373;
