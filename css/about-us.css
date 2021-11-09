@@ -19,6 +19,9 @@ section div .about-us-img-symbol {
 
     .about-us {
         display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex: 1;
     }
 }
 
