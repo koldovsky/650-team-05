@@ -3,44 +3,44 @@ margin-top: 150px;
 margin-left: 200px;
 }
 
-section .text-header {
+section .shop-tabs-text-header {
 color: var(--redcolor);
 font-size: 22px;
 font-family: 'Grand Hotel', cursive;
 font-weight: 100;
 }
 
-section .shop-text {
+section .shop-tabs-text {
 font-size: 42px;
 }
 
-section .tabs-bottom {
+section .shop-tabs-buttons {
 
 display: flex;
 }
 
 
-section .shop-product-name{
+section .shop-tabs-product-name{
 font-size: 18px;
 font-family: Fira Sans,sans-serif;
 font-weight: 400;
 color: var(--a-grey);
 }
 
-section .shop-product-name:hover {
+section .shop-tabs-product-name:hover {
 color: var(--a-redcolor);
 text-decoration: underline;
 }
 
 
-section .shop-product-price{
+section .shop-tabs-product-price{
 font-size: 18px;
 font-family: Fira Sans,sans-serif;
 font-weight: 400;
 color: var(--a-redcolor);
 }
 
-section .shop-product-button{
+section .shop-tabs-product-button{
 font-size: 10.8px;
 border: var(--a-redcolor) 3px solid;
 padding: 10px;
