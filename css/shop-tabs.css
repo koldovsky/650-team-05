@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
 .shop-tabs {
@@ -21,6 +21,7 @@ section .shop-tabs-text {
 }
 
 section .shop-tabs-symbol {
+    margin-top: 5px;
     margin-bottom: 5px;
     width: 8%;
 }
@@ -33,6 +34,7 @@ section .shop-tabs-text-click {
 }
 
 section .shop-tabs-buttons {
+    margin-top: 50px;
     color: #4f4f4f;
     font-size: 18px;
     font-weight: 400;
@@ -42,12 +44,14 @@ section .shop-tabs-buttons {
 
 section .shop-tabs-product {
     border: 2px solid #F9F4EE;
+    text-align: center;
 }
 
 @media (min-width: 751px) {
     section .shop-tabs-products {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        
     }
 }
 
@@ -60,12 +64,11 @@ section .shop-tabs-product {
 
 
 section .shop-tabs-product-img {
-    height:225px;
+    height:auto;
 }
 
 
 section .shop-tabs-product-name{
-    text-align: center;
     text-decoration: none;
     font-size: 18px;
     font-family: Fira Sans,sans-serif;
@@ -80,7 +83,8 @@ section .shop-tabs-product-name:hover {
 
 
 section .shop-tabs-product-price{
-    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 18px;
     font-family: Fira Sans,sans-serif;
     font-weight: 400;
@@ -88,8 +92,10 @@ section .shop-tabs-product-price{
 }
 
 section .shop-tabs-product-button{
+    margin-top: 10px;
+    color: var(--a-redcolor);
     font-size: 10.8px;
-    border: var(--a-redcolor) 3px solid;
+    border: var(--a-redcolor) 2px solid;
     padding: 10px;
     background: white;
 }
