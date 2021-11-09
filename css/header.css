@@ -1,54 +1,87 @@
+header {
+    margin: auto;
+}
+
 header a {
     text-decoration: none;
-    color: var(--a-whitecolor);
+    color: var(--a-darkgreycolor);
+    padding: 10px;
+}
+
+header .header.contacts span {
+    padding: 10px;
 }
 
 header a.header-black-text {
     color: var(--a-darkgreycolor);
-    padding: 0px 20px 0px 20px;
+}
+
+header a.header-black-text:hover {
+    color: var(--a-redcolor);
+}
+
+header a.header-red-text {
+    color: var(--a-redcolor);
 }
 
 header a.social-icons {
-    padding: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
 }
 
-.header-logo {
-    height: 100px;
-    padding: 10px;
-    margin: -20px 0px 0px 50px;
+header img {
+    display: block;
+    width: 70%;
 }
 
-.header-top {
-    background-color: var(--redcolor);
-    color: var(--a-whitecolor);
+header .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+}
+
+header img.header-logo {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+header .burger-icon {
+    padding-right: 10%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    text-align: right;
+}
+
+header .burger {
     display: flex;
+    flex-direction: column;
+}
+
+header .header-contacts {
+    color: var(--a-darkgreycolor);
+    display: flex;
+    flex-direction: column;
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
-    height: 30px;
     justify-content: space-around;
-    padding: 10px;
+    padding: 0px;
+    text-align: center;
     text-decoration: none;
+
 }
 
-.header.span {
-    color: var(--a-whitecolor);
-}
-
-.header-bottom {
-    color: var(--blackcolor);
+header .navbar {
     display: flex;
+    flex-direction: column;
+    color: var(--blackcolor);
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
-    height: 100px;
     justify-content: space-around;
-    margin: 30px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
 }
 
-nav.navbar {
-    margin-top: 25px;
-    margin-left: 400px;
-}
-
-nav.social {
-    margin-top: 20px;
+header .header-social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
 }

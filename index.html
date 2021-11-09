@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Christmas Decorations Shop</title>
     <link rel="stylesheet" href="css/about-us.css">
+    <link rel="stylesheet" href="css/burger-menu.css">
     <link rel="stylesheet" href="css/cta-offer.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/faq.css">
@@ -22,23 +23,27 @@
     <header>
         <h1>Christmas Decorations Shop</h1>
         <div class="header">
-            <div class="header-top">
-                <span class="header-span"> Open 8 am - 8 pm </span>
-                <span class="header-span"><a href="tel:+12345678900">+1 (234) 567 89 00</a></span>
-                <span class="header-span"><a href="mailto:christmasdecor@email.com">christmasdecor@email.com</a></span>
+            <div class="header-logo">
+                <a href="/"><img class="header-logo" src="img/header/logo.svg" alt="christmas decorations shop"></a>
             </div>
-            <div class="header-bottom">
-                <div class="header-logo">
-                    <a href="#"><img class="header-logo" src="img/header/logo.svg" alt="christmas decorations shop"></a>
+            <label class="burger-icon" for="burger-checkbox">☰</label>
+            <input type="checkbox" id="burger-checkbox" />
+            <div class="header-burger">
+                <div class="header-nav">
+                    <nav class="navbar">
+                        <a class="header-black-text" href="#shop-bestseller">Bestsellers</a>
+                        <a class="header-black-text" href="#cover-about">About Us</a>
+                        <a class="header-black-text" href="#shop">Decorations</a>
+                        <a class="header-black-text" href="#faq">FAQ</a>
+                        <a class="header-black-text" href="#contacts">Contacts</a>
+                    </nav>
                 </div>
-                <nav class="navbar">
-                    <a class="header-black-text" href="#shop-bestseller">Bestsellers</a>
-                    <a class="header-black-text" href="#cover-about">About Us</a>
-                    <a class="header-black-text" href="#shop">Decorations</a>
-                    <a class="header-black-text" href="#faq">FAQ</a>
-                    <a class="header-black-text" href="#contacts">Contacts</a>
-                </nav>
-                <nav class="social">
+                <div class="header-contacts">
+                    <span> Open 8 am - 8 pm </span>
+                    <span><a class="header-red-text" href="tel:+12345678900">+1 (234) 567 89 00</a></span>
+                    <span><a class="header-red-text" href="mailto:christmasdecor@email.com">christmasdecor@email.com</a></span>
+                </div>
+                <div class="header-social">
                     <a class="social-icons" href="https://facebook.com/" target="_blank">
                         <img width="30" src="img/header/facebook.png" alt="facebook link">
                     </a>
@@ -48,7 +53,7 @@
                     <a class="social-icons" href="https://youtube.com/" target="_blank">
                         <img width="30" src="img/header/youtube.png" alt="youtube link">
                     </a>
-                </nav>
+                </div>
             </div>
         </div>
         <!-- 1.header Oleksandr Sheniak block -->
