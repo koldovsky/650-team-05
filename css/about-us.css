@@ -6,8 +6,7 @@
     margin-bottom: 150px;
 }
 
-section div .about-us-img-background {
-}
+
 
 section div .about-us-text-header {
     color: var(--redcolor);
@@ -25,9 +24,11 @@ section div .about-us-img-symbol {
 
     .about-us {
         display: flex;
+        background: #F9F4EE;
 
-        align-items: flex-start;
-  justify-content: space-between;
+    }
+    .about-us div {
+        flex: 1;
     }
 }
 
