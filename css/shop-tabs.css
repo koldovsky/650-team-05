@@ -1,27 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
 .shop-tabs {
     margin-top: 150px;
-    margin-left: 200px;
+    margin-left: 230px;
 }
 
 section .shop-tabs-text-header {
     color: var(--redcolor);
-    ont-size: 22px;
+    font-size: 22px;
     font-family: 'Grand Hotel', cursive;
     font-weight: 100;
+    margin-bottom: 5px;
 }
 
 section .shop-tabs-text {
     font-size: 42px;
+    font-weight: 600;
+    font-family:Playfair Display,serif;
+    margin-bottom: 5px;
+}
+
+section .shop-tabs-symbol {
+    margin-bottom: 5px;
+    width: 8%;
+}
+
+section .shop-tabs-text-click {
+    color: #4f4f4f;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 section .shop-tabs-buttons {
     display: flex;
 }
 
+section .shop-tabs-product {
+    border: 2px solid black;
+}
+
+@media (min-width: 751px) {
+    section .shop-tabs-products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
 
 @media (min-width: 980px) {
     section .shop-tabs-products {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
