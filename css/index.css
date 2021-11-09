@@ -3,9 +3,9 @@
 
 :root {
     --a-darkgreycolor: #232323;
-    --a-grey: #737373; 
+    --a-grey: #737373;
     --a-redcolor: #bb2528;
-    --a-whitecolor : #fff;
+    --a-whitecolor: #fff;
     --beigecolor: #f9f4ee;
     --blackcolor: #000;
     --darkgreycolor: #232323;
@@ -22,20 +22,9 @@ body {
 } */
 
 
-a {
-    text-decoration: none;
-    color: var(--a-whitecolor);
+h1 {
+    display: none;
 }
-
-a.header-black-text {
-    color: var(--a-darkgreycolor);
-    padding: 0px 20px 0px 20px;  
-}
-a.social-icons {
-    padding: 0px 10px 0px 10px;  
-}
-
-h1  {display: none;}
 
 h2 {
     color: var(--redcolor);
@@ -43,159 +32,18 @@ h2 {
     font-family: 'Grand Hotel', cursive;
 }
 
-#cta-offer {
-    background-image:url(../img/cta-offer/cta-offer-background.png) ;
-    height: 600px;
-    padding: 20px 20px 20px 20px;
-    width: 100%;
-}
-
-.cta-form {
-    background-color: var(--whitecolor);
-    height: 510px;
-    width: 540px;
-    margin: 20px 20px 20px 20px;
-    padding: 20px;
-}
-
-.cta-buttons {
-padding: 20px;
-margin: 20px 20px 20px -40px;
-}
-
-.button-red {
-    background-color: var(--a-redcolor);
-    color: var(--whitecolor);
-    font-size: 10.8px;
-    font-family: 'Fira Sans', sans-serif;
-    padding: 10px;
-    margin: 20px;
-}
-
-.button-red:hover {
-    background-color: var(--a-darkgreycolor);
-    color: var(--whitecolor);
-    font-size: 10.8px;
-    font-family: 'Fira Sans', sans-serif;
-    padding: 10px;
-    margin: 20px;
-}
-
-.button-white {
-    background-color: var(--a-whitecolor);
-    color: var(--a-darkgreycolor);
-    border: 2px solid var(--a-darkgreycolor);
-    font-size: 10.8px;
-    font-family: 'Fira Sans', sans-serif;
-    padding: 10px;
-    margin: 20px;
-}
-
-.button-white:hover {
-    background-color: var(--a-darkgreycolor);
-    color: var(--a-whitecolor);
-    font-size: 10.8px;
-    font-family: 'Fira Sans', sans-serif;
-    padding: 10px;
-    margin: 20px;
-}
-
-.cta-text-large {
-    color: var(--blackcolor);
-    font-size: 42px;
-    font-family: 'Playfair Display', serif;
-}
-
-.cta-text-small {
-    color: var(--darkgreycolor);
-    font-size: 18px;
-    font-family: 'Fira Sans', sans-serif;
-}
-
-.faq-text-large {
-    color: var(--blackcolor);
-    font-size: 42px;
-    font-family: 'Playfair Display', serif;
-}
-
-.faq-text-small {
-    color: var(--darkgreycolor);
-    font-size: 18px;
-    font-family: 'Fira Sans', sans-serif;
-}
-
-.faq-text-left {
-    text-align: left;
-    color: var(--darkgreycolor);
-    font-size: 20px;
-    font-family: 'Fira Sans', sans-serif;
-}
-
-.faq-text-right {
-    text-align: right;
-    color: var(--darkgreycolor);
-    font-size: 20px;
-    font-family: 'Fira Sans', sans-serif;
-}
-
-.faq-text-hidden {
-    color: var(--darkgreycolor);
-    font-size: 16px;
-    font-family: 'Fira Sans', sans-serif;
-}
-
-.header-logo {
-    height: 100px;
-    padding: 10px;
-    margin: -20px 0px 0px 50px;
-}
-
-.header-top {
-    background-color: var(--redcolor);
-    color: var(--a-whitecolor);
-    display: flex;
-    font-size: 18px;
-    font-family: 'Fira Sans', sans-serif;
-    height: 30px;
-    justify-content:space-around ;
-    padding: 10px;
-    text-decoration: none;
-}
-.header.span {
-    color: var(--a-whitecolor);
-}
-
-.header-bottom {
-    color: var(--blackcolor);
-    display: flex;
-    font-size: 18px;
-    font-family: 'Fira Sans', sans-serif;
-    height: 100px;
-    justify-content:space-around ;
-    margin: 30px 0px 0px 0px;
-}
-nav.navbar {
-    margin-top: 25px;
-    margin-left: 400px;
-}
-nav.social {
-    margin-top: 20px;
-}
-/* Oleksandr Sheniak CSS code */
-
-
 /*Natalia blocks*/
 /*block3-feature*/
 .features-title-name {
     font-size: 24px;
-    font-family: Playfair Display,serif;
+    font-family: Playfair Display, serif;
     font-weight: 500;
     color: var(--darkgreycolor);
 }
 
 .features-text {
     font-size: 16px;
-    font-family: Fira Sans,sans-serif;
+    font-family: Fira Sans, sans-serif;
     font-weight: 400;
     color: var(--a-grey);
 }
@@ -203,42 +51,44 @@ nav.social {
 /*block5-shop-bestsellers*/
 .shop-bestsellers-title-name {
     font-size: 22px;
-    font-family: Grand Hotel,undefined;
+    font-family: Grand Hotel, undefined;
     font-weight: 400;
-    color: var(--a-redcolor)!important;
+    color: var(--a-redcolor) !important;
 }
 
 .shop-bestsellers-big-text {
     font-size: 42px;
-    font-family: Playfair Display,serif;
+    font-family: Playfair Display, serif;
     font-weight: 600;
     color: var(--a-darkgreycolor);
 }
 
 .shop-bestsellers-text {
     font-size: 18px;
-    font-family: Fira Sans,sans-serif;
+    font-family: Fira Sans, sans-serif;
     font-weight: 400;
     color: var(--a-grey);
 }
 
 .shop-bestsellers-products-name {
     font-size: 18px;
-    font-family: Fira Sans,sans-serif;
+    font-family: Fira Sans, sans-serif;
     font-weight: 400;
     color: var(--a-grey);
 }
+
 .shop-bestsellers-products-name:hover {
     color: var(--a-redcolor);
 }
+
 .shop-bestsellers-price {
     font-size: 18px;
-    font-family: Fira Sans,sans-serif;
+    font-family: Fira Sans, sans-serif;
     font-weight: 400;
     color: var(--a-redcolor);
 }
 
-.shop-bestsellers-button{
+.shop-bestsellers-button {
     border-width: 2px;
     border-radius: 0;
     border-color: var(--a-redcolor);
@@ -246,19 +96,19 @@ nav.social {
     position: absolute;
     align-items: center;
 }
-  
+
 .shop-bestsellers-button-name {
-    font-size: 10,8px;
-    font-family: Fira Sans,sans-serif;
+    font-size: 10, 8px;
+    font-family: Fira Sans, sans-serif;
     font-weight: 700;
     color: var(--a-redcolor);
     text-align: center;
 }
-    
+
 /*block10-partner-blog*/
 .partners-blog-left-block-decoration {
     font-size: 16px;
-    font-family: Fira Sans,sans-serif;
+    font-family: Fira Sans, sans-serif;
     font-weight: 700;
     color: var(--a-whitecolor);
     text-transform: uppercase;
@@ -266,41 +116,43 @@ nav.social {
 
 .partners-blog-left-block-block-text {
     font-size: 30px;
-    font-family: Playfair Display,serif;
+    font-family: Playfair Display, serif;
     font-weight: 700;
     color: var(--a-whitecolor);
 }
 
 .partners-blog-left-block-block-date {
     font-size: 14px;
-    font-family: PT Sans,sans-serif;
+    font-family: PT Sans, sans-serif;
     font-weight: 400;
     color: var(--a-whitecolor);
 }
 
 .partners-blog-right-list {
     font-size: 16px;
-    font-family: Fira Sans,sans-serif;
+    font-family: Fira Sans, sans-serif;
     font-weight: 700;
     color: var(--blackcolor);
     text-transform: uppercase;
 }
+
 .partners-blog-right-block-title {
     font-size: 24px;
-    font-family: Playfair Display,serif;
+    font-family: Playfair Display, serif;
     font-weight: 500;
     color: var(--a-darkgreycolor);
 }
 
 .partners-blog-right-block-text {
     font-size: 16px;
-    font-family: Fira Sans,sans-serif;
+    font-family: Fira Sans, sans-serif;
     font-weight: 400;
     color: var(--a-grey);
 }
+
 .partners-blog-right-block-date {
     font-size: 14px;
-    font-family: PT Sans,sans-serif;
+    font-family: PT Sans, sans-serif;
     font-weight: 400;
     color: var(--blackcolor);
 }

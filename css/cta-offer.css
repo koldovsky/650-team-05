@@ -1,0 +1,72 @@
+#cta-offer {
+    background-image: url(../img/cta-offer/cta-offer-background.png);
+    height: 600px;
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+}
+
+.cta-form a {
+    text-decoration: none;
+}
+
+.cta-form {
+    background-color: var(--whitecolor);
+    height: 510px;
+    width: 540px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+}
+
+.cta-buttons {
+    padding: 20px;
+    margin: 20px 20px 20px -40px;
+}
+
+.button-red {
+    background-color: var(--a-redcolor);
+    color: var(--whitecolor);
+    font-size: 10.8px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px;
+    margin: 20px;
+}
+
+.button-red:hover {
+    background-color: var(--a-darkgreycolor);
+    color: var(--whitecolor);
+    font-size: 10.8px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px;
+    margin: 20px;
+}
+
+.button-white {
+    background-color: var(--a-whitecolor);
+    color: var(--a-darkgreycolor);
+    border: 2px solid var(--a-darkgreycolor);
+    font-size: 10.8px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px;
+    margin: 20px;
+}
+
+.button-white:hover {
+    background-color: var(--a-darkgreycolor);
+    color: var(--a-whitecolor);
+    font-size: 10.8px;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px;
+    margin: 20px;
+}
+
+.cta-text-large {
+    color: var(--blackcolor);
+    font-size: 42px;
+    font-family: 'Playfair Display', serif;
+}
+
+.cta-text-small {
+    color: var(--darkgreycolor);
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+}

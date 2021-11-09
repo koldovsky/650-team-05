@@ -1,0 +1,54 @@
+header a {
+    text-decoration: none;
+    color: var(--a-whitecolor);
+}
+
+header a.header-black-text {
+    color: var(--a-darkgreycolor);
+    padding: 0px 20px 0px 20px;
+}
+
+header a.social-icons {
+    padding: 0px 10px 0px 10px;
+}
+
+.header-logo {
+    height: 100px;
+    padding: 10px;
+    margin: -20px 0px 0px 50px;
+}
+
+.header-top {
+    background-color: var(--redcolor);
+    color: var(--a-whitecolor);
+    display: flex;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 30px;
+    justify-content: space-around;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.header.span {
+    color: var(--a-whitecolor);
+}
+
+.header-bottom {
+    color: var(--blackcolor);
+    display: flex;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100px;
+    justify-content: space-around;
+    margin: 30px 0px 0px 0px;
+}
+
+nav.navbar {
+    margin-top: 25px;
+    margin-left: 400px;
+}
+
+nav.social {
+    margin-top: 20px;
+}
