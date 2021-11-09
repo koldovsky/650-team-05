@@ -1,3 +1,95 @@
-.shop-img {
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+.shop-tabs {
+    padding:150px 200px 150px 200px;
+}
+
+section .shop-tabs-text-header {
+    color: var(--redcolor);
+    font-size: 22px;
+    font-family: 'Grand Hotel', cursive;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+section .shop-tabs-text {
+    font-size: 42px;
+    font-weight: 600;
+    font-family:Playfair Display,serif;
+    margin-bottom: 5px;
+}
+
+section .shop-tabs-symbol {
+    margin-bottom: 5px;
+    width: 8%;
+}
+
+section .shop-tabs-text-click {
+    color: #4f4f4f;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Fira Sans,serif;
+}
+
+section .shop-tabs-buttons {
+    color: #4f4f4f;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Fira Sans,serif;
     display: flex;
+}
+
+section .shop-tabs-product {
+    border: 2px solid #F9F4EE;
+}
+
+@media (min-width: 751px) {
+    section .shop-tabs-products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 980px) {
+    section .shop-tabs-products {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+
+section .shop-tabs-product-img {
+    height:225px;
+}
+
+
+section .shop-tabs-product-name{
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Fira Sans,sans-serif;
+    font-weight: 400;
+    color: var(--a-grey);
+}
+
+section .shop-tabs-product-name:hover {
+    color: var(--a-redcolor);
+    text-decoration: underline;
+}
+
+
+section .shop-tabs-product-price{
+    text-align: center;
+    font-size: 18px;
+    font-family: Fira Sans,sans-serif;
+    font-weight: 400;
+    color: var(--a-redcolor);
+}
+
+section .shop-tabs-product-button{
+    font-size: 10.8px;
+    border: var(--a-redcolor) 3px solid;
+    padding: 10px;
+    background: white;
 }
