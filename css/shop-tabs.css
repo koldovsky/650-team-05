@@ -35,6 +35,7 @@ section .shop-tabs-text-click {
 
 section .shop-tabs-buttons {
     margin-top: 50px;
+    margin-bottom: 50px;
     color: #4f4f4f;
     font-size: 18px;
     font-weight: 400;
