@@ -1,6 +1,6 @@
 #cta-offer {
     background-image: url(../img/cta-offer/cta-offer-background.png);
-    height: 600px;
+    background-position: center;
     padding: 20px 20px 20px 20px;
     width: 100%;
 }
@@ -20,6 +20,10 @@
 .cta-buttons {
     padding: 20px;
     margin: 20px 20px 20px -40px;
+}
+
+.cta-image-divider img {
+    width: 20%;
 }
 
 .button-shop {

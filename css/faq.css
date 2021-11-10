@@ -17,6 +17,10 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
+.faq-image-divider img {
+    width: 20%;
+}
+
 .faq-text-right {
     text-align: right;
     color: var(--darkgreycolor);
