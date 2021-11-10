@@ -1,5 +1,5 @@
 /*block3-feature*/
-main .features {
+main #features {
     display: grid;
     max-width: 980px;
     margin: auto;

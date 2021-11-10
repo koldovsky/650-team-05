@@ -1,5 +1,5 @@
 /*block10-partner-blog*/
-main .partners-blog {
+main #partners-blog {
     max-width: 980px;
     margin: auto;
 
