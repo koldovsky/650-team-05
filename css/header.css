@@ -2,16 +2,85 @@ header {
     margin: auto;
 }
 
-header a {
-    text-decoration: none;
+header .a-social-icons {
+    justify-content: space-around;
+}
+
+header .burger-icon {
+    grid-area: burger-icon;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+header .header {
+    align-items: center;
+    display: grid;
+    grid-template-areas:
+        "header-logo burger-icon"
+        "header-burger header-burger";
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    vertical-align: baseline;
+}
+
+header .header-burger {
+    grid-area: header-burger;
+    padding-bottom: 100px;
+}
+
+header .header-contacts {
     color: var(--a-darkgreycolor);
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+header .header-logo {
+    grid-area: header-logo;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+header .header-social {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    padding-top: 10%;
+}
+
+header .img-social-icons {
+    width: 25px;
+}
+
+header .navbar {
+    display: flex;
+    flex-direction: column;
+    color: var(--blackcolor);
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    justify-content: space-around;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
 }
 
 header .header-span {
     padding: 10px;
 }
 
+header a {
+    text-decoration: none;
+    color: var(--a-darkgreycolor);
+    padding: 10px;
+}
 
 header a.header-black-text {
     color: var(--a-darkgreycolor);
@@ -29,84 +98,11 @@ header a.header-red-text:hover {
     text-decoration: underline;
 }
 
-header .a-social-icons {
-    justify-content: space-around;
-}
-
-header .img-social-icons {
-    width: 25px;
-}
-
 header img {
     display: block;
     width: 100px;
 }
 
-
-
-header .header {
-    align-items: center;
-    display: grid;
-    grid-template-areas:
-        "header-logo burger-icon"
-        "header-burger header-burger";
-    grid-template-columns: 1fr 1fr;
-
-    justify-content: space-between;
-    vertical-align: baseline;
-}
-
-header .header-logo {
-    grid-area: header-logo;
-    margin-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-
-header .burger-icon {
-    grid-area: burger-icon;
-    margin-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    text-align: right;
-}
-
-header .header-burger {
-    grid-area: header-burger;
-    padding-bottom: 100px;
-}
-
-header .header-contacts {
-    color: var(--a-darkgreycolor);
-    display: flex;
-    flex-direction: column;
-    font-size: 16px;
-    font-family: 'Fira Sans', sans-serif;
-    justify-content: space-around;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-
-}
-
-header .navbar {
-    display: flex;
-    flex-direction: column;
-    color: var(--blackcolor);
-    font-size: 16px;
-    font-family: 'Fira Sans', sans-serif;
-    justify-content: space-around;
-    margin: 0px 0px 0px 0px;
-    text-align: center;
-}
-
-header .header-social {
-    align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: auto;
-    padding-top: 10%;
-}
 
 @media (min-width: 990px) {
 
@@ -144,6 +140,7 @@ header .header-social {
     header .header-contacts {
         background-color: var(--a-redcolor);
         display: grid;
+        font-size: 16px;
         grid-area: header-contacts;
         grid-template-columns: 1fr 2fr 1fr;
         padding: 0px;
@@ -156,13 +153,6 @@ header .header-social {
         padding: 10px;
     }
 
-    header .navbar {
-        align-items: center;
-        display: grid;
-        grid-area: header-nav;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    }
-
     header .header-social {
         align-items: center;
         display: grid;
@@ -170,5 +160,13 @@ header .header-social {
         grid-template-columns: 1fr 1fr 1fr;
         margin: 0% 0% 0% 10%;
         padding: 0;
+    }
+
+    header .navbar {
+        align-items: center;
+        display: grid;
+        font-size: 16px;
+        grid-area: header-nav;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 }
