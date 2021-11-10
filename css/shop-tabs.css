@@ -58,7 +58,11 @@ section .shop-tabs-buttons {
     font-size: 18px;
     font-weight: 400;
     font-family: Fira Sans, serif;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-self: flex-start;
+    width:min-content;
+    gap: 30px;
 }
 
 section .shop-tabs-product {
@@ -125,4 +129,9 @@ section .shop-tabs-product-button {
     border: var(--a-redcolor) 2px solid;
     padding: 10px;
     background: white;
+}
+
+section .shop-tabs-product-button:hover {
+    background: var(--a-redcolor);
+    color: white;
 }
