@@ -42,6 +42,8 @@ header img {
     width: 100px;
 }
 
+
+
 header .header {
     align-items: center;
     display: grid;
@@ -99,6 +101,7 @@ header .navbar {
 }
 
 header .header-social {
+    align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 10% 0% 0% 10%;
@@ -116,6 +119,10 @@ header .header-social {
 
     header a.header-red-text:hover {
         text-decoration: underline;
+    }
+
+    header .header-span {
+        color: var(--a-whitecolor);
     }
 
     header .header {
@@ -156,5 +163,7 @@ header .header-social {
         display: grid;
         grid-area: header-social;
         grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 10%;
+        margin-top: 0;
     }
 }
