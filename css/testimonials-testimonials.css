@@ -1,0 +1,17 @@
+
+@media (min-width: 600px) {
+    header .testimonials-testimonials {
+        display: flex;
+    }   
+}
+
+    .testimonials-testimonials {
+        background-image: url(../img//bestsellers/symbol.svg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 400px;
+    }
