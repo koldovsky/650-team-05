@@ -1,22 +1,77 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
 @media (min-width: 600px) {
-    header .testimonials-testimonials {
+     .testimonials-testimonials {
         display: flex;
     }   
 }
 
-    #testimonials-testimonials {
-        background-image: url(../img//bestsellers/symbol.svg);
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        min-height: 400px;
+#testimonials-testimonials {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
     }
-    .testimonials-top 
 
+    .testimonials-top a {
+        text-transform: uppercase;
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px; 
+    }
+
+    @media (min-width: 600px) {
+        .testimonials-testimonials {
+           display: flex;
+           align-items: center;
+       }/*сдля того щоб блок переносився вниз коли екран буде зменшений*/
+       #services-baners {
+           flex-direction: row;
+           align-items: center;
+           justify-content: space-around;
+           flex: 1;
+       }
+        .testimonials-first-image url {
+             background-image: url(../img/testimonials-testimonials/family.webp);
+             background-size: cover;
+             background-position: center;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+             display: block;
+    margin: auto;
+        }
+        .testimonials-second-image-right url {
+            background-image: url(../img/testimonials-testimonials/happy-family.jpeg);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            display: block;
+            margin: auto;
+       }
+       .testimonials-right-two {
+       background-image: url(img/testimonials-testimonials/happy-family-with-tree.jpg);
+       background-size: cover;
+       background-position: center;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       display: block;
+    margin: auto;
+       }
 .testimonials-text-curved {
     color: #bb2528!important;
     margin: 0;

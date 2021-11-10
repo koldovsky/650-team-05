@@ -34,12 +34,16 @@ element.style {
         vertical-align: baseline;
         font-family: 'Fira Sans', sans-serif;
         padding: 10px;
+
+
     }
     .christmas-text-large {
         color: var(--blackcolor);
         font-size: 42px;
         font-family: 'Playfair Display', serif;
         padding: 10px;
+        font-weight: bold;
+    
     }
 .shop-bestsellers-symbol {
     font-weight: 700;
@@ -47,29 +51,34 @@ element.style {
     position: relative;
     max-width: 100%;
     word-wrap: break-word;
+    
     }
 .christmas-text-small {
     color: var(--darkgreycolor);
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
     padding: 10px;
+   
     }
 .christmas-buttons {
-    margin: 10px;
-    padding: 40px; 
+    margin: 5px;
+    padding: 35px; 
+    
 }
 
 .christmas-button-red:hover {
     background: black;
-    font-size: 10pt;
+    font-size: 15pt;
     margin: 5px;
     color: white;
+    font-family: 'Fira Sans', sans-serif;
 }
 .christmas-botton-white:hover {
     background: black;
-    font-size: 10pt;
+    font-size: 15pt;
     margin: 5px;
     color: white;
+    font-family: 'Fira Sans', sans-serif;
 }
 .christmas-botton-red {
     background-color: var(--a-redcolor);
