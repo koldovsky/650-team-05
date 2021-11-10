@@ -5,7 +5,7 @@
     }   
 }
 
-    .testimonials-testimonials {
+    #testimonials-testimonials {
         background-image: url(../img//bestsellers/symbol.svg);
         background-size: cover;
         background-position: center;
@@ -15,3 +15,33 @@
         flex-direction: column;
         min-height: 400px;
     }
+    .testimonials-top 
+
+.testimonials-text-curved {
+    color: #bb2528!important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px;
+}
+.testimonials-text-large {
+    color: var(--blackcolor);
+        font-size: 42px;
+        font-family: 'Playfair Display', serif;
+        padding: 10px;
+}
+.shop-bestsellers-symbol {
+    font-weight: 700;
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+.testimonials-text-small {
+    color: var(--darkgreycolor);
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+}
