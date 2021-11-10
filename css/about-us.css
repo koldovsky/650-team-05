@@ -10,7 +10,6 @@
 
     .about-us {
         display: flex;
-        background: #F9F4EE;
 
     }
     .about-us div {
@@ -27,7 +26,7 @@ section .about-us-elements-on-img {
     background: #F9F4EE;
 }
 
-section div .about-us-text-header {
+section div #about-us-text-header {
     color: var(--redcolor);
     font-size: 22px;
     font-family: 'Grand Hotel', cursive;

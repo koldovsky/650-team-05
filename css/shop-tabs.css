@@ -23,7 +23,7 @@
     }
 }
 
-section .shop-tabs-text-header {
+section #shop-tabs-text-header {
     color: var(--redcolor);
     font-size: 22px;
     font-family: 'Grand Hotel', cursive;
