@@ -8,9 +8,10 @@ header a {
     padding: 10px;
 }
 
-header .header.contacts span {
+header .header-span {
     padding: 10px;
 }
+
 
 header a.header-black-text {
     color: var(--a-darkgreycolor);
@@ -24,36 +25,53 @@ header a.header-red-text {
     color: var(--a-redcolor);
 }
 
-header a.social-icons {
-    padding: 0px 0px 0px 0px;
+header a.header-red-text:hover {
+    text-decoration: underline;
+}
+
+header .a-social-icons {
+    justify-content: space-around;
+}
+
+header .img-social-icons {
+    width: 25px;
 }
 
 header img {
     display: block;
-    width: 70%;
+    width: 100px;
 }
 
 header .header {
+    align-items: center;
     display: grid;
+    grid-template-areas:
+        "header-logo burger-icon"
+        "header-burger header-burger";
     grid-template-columns: 1fr 1fr;
-    justify-content: space-around;
+    grid-template-rows: 1fr 4fr;
+    justify-content: space-between;
+    vertical-align: baseline;
 }
 
-header img.header-logo {
-    padding-top: 20%;
-    padding-bottom: 20%;
+header .header-logo {
+    grid-area: header-logo;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 header .burger-icon {
-    padding-right: 10%;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    grid-area: burger-icon;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     text-align: right;
 }
 
-header .burger {
-    display: flex;
-    flex-direction: column;
+header .header-burger {
+    grid-area: header-burger;
+    margin-top: -220px;
 }
 
 header .header-contacts {
@@ -63,7 +81,7 @@ header .header-contacts {
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
     justify-content: space-around;
-    padding: 0px;
+    padding: 20px;
     text-align: center;
     text-decoration: none;
 
@@ -83,5 +101,5 @@ header .navbar {
 header .header-social {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 50px;
+    margin: 10% 0% 0% 10%;
 }
