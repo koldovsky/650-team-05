@@ -1,8 +1,18 @@
 /*загальний дів*/
 #services-banner {
+    background-image: url(../img/services-baners/toys-first.png); 
+    height: 50%;
+    padding: 20px;
+    width: 50%;
+    background-size: left ;
 }
 /*дів з першою картинкою та текстом до неї*/
 .services-baners-background {
+
+
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
 
 /* дів з  кортинкою*/
@@ -12,7 +22,7 @@
     float: left; /* Обтекание по правому краю */
     margin: 10px;
     height: 100%;
-    width: auto;/* Ширина слоя (200)*/
+    width: auto;/* Ширина слоя (можна поставити 200)*/
 }
 
 /*загальний дів з текстом до першої кортинки*/
@@ -24,12 +34,25 @@
 /*дів з першим текстом до першої картинки*/
 .services-baners-text-curved {
     text-align: center;
+    color: #bb2528!important;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        font-family: 'Fira Sans', sans-serif;
+        padding: 10px;
 }
 
 /*дів з другим текстом до першої картинки*/
 .services-baners-text-large {
     text-align: center;
+    text-align: justify;
     display: block;
+    color: var(--blackcolor);
+    font-size: 42px;
+    font-family: 'Playfair Display', serif;
+    padding: 10px;
 }
 
 /*дів з кнопкою до першої картинки*/
@@ -44,6 +67,7 @@
     border-radius: 2px;
     padding: 15px;
     margin: 8px;
+
 }
 
 /*дів з другою картинкою та текстом до неї*/
