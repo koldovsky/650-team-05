@@ -15,8 +15,8 @@ header .header-burger {
     flex-direction: column;
 }
 
-@media (min-width: 990px) {
 
+@media (min-width: 990px) {
     .burger-icon {
         display: none;
     }
