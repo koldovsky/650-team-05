@@ -1,0 +1,101 @@
+/*загальний дів*/
+#services-banner {
+}
+/*дів з першою картинкою та текстом до неї*/
+.services-baners-background {
+}
+
+/* дів з  кортинкою*/
+.foto-cervices-baners-background {
+    background-color: none; /* Цвет фона слоя */
+    padding: 40px; /* Поля вокруг текста */
+    float: left; /* Обтекание по правому краю */
+    margin: 10px;
+    height: 100%;
+    width: auto;/* Ширина слоя (200)*/
+}
+
+/*загальний дів з текстом до першої кортинки*/
+.services-form {
+    padding: 5px; /* Поля вокруг текста */
+
+}
+
+/*дів з першим текстом до першої картинки*/
+.services-baners-text-curved {
+    text-align: center;
+}
+
+/*дів з другим текстом до першої картинки*/
+.services-baners-text-large {
+    text-align: center;
+    display: block;
+}
+
+/*дів з кнопкою до першої картинки*/
+.services-baners-buttons {
+    background-color: var(--a-transparent);
+    color:white;
+    font-size: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    padding: 15px;
+    margin: 8px;
+}
+
+/*дів з другою картинкою та текстом до неї*/
+.services-background-right {
+
+}
+/*дів з другою картинкою*/
+.second-foto-cervices-baners-background {
+    background-color: #c0c0c0; /* Цвет фона слоя */
+    padding: 5px; /* Поля вокруг текста */
+    width: 300px; /* Ширина слоя */
+    float: left; /* Обтекание по правому краю */
+}
+
+/*загальний дів з текстом до другої кортинки*/
+.services-baners-form-right {
+
+
+}
+
+/*дів з першим текстом до другої картинки*/
+.services-baners-text-curved {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
+/*дів з другим текстом до другої картинки*/
+.services-baners-text-large {
+    text-align: center;
+    margin-left: auto;
+        margin-right: auto;
+        width: 6em;
+}
+
+/*дів з кнопкою до другої картинки*/
+.services-baners-buttons {
+    background-color: var(--a-transparent);
+    color:white;
+    font-size: 10px;
+    font-family: 'Fira Sans', sans-serif;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+    padding: 15px;
+    margin: 8px;
+}
+.services-baners-buttons:hover {
+    background-color: (--a-transparent);
+    font-size: 10pt;
+    margin: 5px;
+    color: white;
+}
