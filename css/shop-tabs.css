@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+:root {
+    --a-text-header: #bb2528;
+    --a-text-click: #4f4f4f;
+    --a-whitecolor: #FFFFFF;
+}
+
 .shop-tabs {
     padding: 30px;
 }
@@ -24,7 +31,7 @@
 }
 
 section #shop-tabs-text-header {
-    color: var(--redcolor);
+    color: var(--a-text-header);
     font-size: 22px;
     font-family: 'Grand Hotel', cursive;
     font-weight: 100;
@@ -45,7 +52,7 @@ section .shop-tabs-symbol {
 }
 
 section .shop-tabs-text-click {
-    color: #4f4f4f;
+    color: var(--a-text-click);
     font-size: 18px;
     font-weight: 400;
     font-family: Fira Sans, serif;
@@ -54,7 +61,7 @@ section .shop-tabs-text-click {
 section .shop-tabs-buttons {
     margin-top: 50px;
     margin-bottom: 50px;
-    color: #4f4f4f;
+    color: var(--a-text-click);
     font-size: 18px;
     font-weight: 400;
     font-family: Fira Sans, serif;
@@ -128,10 +135,10 @@ section .shop-tabs-product-button {
     font-size: 10.8px;
     border: var(--a-redcolor) 2px solid;
     padding: 10px;
-    background: white;
+    background: var(--a-whitecolor);
 }
 
 section .shop-tabs-product-button:hover {
     background: var(--a-redcolor);
-    color: white;
+    color: var(--a-whitecolor);
 }
