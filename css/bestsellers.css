@@ -1,0 +1,114 @@
+/*block5-shop-bestsellers*/
+main .bestsellers {
+    max-width: 980px;
+    margin: auto;
+
+}
+
+.bestsellers {
+    padding: 60px 24px 90px 24px;
+}
+
+.bestsellers-title {
+    display: grid;
+    text-align: left;
+}
+
+.bestsellers-title-name {
+    font-size: 22px;
+    font-family: Grand Hotel, undefined;
+    font-weight: 400;
+    color: var(--a-redcolor);
+}
+
+.bestsellers-big-text {
+    font-size: 42px;
+    font-family: Playfair Display, serif;
+    font-weight: 600;
+    color: var(--a-darkgreycolor);
+    margin-top: 20px;
+}
+
+.bestsellers-symbol {
+    margin-top: 25px;
+    width: 147px;
+    height: 43px;
+}
+
+.bestsellers-text {
+    font-size: 18px;
+    font-family: Fira Sans, sans-serif;
+    font-weight: 400;
+    color: var(--a-grey);
+    margin-top: 20px;
+}
+
+.shop-bestsellers {
+    margin: 45px 0px 0px 0px;
+}
+
+.shop-bestsellers-products {
+    border-width: 2px;
+    border-color: var(--a-light-grey);
+    border-style: solid;
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+}
+
+.shop-bestsellers-products-name {
+    font-size: 18px;
+    font-family: Fira Sans, sans-serif;
+    font-weight: 400;
+    color: var(--a-grey);
+    margin-top: 8px;
+}
+
+.shop-bestsellers-products-name:hover {
+    color: var(--a-redcolor);
+}
+
+.shop-bestsellers-price {
+    font-size: 18px;
+    font-family: Fira Sans, sans-serif;
+    font-weight: 400;
+    color: var(--a-redcolor);
+    margin-top: 16px;
+}
+
+.shop-bestsellers-button {
+    border-width: 2px;
+    border-radius: 0;
+    border-color: var(--a-redcolor);
+    border-style: solid;
+    text-align: center;
+    margin-top: 24px;
+    color: var(--a-redcolor);
+    font-family: Fira Sans, sans-serif;
+    font-size: 10.8px;
+    font-weight: 700;
+    width: 120.219px;
+    height: 45px;
+    background-color: var(--whitecolor);
+}
+
+.shop-bestsellers-button:hover {
+    background-color: var(--a-redcolor);
+    color: var(--a-whitecolor);
+}
+
+
+@media (min-width: 751px) {
+    main .shop-bestsellers {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+}
+
+@media (min-width: 958px) {
+    main .shop-bestsellers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
