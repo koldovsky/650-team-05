@@ -22,7 +22,7 @@
     margin: 20px 20px 20px -40px;
 }
 
-.button-red {
+.button-shop {
     background-color: var(--a-redcolor);
     color: var(--whitecolor);
     font-size: 10.8px;
@@ -31,7 +31,7 @@
     margin: 20px;
 }
 
-.button-red:hover {
+.button-shop:hover {
     background-color: var(--a-darkgreycolor);
     color: var(--whitecolor);
     font-size: 10.8px;

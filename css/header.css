@@ -82,19 +82,19 @@ header a {
     padding: 10px;
 }
 
-header a.header-black-text {
+header a.header-nav-text {
     color: var(--a-darkgreycolor);
 }
 
-header a.header-black-text:hover {
+header a.header-nav-text:hover {
     color: var(--a-redcolor);
 }
 
-header a.header-red-text {
+header a.header-contacts-text {
     color: var(--a-redcolor);
 }
 
-header a.header-red-text:hover {
+header a.header-contacts-text:hover {
     text-decoration: underline;
 }
 
@@ -114,11 +114,11 @@ header img {
         margin: 0;
     }
 
-    header a.header-red-text {
+    header a.header-contacts-text {
         color: var(--a-whitecolor);
     }
 
-    header a.header-red-text:hover {
+    header a.header-contacts-text:hover {
         text-decoration: underline;
     }
 
