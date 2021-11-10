@@ -1,0 +1,75 @@
+/*block10-partner-blog*/
+main .partners-blog {
+    max-width: 980px;
+    margin: auto;
+
+}
+
+.partners-blog-girl {
+    background-image: url(../img/partner-blog/girl.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+    align-items: left;
+    flex-direction: column;
+    min-height: 400px;
+}
+
+
+.partners-blog-girl-decoration {
+    font-size: 16px;
+    font-family: Fira Sans, sans-serif;
+    font-weight: 700;
+    color: var(--a-whitecolor);
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.partners-blog-girl-date {
+    font-size: 14px;
+    font-family: PT Sans, sans-serif;
+    font-weight: 400;
+    color: var(--whitecolor)
+}
+
+.partners-blog-symbol {
+    height: 20px;
+    width: 24px;
+}
+
+.partners-blog-symbol-name {
+    font-size: 16px;
+    font-family: Fira Sans, sans-serif;
+    font-weight: 700;
+    color: var(--a-grey);
+    text-transform: uppercase;
+}
+
+.partners-blog-title {
+    font-size: 24px;
+    font-family: Playfair Display, serif;
+    font-weight: 500;
+    color: var(--a-darkgreycolor);
+}
+
+.partners-blog-text {
+    font-size: 16px;
+    font-family: Fira Sans, sans-serif;
+    font-weight: 400;
+    color: var(--a-grey);
+}
+
+.partners-blog-date {
+    font-size: 14px;
+    font-family: PT Sans, sans-serif;
+    font-weight: 400;
+    color: var(--whitecolor)
+}
+
+.partners-blog-date {
+    font-size: 14px;
+    font-family: PT Sans, sans-serif;
+    font-weight: 400;
+    color: var(--blackcolor);
+}
