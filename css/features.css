@@ -35,6 +35,12 @@ main .features-icon {
     color: var(--darkgreycolor);
     margin-top: 20px;
     line-height: 32.64px;
+}
+
+.dash {
+display: block;
+border-bottom: 3px var(--a-line-color) solid;
+width: 50px;
 
 }
 
