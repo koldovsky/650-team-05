@@ -5,6 +5,7 @@
     --a-text-header: #bb2528;
     --a-text-click: #4f4f4f;
     --a-whitecolor: #FFFFFF;
+    --a-shop-tabs-product-border: #F9F4EE;
 }
 
 .shop-tabs {
@@ -73,7 +74,7 @@ section .shop-tabs-buttons {
 }
 
 section .shop-tabs-product {
-    border: 2px solid #F9F4EE;
+    border: 2px solid var(--a-shop-tabs-product-border);
     text-align: center;
 }
 
