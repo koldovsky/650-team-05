@@ -17,7 +17,10 @@
     --a-text-default-hover: #bb2528;
     --header-contacts-background: #bb2528;
     --header-text-default: rgb(35, 35, 35);
-
+    --faq-text-hidden: #737373;
+    --faq-text-large: #232323;
+    --faq-text-small: #4f4f4f;
+    --faq-text-question: #4f4f4f;
 
 
     --a-darkgreycolor: #232323;

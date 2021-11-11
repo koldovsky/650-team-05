@@ -299,9 +299,11 @@
                             <h5>Dean and Alice Peterson</h5>
                         </div>
                         <div>
-                            <p>"Christmas is a spacial time! We always buy Christmas Decorations in advance. For the third
+                            <p>"Christmas is a spacial time! We always buy Christmas Decorations in advance. For the
+                                third
                                 year
-                                now? we have been making orders in this store and are completely satisfied with the quality
+                                now? we have been making orders in this store and are completely satisfied with the
+                                quality
                                 of
                                 each bauble purchased"</p>
                         </div>
@@ -317,7 +319,8 @@
                         <div>
                             <p>"My daughter is four years old and she has been waiting for Christmas preparation since
                                 October!
-                                We start decorating the Christmas tree in early December, and I always buy something new at
+                                We start decorating the Christmas tree in early December, and I always buy something new
+                                at
                                 Christmas Decorations shop." </p>
                         </div>
                         <div class="testimonials-text-curved">
@@ -371,15 +374,15 @@
 
         <!--Mariia`s 7 additional block-->
         <!-- 8.cta-offer Oleksandr Sheniak block -->
-        <div id="cta-offer">
-            <div class="cta-form">
+        <div id="cta-offer" class="container-fluid mx-3 my-5">
+            <div class="cta-form container">
                 <h2>Special offer</h2>
                 <div class="cta-text-large">
                     Get -15% Discount on All
                     Decorations.
                 </div>
                 <div class="cta-image-divider">
-                    <img src="img/faq/faq-image-divider.svg" alt="">
+                    <img src="img/faq/symbol.svg" alt="">
                 </div>
                 <div class="cta-text-small">
                     The discount is applied on all
@@ -646,14 +649,14 @@
         </div>
 
         <!--Oleksandr Sheniak code-->
-        <div id="faq">
+        <div id="faq" class="container-fluid mx-3 my-5">
             <h2>FAQ</h2>
             <div class="faq-form">
                 <div class="faq-text-large">
                     Frequently Asked Questions.
                 </div>
                 <div class="faq-image-divider">
-                    <img src="img/faq/faq-image-divider.svg" alt="">
+                    <img src="img/faq/symbol.svg" alt="">
                 </div>
                 <div class="faq-text-small">
                     We're always happy to answer your questions and have collected the most popular
@@ -661,57 +664,105 @@
                     section below.
                 </div>
                 <div class="faq-answers">
-                    <div class="faq-text-left">
-                        <ul>
-                            <li>Do you sell your own decorations?</li>
-                            <li class="faq-text-hidden">No, we sell goods from our partners. We don't have our own
-                                manufacture.
-                            </li>
-                            <li>How can I make an order?</li>
-                            <li class="faq-text-hidden">You can call us, choose the goods on our website and click
-                                on
-                                Add to cart.
-                                Or you
-                                can just fill out the form, and we will contact you.
-                            </li>
-                            <li>When can I receive my order?</li>
-                            <li class="faq-text-hidden">We pack your orders the same day, so, you can receive your
-                                package in 1-5
-                                business
-                                days, depending on your city.
-                            </li>
-                            <li>What if the glass baubles will be broken?</li>
-                            <li class="faq-text-hidden">If the glass items break during the shipping process, we
-                                will
-                                replace them
-                                completely or issue you a refund. If you broke the baubles at home already, the
-                                refund
-                                or replacement will not apply.
-                            </li>
-                        </ul>
+                    <div class="accordion pt-4 pb-4" id="accordionstart">
+                        <div class="accordion-item border-0 ">
+                            <h3 class="accordion-header" id="headingOne">
+                                <button class="accordion-button bg-body border-0 collapsed shadow-none text-body faq-text-question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Do you sell your own decorations?
+                                </button>
+                            </h3>
+                            <div id="collapseOne" class="accordion-collapse border-bottom collapse faq-text-hidden" aria-labelledby="headingOne" data-bs-parent="#accordionstart">
+                                <div class="accordion-body">
+                                    No, we sell goods from our partners. We don't have our own manufacture.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                            <h3 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button bg-body border-0 collapsed shadow-none text-body faq-text-question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How can I make an order?
+                                </button>
+                            </h3>
+                            <div id="collapseTwo" class="accordion-collapse border-bottom collapse faq-text-hidden" aria-labelledby="headingTwo" data-bs-parent="#accordionstart">
+                                <div class="accordion-body">
+                                    You can call us, choose the goods on our website and click on Add to cart. Or you
+                                    can just fill out the form, and we will contact you.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                            <h3 class="accordion-header" id="headingThree">
+                                <button class="accordion-button bg-body border-0 collapsed shadow-none text-body faq-text-question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    When can I receive my order?
+                                </button>
+                            </h3>
+                            <div id="collapseThree" class="accordion-collapse border-bottom collapse faq-text-hidden" aria-labelledby="headingThree" data-bs-parent="#accordionstart">
+                                <div class="accordion-body">We pack your orders the same day, so, you can receive your
+                                    package in 1-5 business days, depending on your city.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                            <h3 class="accordion-header" id="headingfour">
+                                <button class="accordion-button bg-body border-0 collapsed shadow-none text-body faq-text-question" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                    What if the glass baubles will be broken?
+                                </button>
+                            </h3>
+                            <div id="collapsefour" class="accordion-collapse border-bottom collapse faq-text-hidden" aria-labelledby="headingfour" data-bs-parent="#accordionstart">
+                                <div class="accordion-body">If the glass items break during the shipping process, we
+                                    will replace them completely or issue you a refund. If you broke the baubles at home
+                                    already, the refund or replacement will not apply.
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="faq-text-right">
-                        <ul>
-                            <li>What payment methods do you offer?</li>
-                            <li class="faq-text-hidden">We accept cash, Visa and MasterCard, Paypal, and many other
-                                payment methods.
-                            </li>
-                            <li>Do you have sets of Christmas balls?</li>
-                            <li class="faq-text-hidden">Sure, we have lots of sets in different colors so that you
-                                won't
-                                need to match
-                                different decorations.</li>
-                            <li>Do you have Christmas clothing?</li>
-                            <li class="faq-text-hidden">Yes, we have Christmas clothing. You can see the full list
-                                of
-                                items we sell by
-                                sending us a request.</li>
-                            <li>Do you have any discounts?</li>
-                            <li class="faq-text-hidden">Yes, we have various promotions and discounts. You can see
-                                all
-                                the special
-                                offers on our website.</li>
-                        </ul>
+
+                    <div class="accordion pt-4 pb-4" id="accordionend">
+                        <div class="accordion-item border-0">
+                            <h3 class="accordion-header" id="headingfive">
+                                <button class="accordion-button bg-body border-0 collapsed shadow-none text-body faq-text-question" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                    What payment methods do you offer?
+                                </button>
+                            </h3>
+                            <div id="collapsefive" class="accordion-collapse border-bottom collapse faq-text-hidden" aria-labelledby="headingfive" data-bs-parent="#accordionend">
+                                <div class="accordion-body">
+                                    We accept cash, Visa and MasterCard, Paypal, and many other payment methods.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                            <h3 class="accordion-header" id="headingsix">
+                                <button class="accordion-button bg-body border-0 collapsed shadow-none text-body faq-text-question" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                                    Do you have sets of Christmas balls?
+                                </button>
+                            </h3>
+                            <div id="collapsesix" class="accordion-collapse border-bottom collapse faq-text-hidden" aria-labelledby="headingsix" data-bs-parent="#accordionend">
+                                <div class="accordion-body">
+                                    Sure, we have lots of sets in different colors so that you won't need to match
+                                    different decorations. </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                            <h3 class="accordion-header" id="headingseven">
+                                <button class="accordion-button bg-body border-0 collapsed shadow-none text-body faq-text-question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseThree">
+                                    Do you have Christmas clothing?
+                                </button>
+                            </h3>
+                            <div id="collapseseven" class="accordion-collapse border-bottom collapse faq-text-hidden" aria-labelledby="headingseven" data-bs-parent="#accordionend">
+                                <div class="accordion-body">Yes, we have Christmas clothing. You can see the full list
+                                    of items we sell by sending us a request.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0">
+                            <h3 class="accordion-header" id="headingeight">
+                                <button class="accordion-button bg-body border-0 collapsed shadow-none text-body faq-text-question" type="button" data-bs-toggle="collapse" data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapsefour">
+                                    Do you have any discounts?
+                                </button>
+                            </h3>
+                            <div id="collapseeight" class="accordion-collapse border-bottom collapse faq-text-hidden" aria-labelledby="headingeight" data-bs-parent="#accordionend">
+                                <div class="accordion-body">Yes, we have various promotions and discounts. You can see
+                                    all the special offers on our website.
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -847,13 +898,16 @@
                     <div class="numbers-to-contact">
                         <ul>
                             <li>
-                                <a href="tel:+1(234)5678900" data-action="phone" class="footer-contacts">+1 (234) 567 89 00</a>
+                                <a href="tel:+1(234)5678900" data-action="phone" class="footer-contacts">+1 (234) 567 89
+                                    00</a>
                             </li>
                             <li>
-                                <a href="tel:+1(234)5678901" data-action="phone" class="footer-contacts">+1 (234) 567 89 01</a>
+                                <a href="tel:+1(234)5678901" data-action="phone" class="footer-contacts">+1 (234) 567 89
+                                    01</a>
                             </li>
                             <li>
-                                <a href="tel:+1(234)5678902" data-action="phone" class="footer-contacts">+1 (234) 567 89 02</a>
+                                <a href="tel:+1(234)5678902" data-action="phone" class="footer-contacts">+1 (234) 567 89
+                                    02</a>
                             </li>
                         </ul>
                     </div>
