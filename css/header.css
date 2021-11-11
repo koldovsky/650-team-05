@@ -31,7 +31,7 @@ header .header-burger {
 }
 
 header .header-contacts {
-    color: var(--a-darkgreycolor);
+    color: var(--header-text-default);
     display: flex;
     flex-direction: column;
     font-size: 18px;
@@ -64,7 +64,7 @@ header .img-social-icons {
 header .navbar {
     display: flex;
     flex-direction: column;
-    color: var(--blackcolor);
+    color: var(--header-text-default);
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
     justify-content: space-around;
@@ -78,20 +78,20 @@ header .header-span {
 
 header a {
     text-decoration: none;
-    color: var(--a-darkgreycolor);
+    color: var(--header-text-default);
     padding: 10px;
 }
 
 header a.header-nav-text {
-    color: var(--a-darkgreycolor);
+    color: var(--a-header-nav-text);
 }
 
 header a.header-nav-text:hover {
-    color: var(--a-redcolor);
+    color: var(--a-header-nav-text-hover);
 }
 
 header a.header-contacts-text {
-    color: var(--a-redcolor);
+    color: var(--a-header-contacts-text);
 }
 
 header a.header-contacts-text:hover {
@@ -115,7 +115,7 @@ header img {
     }
 
     header a.header-contacts-text {
-        color: var(--a-whitecolor);
+        color: var(--a-header-contacts-text-w990);
     }
 
     header a.header-contacts-text:hover {
@@ -123,7 +123,7 @@ header img {
     }
 
     header .header-span {
-        color: var(--a-whitecolor);
+        color: var(--a-header-contacts-text-w990);
     }
 
     header .header {
@@ -138,7 +138,7 @@ header img {
     }
 
     header .header-contacts {
-        background-color: var(--a-redcolor);
+        background-color: var(--header-contacts-background);
         display: grid;
         font-size: 16px;
         grid-area: header-contacts;

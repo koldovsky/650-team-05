@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Grand+Hotel&family=PT+Sans&family=Playfair+Display:wght@600&display=swap');
 
-footer{
+footer {
     background-color: var(--a-darkgreycolor);
     color: var(--a-whitecolor);
-    margin: 0px -15px 0px -15px;   
+    margin: 0px -15px 0px -15px;
 }
 
-footer ul{
+footer ul {
     padding-left: 0px !important;
 }
 
-.footer-container{
+.footer-container {
     display: flex;
     justify-content: center;
     margin: 0px -15px 0px -15px;
@@ -19,7 +19,7 @@ footer ul{
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0;
-    font-family: PT Sans,sans-serif;
+    font-family: PT Sans, sans-serif;
 }
 
 .footer-container #footer-container-content {
@@ -28,14 +28,15 @@ footer ul{
     width: calc(100% + 30px);
     max-width: 1200px;
     word-wrap: break-word;
-} 
+}
 
-@media (min-width: 768px) and (max-width: 991px)
- {
- }
+@media (min-width: 768px) and (max-width: 991px) {}
 
 
-.footer-text, .footer-navigation, .footer-contacts-us, .footer-visit-us {
+.footer-text,
+.footer-navigation,
+.footer-contacts-us,
+.footer-visit-us {
     flex-basis: 25%;
     max-width: 25%;
     display: flex;
@@ -45,16 +46,18 @@ footer ul{
 }
 
 .footer-container #footer-container-content .footer-text p {
-margin: 30px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
 }
 
-.footer-navigation p, .footer-contacts-us p, .footer-visit-us #footer-visit-us-main-text{  
+.footer-navigation p,
+.footer-contacts-us p,
+.footer-visit-us #footer-visit-us-main-text {
     font-size: 23px;
     line-height: 1.36;
-    font-family: Playfair Display,serif;
+    font-family: Playfair Display, serif;
 }
 
-#footer-navigation-nav ul{
+#footer-navigation-nav ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -62,13 +65,14 @@ margin: 30px 0px 0px 0px;
     width: calc(100% + 20px);
 }
 
- .footer-container ol, ul, a {
-list-style: none !important;
-text-decoration: none !important;
-color:  var(--a-whitecolor) !important;
+footer a {
+    list-style: none;
+    text-decoration: none;
+    color: var(--a-whitecolor);
 }
 
-#footer-navigation-nav ul li{
+
+#footer-navigation-nav ul li {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -80,17 +84,17 @@ color:  var(--a-whitecolor) !important;
     white-space: nowrap;
 }
 
-#footer-navigation-nav a:hover{
-    color:var(--a-redcolor);
+#footer-navigation-nav a:hover {
+    color: var(--a-redcolor);
     text-decoration: underline;
 }
 
-.numbers-to-contact li:hover, .email-to-contact li:hover {
+footer a.footer-contacts:hover {
     text-decoration: underline;
-
+    color: var(--a-whitecolor);
 }
 
-.email-to-contact{
+.email-to-contact {
     margin-top: 20px;
     word-wrap: break-word;
 }
@@ -98,7 +102,7 @@ color:  var(--a-whitecolor) !important;
 .footer-contacts-us-social {
     display: flex;
     justify-content: flex-start;
-    margin-top: 30px ;
+    margin-top: 30px;
 }
 
 .footer-contacts-us-social ul {
@@ -107,25 +111,28 @@ color:  var(--a-whitecolor) !important;
     vertical-align: baseline;
 }
 
-#footer-social-icons{
-margin-right: 7.5px;
-margin-left: 7.5px;
-margin-bottom: 15px;
+#footer-social-icons {
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+    margin-bottom: 15px;
 }
 
-.footer-visit-us img{
+.footer-visit-us img {
     width: 30px;
     height: 30px;
     /* png change color to red !!!!! */
 }
-    
- .redline1, .redline2, .redline3 {
+
+.redline1,
+.redline2,
+.redline3 {
     padding: 15px 0px 15px 0px;
- }
- 
- #redline-fill1, #redline-fill2, #redline-fill3 {
+}
+
+#redline-fill1,
+#redline-fill2,
+#redline-fill3 {
     height: 2px;
     width: 12%;
     background-color: var(--a-redcolor);
 }
-

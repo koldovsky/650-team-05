@@ -7,6 +7,21 @@
 }
 
 :root {
+    --a-header-contacts-text: #bb2528;
+    --a-header-contacts-text-hover: #bb2528;
+    --a-header-contacts-text-w990: #fff;
+    --a-header-contacts-text-w990-hover: #fff;
+    --a-header-nav-text: rgb(35, 35, 35);
+    --a-header-nav-text-hover: #bb2528;
+    --a-text-default: rgb(35, 35, 35);
+    --a-text-default-hover: #bb2528;
+    --header-contacts-background: #bb2528;
+    --header-text-default: rgb(35, 35, 35);
+    --faq-text-hidden: #737373;
+    --faq-text-large: #232323;
+    --faq-text-small: #4f4f4f;
+    --faq-text-question: #4f4f4f;
+    --a-dash-color: #bb2528;
     --a-darkgreycolor: #232323;
     --a-grey: #737373;
     --a-redcolor: #bb2528;
