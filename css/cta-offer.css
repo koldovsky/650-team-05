@@ -2,8 +2,9 @@
     background-attachment: fixed;
     background-image: url(../img/cta-offer/cta-offer-background.png);
     background-position: right;
-    padding: 90px 0px 90px 0px;
-    transition: opacity .3s ease-out;
+    background-size: cover;
+    padding: 20% 0% 20% 0%;
+    height: 700px;
     width: 100%;
 }
 
