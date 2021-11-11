@@ -39,7 +39,7 @@ main .features-icon {
 
 .dash {
 display: block;
-border-bottom: 3px var(--a-line-color) solid;
+border-bottom: 3px var(--a-dash-color) solid;
 width: 50px;
 
 }
