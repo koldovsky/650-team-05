@@ -4,14 +4,22 @@
     padding: 20px 20px 20px 20px;
     width: 100%;
     background-size: cover;
+
+    background-position: right;
+    max-width: none;
 }
+
+#christmas-decor a {
+    padding: 0;
+}
+
 
 .christmas-block {
     background-color: var(--whitecolor);
-    height: 360px;
-    width: 340px;
-    margin: 140px 100px 90px 200px;
-    padding: 40px 220px 0px 130px;
+    margin: 0px 20px 0px 20px;
+    max-width: 500px;
+    padding: 20px;
+    width: fit-content;
 }
 
 .christmas {
@@ -69,8 +77,8 @@ element.style {
 }
 
 .christmas-buttons {
-    margin: 5px;
-    padding: 35px;
+    display: flex;
+    margin: 20px 0px 20px 0px;
 
 }
 
