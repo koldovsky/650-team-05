@@ -117,3 +117,140 @@
 		font-size: 24px;
 	}
 }
+    padding: 90px 24px 90px 24px;
+}
+
+#countdown h2,
+#coutdown-header-text {
+    font-size: 36px;
+    color: #232323;
+    line-height: 1.2;
+    font-family: Playfair Display, serif;
+    font-weight: 600;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0px;
+}
+
+.countdown-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 45px;
+    padding: 0px 15px 0px 15px;
+    width: auto;
+}
+
+.countDownTime {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+
+.countDownDays,
+.countDownHours,
+.countDownMinutes,
+.countDownSeconds {
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    flex-grow: 4;
+    border: 1px solid #4f4f4f;
+    border-radius: 5px;
+}
+
+.countDownDays small,
+.countDownHours small,
+.countDownMinutes small,
+.countDownSeconds small {
+    font-size: 23px;
+    font-family: Fira Sans, sans-serif;
+    opacity: 0.54;
+}
+
+.countDownTime-Separator {
+    flex-grow: 1;
+}
+
+.countdown-info {
+    font-size: 30px;
+    line-height: 1.4;
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #232323;
+    text-transform: none;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.countdown-info .text_countdown {
+    margin: 0px;
+}
+
+.text_countdown-info {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Fira Sans, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #737373;
+    text-transform: none;
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+}
+
+.countdown-footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.countdown-footer-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.countdown-footer-buttons a {
+    text-decoration: none;
+}
+
+.button-countDown {
+    background-color: var(--a-redcolor);
+    color: var(--whitecolor);
+    font-size: 12px;
+    font-family: "Fira Sans", sans-serif;
+    padding: 20px 50px 20px 50px;
+}
+
+.button-countDown:hover {
+    background-color: var(--a-darkgreycolor);
+    color: var(--whitecolor);
+    font-size: 14px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .countdown-container-text {
+        font-size: 27px;
+        line-height: 1.4;
+        letter-spacing: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .countdown-container-text {
+        font-size: 24px;
+    }
+}
