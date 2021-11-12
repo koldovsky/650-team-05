@@ -13,13 +13,13 @@ main #partners-blog {
     height: 630px;
     background-size: cover;
     /* background-position: center; */
-    padding-left: -15px;
-    padding-right: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-} 
+}
 
 .partners-blog-girl-decoration {
     font-size: 16px;
@@ -34,10 +34,11 @@ main #partners-blog {
     font-size: 24px;
     line-height: 1.4;
     color: var(--block-girl);
-    font-family: Playfair Display,serif;
+    font-family: Playfair Display, serif;
     font-weight: 700;
     text-align: left;
 }
+
 .partners-blog-girl-date {
     font-size: 14px;
     font-family: PT Sans, sans-serif;

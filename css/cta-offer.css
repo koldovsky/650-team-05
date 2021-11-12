@@ -149,8 +149,20 @@
 @media (min-width: 950px) {
 
     #cta-offer .cta-form {
-        height: 700;
+        height: 500px;
         margin: 0% 21% 0% 21%;
     }
 
+    .cta-buttons {
+        display: flex;
+        margin: 40px 0px 20px 0px;
+    }
+
+    .cta-text-large {
+        margin: 20px 0px 20px 0px;
+    }
+
+    .cta-text-small {
+        margin: 20px 0px 20px 0px;
+    }
 }
