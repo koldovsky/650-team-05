@@ -1,7 +1,7 @@
 #faq {
     display: flex;
     justify-content: center;
-    max-width: 1200px;
+    max-width: none;
 }
 
 
@@ -45,4 +45,11 @@
     width: 100px;
     vertical-align: baseline;
     margin: 10px 0px 10px 0px;
+}
+
+@media (min-width:750px) {
+    .faq-answers {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
