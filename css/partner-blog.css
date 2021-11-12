@@ -2,35 +2,47 @@
 main #partners-blog {
     max-width: 980px;
     margin: auto;
+    padding: 60px 24px 60px 24px;
 
 }
 
 .partners-blog-girl {
     background-image: url(../img/partner-blog/girl.webp);
+    background-origin: padding-box;
+    width: 302px;
+    height: 630px;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
+    padding-left: -15px;
+    padding-right: -15px;
     display: flex;
-    justify-content: start;
-    align-items: left;
     flex-direction: column;
-    min-height: 400px;
-}
-
+    justify-content: flex-end;
+    align-items: center;
+} 
 
 .partners-blog-girl-decoration {
     font-size: 16px;
     font-family: Fira Sans, sans-serif;
     font-weight: 700;
-    color: var(--a-whitecolor);
+    color: var(--block-girl);
     text-transform: uppercase;
     text-align: left;
 }
 
+.partners-blog-girl-text {
+    font-size: 24px;
+    line-height: 1.4;
+    color: var(--block-girl);
+    font-family: Playfair Display,serif;
+    font-weight: 700;
+    text-align: left;
+}
 .partners-blog-girl-date {
     font-size: 14px;
     font-family: PT Sans, sans-serif;
     font-weight: 400;
-    color: var(--whitecolor)
+    color: var(--block-girl)
 }
 
 .partners-blog-symbol {
