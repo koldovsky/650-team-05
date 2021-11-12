@@ -2,8 +2,9 @@
 	padding: 90px 24px 90px 24px;
 }
 
-.coutdown-header-text {
-	font-size: 34px;
+#countdown h2,
+#coutdown-header-text {
+	font-size: 36px;
 	color: #232323;
 	line-height: 1.2;
 	font-family: Playfair Display, serif;
@@ -17,15 +18,44 @@
 }
 
 .countdown-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	margin-top: 45px;
+	padding: 0px 15px 0px 15px;
+	width: auto;
 }
 
 .countDownTime {
-	display: inline-flex;
-	width: 100%;
+	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-around;
 	text-align: center;
+	width: 100%;
+}
+
+.countDownDays,
+.countDownHours,
+.countDownMinutes,
+.countDownSeconds {
+	width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	flex-grow: 4;
+	border: 1px solid #4f4f4f;
+	border-radius: 5px;
+}
+
+.countDownDays small,
+.countDownHours small,
+.countDownMinutes small,
+.countDownSeconds small {
+	font-size: 23px;
+	font-family: Fira Sans, sans-serif;
+	opacity: 0.54;
 }
 
 .countDownTime-Separator {
@@ -68,40 +98,28 @@
 	text-align: center;
 }
 
-.countDownDays,
-.countDownHours,
-.countDownMinutes,
-.countDownSeconds {
-	width: 100%;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	text-align: center;
-	flex-grow: 4;
-	border: 1 px solid #4f4f4f;
-	border-radius: 5 px;
+.countdown-footer-buttons {
+	display: flex;
+	justify-content: center;
 }
 
-.countDownDays {
-	border: 1 px solid #4f4f4f;
-	border-radius: 5 px;
+.countdown-footer-buttons a {
+	text-decoration: none;
 }
 
-.countDownDays small,
-.countDownHours small,
-.countDownMinutes small,
-.countDownSeconds small {
-	font-size: 23px;
-	font-family: Fira Sans, sans-serif;
-	opacity: 0.54;
+.button-countDown {
+	background-color: var(--a-redcolor);
+	color: var(--whitecolor);
+	font-size: 12px;
+	font-family: "Fira Sans", sans-serif;
+	padding: 20px 50px 20px 50px;
 }
 
-.countDownTime h2 {
-	color: #232323;
-	font-size: 36px;
-	font-family: Playfair Display, serif;
-	font-weight: 600;
+.button-countDown:hover {
+	background-color: var(--a-darkgreycolor);
+	color: var(--whitecolor);
+	font-size: 14x;
+	font-family: "Fira Sans", sans-serif;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

@@ -15,6 +15,14 @@
     --a-header-nav-text-hover: #bb2528;
     --a-text-default: rgb(35, 35, 35);
     --a-text-default-hover: #bb2528;
+    --button-contact-bg: #fff;
+    --button-contact-bg-hover: #232323;
+    --button-contact-text: #232323;
+    --button-contact-text-hover: #fff;
+    --button-shop-bg: #bb2528;
+    --button-shop-bg-hover: #232323;
+    --button-shop-text: #fff;
+    --cta-form: #fff;
     --header-contacts-background: #bb2528;
     --header-text-default: rgb(35, 35, 35);
     --faq-text-hidden: #737373;

@@ -5,7 +5,7 @@ const minutes = document.getElementById("minutes");
 const seconds = document.getElementById("seconds");
 
 const currentYear = new Date().getFullYear();
-const newYearTime = new Date("January 1 2022 00:00:00");
+const newYearTime = new Date("December 31 2021 23:30:00");
 
 // Update CountDown
 function updateCountDown() {
