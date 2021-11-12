@@ -1,9 +1,17 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+/*додати розширення на телефон правильно, щоб картинки були по вертикалі + додати картинки в html і зробити так щоб вони були не видимі*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
 }
+.services-baners: {
+    max-width: 980px;
+    margin: auto;
+}
+
 #services-baners {
 display: flex;
 flex-direction: column;
@@ -20,7 +28,7 @@ margin-bottom: 100px;
 }
 
 @media (min-width: 600px) {
-     .services-baners-background {
+     .services-baners {
         display: flex;
         align-items: center;
     }/*сдля того щоб блок переносився вниз коли екран буде зменшений*/
@@ -39,6 +47,8 @@ margin-bottom: 100px;
      justify-content: center;
      align-items: center;
      flex-direction: column;
+     width: 100%;
+     display: block;
 } 
 
     .services-background-right {
