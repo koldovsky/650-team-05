@@ -3,6 +3,7 @@
     background-image: url(../img/cta-offer/cta-offer-background.png);
     background-position: right;
     background-size: cover;
+    max-width: none;
     padding: 20% 0% 20% 0%;
     width: 100%;
 }
@@ -12,10 +13,15 @@
 }
 
 #cta-offer .cta-form {
-    background-color: var(--whitecolor);
-    margin: 0px 0px 0px 20px;
+    background-color: var(--cta-form);
+    margin: 0px 20px 0px 20px;
     max-width: 500px;
     padding: 20px;
+    width: fit-content;
+}
+
+#cta-offer .cta-form-inner {
+    padding: 10% 10% 10% 10%;
 }
 
 .cta-buttons {
@@ -29,36 +35,40 @@
 }
 
 .button-shop {
-    background-color: var(--a-redcolor);
-    color: var(--whitecolor);
-    font-size: 10.8px;
+    background-color: var(--button-shop-bg);
+    border: 2px solid var(--button-shop-bg);
+    color: var(--button-shop-text);
     font-family: 'Fira Sans', sans-serif;
+    font-size: 10.8px;
+    font-weight: 500;
     padding: 10px;
-    margin: 20px;
+    margin: 20px 0px 20px 0px;
 }
 
 .button-shop:hover {
-    background-color: var(--a-darkgreycolor);
-    color: var(--whitecolor);
+    background-color: var(--button-shop-bg-hover);
+    border: 2px solid var(--button-contact-text);
+    color: var(--button-shop-text);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 10.8px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 20px 0px 20px 0px;
+}
+
+.button-contact {
+    background-color: var(--button-contact-bg);
+    color: var(--button-contact-text);
+    border: 2px solid var(--button-contact-text);
     font-size: 10.8px;
     font-family: 'Fira Sans', sans-serif;
     padding: 10px;
     margin: 20px;
 }
 
-.button-white {
-    background-color: var(--a-whitecolor);
-    color: var(--a-darkgreycolor);
-    border: 2px solid var(--a-darkgreycolor);
-    font-size: 10.8px;
-    font-family: 'Fira Sans', sans-serif;
-    padding: 10px;
-    margin: 20px;
-}
-
-.button-white:hover {
-    background-color: var(--a-darkgreycolor);
-    color: var(--a-whitecolor);
+.button-contact:hover {
+    background-color: var(--button-contact-text);
+    color: var(--button-contact-bg);
     font-size: 10.8px;
     font-family: 'Fira Sans', sans-serif;
     padding: 10px;
@@ -77,4 +87,70 @@
     color: var(--darkgreycolor);
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
+}
+
+@media (min-width: 550px) {
+    #cta-offer .cta-form {
+        margin: 0% 5% 0% 5%;
+    }
+
+}
+
+@media (min-width: 600px) {
+    #cta-offer .cta-form {
+        margin: 0% 7% 0% 7%;
+    }
+
+}
+
+@media (min-width: 650px) {
+    #cta-offer .cta-form- {
+        margin: 0% 9% 0% 9%;
+    }
+
+}
+
+@media (min-width: 700px) {
+    #cta-offer .cta-form {
+        margin: 0% 11% 0% 11%;
+    }
+
+}
+
+@media (min-width: 750px) {
+    #cta-offer .cta-form {
+        margin: 0% 13% 0% 13%;
+    }
+
+}
+
+@media (min-width: 800px) {
+    #cta-offer .cta-form {
+        margin: 0% 15% 0% 15%;
+    }
+
+}
+
+@media (min-width: 850px) {
+    #cta-offer .cta-form {
+        margin: 0% 17% 0% 17%;
+    }
+
+}
+
+@media (min-width: 900px) {
+    #cta-offer .cta-form {
+
+        margin: 0% 19% 0% 19%;
+    }
+
+}
+
+@media (min-width: 950px) {
+
+    #cta-offer .cta-form {
+        height: 700;
+        margin: 0% 21% 0% 21%;
+    }
+
 }
