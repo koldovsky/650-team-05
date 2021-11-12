@@ -1,0 +1,119 @@
+.countdown {
+	padding: 90px 24px 90px 24px;
+}
+
+.coutdown-header-text {
+	font-size: 34px;
+	color: #232323;
+	line-height: 1.2;
+	font-family: Playfair Display, serif;
+	font-weight: 600;
+	text-transform: none;
+	text-decoration: none;
+	font-style: normal;
+	letter-spacing: 0;
+	text-align: center;
+	margin: 0px;
+}
+
+.countdown-container {
+	margin-top: 45px;
+}
+
+.countDownTime {
+	display: inline-flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+}
+
+.countDownTime-Separator {
+	flex-grow: 1;
+}
+
+.countdown-info {
+	font-size: 30px;
+	line-height: 1.4;
+	font-family: Playfair Display, serif;
+	font-weight: 700;
+	text-decoration: none;
+	font-style: normal;
+	letter-spacing: 0;
+	color: #232323;
+	text-transform: none;
+	text-align: center;
+	margin: 20px 0px 0px 0px;
+}
+
+.countdown-info .text_countdown {
+	margin: 0px;
+}
+.text_countdown-info {
+	font-size: 20px;
+	line-height: 1.5;
+	font-family: Fira Sans, sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: normal;
+	letter-spacing: 0;
+	color: #737373;
+	text-transform: none;
+	text-align: center;
+	margin: 25px 0px 0px 0px;
+}
+
+.countdown-footer {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.countDownDays,
+.countDownHours,
+.countDownMinutes,
+.countDownSeconds {
+	width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	flex-grow: 4;
+	border: 1 px solid #4f4f4f;
+	border-radius: 5 px;
+}
+
+.countDownDays {
+	border: 1 px solid #4f4f4f;
+	border-radius: 5 px;
+}
+
+.countDownDays small,
+.countDownHours small,
+.countDownMinutes small,
+.countDownSeconds small {
+	font-size: 23px;
+	font-family: Fira Sans, sans-serif;
+	opacity: 0.54;
+}
+
+.countDownTime h2 {
+	color: #232323;
+	font-size: 36px;
+	font-family: Playfair Display, serif;
+	font-weight: 600;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.countdown-container-text {
+		font-size: 27px;
+		line-height: 1.4;
+		letter-spacing: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.countdown-container-text {
+		font-size: 24px;
+	}
+}
