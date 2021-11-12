@@ -19,7 +19,7 @@ img {
 }
 
 .shop {
-    padding:10px;
+    padding: 10px;
 }
 
 h1 {
@@ -38,7 +38,7 @@ section .shop-text-header {
 section .shop-text {
     font-size: 42px;
     font-weight: 600;
-    font-family:Playfair Display,serif;
+    font-family: Playfair Display, serif;
     margin-bottom: 5px;
 }
 
@@ -51,14 +51,14 @@ section .shop-text-click {
     color: var(--a-text-click);
     font-size: 18px;
     font-weight: 400;
-    font-family: Fira Sans,serif;
+    font-family: Fira Sans, serif;
 }
 
 section .shop-buttons {
     color: var(--a-text-click);
     font-size: 18px;
     font-weight: 400;
-    font-family: Fira Sans,serif;
+    font-family: Fira Sans, serif;
     display: flex;
 }
 
@@ -66,6 +66,7 @@ section .shop-buttons {
     .shop {
         padding: 30px;
     }
+
     section .shop-products {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -88,20 +89,21 @@ section .shop-buttons {
     .shop {
         padding: 100px;
     }
+
     .shop-text-header {
         margin-left: 100px;
     }
 
-    .shop-product-img {        
-        height:250px;
+    .shop-product-img {
+        height: 250px;
     }
 }
 
-section .shop-product-name{
+section .shop-product-name {
     text-align: left;
     text-decoration: none;
     font-size: 18px;
-    font-family: Fira Sans,sans-serif;
+    font-family: Fira Sans, sans-serif;
     font-weight: 400;
     color: var(--a-grey);
 }
@@ -112,25 +114,25 @@ section .shop-product-name:hover {
 }
 
 
-section .shop-product-price{
+section .shop-product-price {
     text-align: left;
     font-size: 18px;
-    font-family: Fira Sans,sans-serif;
+    font-family: Fira Sans, sans-serif;
     font-weight: 600;
     color: var(--a-button);
 }
 
-section .shop-product-button{
+section .shop-product-button {
     border-radius: 7%;
     width: 120px;
-    height:50px;
+    height: 50px;
     border: none;
     color: var(--a-whitecolor);
     font-size: 12px;
     padding: 10px;
     background: var(--a-button);
-    box-shadow: 0px 4px 14px 0px rgb(12, 12, 12,40%);
-    
+    box-shadow: 0px 4px 14px 0px rgb(12, 12, 12, 40%);
+
 }
 
 section .shop-product-button:hover {

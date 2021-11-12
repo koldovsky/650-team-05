@@ -1,90 +1,110 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
-
-/*додати розширення на телефон правильно, щоб картинки були по вертикалі*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
 }
 
-.testimonials-top {
-    text-align: left;
+
+@media (min-width: 600px) {
+    .testimonials-testimonials {
+        display: flex;
+    }
 }
 
-.reviews-testemonials {
-display: flex;
-flex-direction: column;
-margin-left: 5px;
-padding: 5px;
-display: flex;
+#testimonials-testimonials {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.testimonials-top a {
+    text-transform: uppercase;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 @media (min-width: 600px) {
-    .reviews-testemonials {
-display: flex;
+    .testimonials-testimonials {
+        display: flex;
+        align-items: center;
     }
-    .reviews-testemonials {
+
+    /*сдля того щоб блок переносився вниз коли екран буде зменшений*/
+    #services-baners {
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
         flex: 1;
     }
-}
-.testimonials-testimonials: {
-    max-width: 980px;
-    margin: auto;
-}
-.reviews-testemonials {
-    gap: 5px;
-}
-/*
-@media (min-width: 500px) {
-.reviews-testemonials {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    flex-wrap: wrap;
-}
-}
-}
-@media (min-width: 660px) {
-.reviews-testemonials {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    flex-wrap: wrap;
-}
-*/
 
-.testimonials-text-curved {
-    color: #bb2528!important;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-    font-family: 'Fira Sans', sans-serif;
-    padding: 10px;
-    text-align: left;
-}
-.testimonials-text-large {
-    color: var(--blackcolor);
+    .testimonials-first-image url {
+        background-image: url(../img/testimonials-testimonials/family.webp);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: block;
+        margin: auto;
+    }
+
+    .testimonials-second-image-right url {
+        background-image: url(../img/testimonials-testimonials/happy-family.jpeg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: block;
+        margin: auto;
+    }
+
+    .testimonials-right-two {
+        background-image: url(img/testimonials-testimonials/happy-family-with-tree.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: block;
+        margin: auto;
+    }
+
+    .testimonials-text-curved {
+        color: #bb2528 !important;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        vertical-align: baseline;
+        font-family: 'Fira Sans', sans-serif;
+        padding: 10px;
+    }
+
+    .testimonials-text-large {
+        color: var(--blackcolor);
         font-size: 42px;
         font-family: 'Playfair Display', serif;
         padding: 10px;
-        text-align: left;
-}
-.shop-bestsellers-symbol {
-    font-weight: 700;
-    display: inline-block;
-    position: relative;
-    max-width: 100%;
-    word-wrap: break-word;
-}
-.testimonials-text-small {
-    color: var(--darkgreycolor);
-    font-size: 18px;
-    font-family: 'Fira Sans', sans-serif;
-    text-align: left;
-}
+    }
 
+    .shop-bestsellers-symbol {
+        font-weight: 700;
+        display: inline-block;
+        position: relative;
+        max-width: 100%;
+        word-wrap: break-word;
+    }
+
+    .testimonials-text-small {
+        color: var(--darkgreycolor);
+        font-size: 18px;
+        font-family: 'Fira Sans', sans-serif;
+    }

@@ -1,37 +1,31 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
-
-/*додати розширення на телефон правильно, щоб картинки були по вертикалі + додати картинки в html і зробити так щоб вони були не видимі*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: content-box;
 }
-.services-baners: {
-    max-width: 980px;
-    margin: auto;
-}
 
 #services-baners {
-display: flex;
-flex-direction: column;
-margin-left: 100px;
-margin-left: 100px;
-margin-top: 100px;
-margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .services-form a {
     text-transform: uppercase;
     margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px; 
+    padding: 10px 10px 10px 10px;
 }
 
 @media (min-width: 600px) {
-     .services-baners {
+    .services-baners-background {
         display: flex;
         align-items: center;
-    }/*сдля того щоб блок переносився вниз коли екран буде зменшений*/
+    }
+
+    /*сдля того щоб блок переносився вниз коли екран буде зменшений*/
     #services-baners {
         flex-direction: row;
         align-items: center;
@@ -39,32 +33,32 @@ margin-bottom: 100px;
         flex: 1;
     }
 }
+
 .services-baners-background {
     background-image: url(../img/services-baners/toys-first.png);
-     background-size: cover;
-     background-position: center;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
-     width: 100%;
-     display: block;
-} 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-    .services-background-right {
-        background-image: url(../img/services-baners/toys-second.png);
-        background-size: cover;
-        background-position: center;
-        display: flex;
-     justify-content: center;
-     align-items: center;
-     flex-direction: column;
-    }
-  
+.services-background-right {
+    background-image: url(../img/services-baners/toys-second.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .foto-cervices-baners-background {
     display: block;
     margin: auto;
 }
+
 .second-foto-cervices-baners-background {
     display: block;
     margin: auto;
@@ -74,6 +68,7 @@ margin-bottom: 100px;
     height: 50%;
     width: 50%;
 }
+
 .services-baners-form-right {
     height: 50%;
     width: 50%;
@@ -90,6 +85,7 @@ margin-bottom: 100px;
     font-family: 'Fira Sans', sans-serif;
     padding: 10px;
 }
+
 .services-baners-text-curved {
     text-align: center;
     color: var(--a-whitecolor);
@@ -100,6 +96,7 @@ margin-bottom: 100px;
     position: relative;
     right: 250px;
 }
+
 .services-baners-text-large {
     font-size: 60px;
     font-family: 'Playfair Display', serif;
@@ -108,12 +105,14 @@ margin-bottom: 100px;
     position: relative;
     right: 150px;
 }
+
 .services-baners-text-large {
     font-size: 60px;
     font-family: 'Playfair Display', serif;
     padding: 10px;
     color: white;
 }
+
 .services-baners-buttons {
     background-color: var(--a-transparent);
     color: white;
@@ -124,17 +123,20 @@ margin-bottom: 100px;
     border-style: solid;
     border-radius: 2px;
     padding: 15px;
-    margin: 8px;;
+    margin: 8px;
+    ;
     position: relative;
     right: 150px;
 }
+
 .services-baners-buttons:hover {
-font-weight: bold; /*жирний шрифт при наведенні мишкою на кнопку*/
+    font-weight: bold;
+    /*жирний шрифт при наведенні мишкою на кнопку*/
 }
 
 .services-baners-buttons {
     background-color: var(--a-transparent);
-    color:white;
+    color: white;
     font-size: 10px;
     font-family: 'Fira Sans', sans-serif;
     border-color: white;
@@ -146,10 +148,10 @@ font-weight: bold; /*жирний шрифт при наведенні мишк�
 }
 
 .services-baners-buttons:hover {
-font-weight: bold; /*жирний шрифт при наведенні мишкою на кнопку*/
-background: white;
+    font-weight: bold;
+    /*жирний шрифт при наведенні мишкою на кнопку*/
+    background: white;
     font-size: 10pt;
     margin: 5px;
     color: black;
 }
-

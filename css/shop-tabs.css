@@ -69,7 +69,7 @@ section .shop-tabs-buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-self: flex-start;
-    width:min-content;
+    width: min-content;
     gap: 30px;
 }
 

@@ -13,10 +13,10 @@
     display: block;
 }
 
-@media (min-width: 751px){
+@media (min-width: 751px) {
 
     .about-us {
-        display: flex;    
+        display: flex;
         height: 113vh;
         margin-top: 150px;
         margin-bottom: 150px;
@@ -47,7 +47,7 @@ section div #about-us-text-header {
 
 section div .about-us-text-all-kind {
     font-size: 56px;
-    font-family: Playfair Display,serif;
+    font-family: Playfair Display, serif;
     font-weight: 600;
     margin: 0px 0px 5px 50px;
     line-height: 70px;
@@ -63,7 +63,7 @@ section div .about-us-text-on-img {
     color: var(--a-text-on-img);
     font-size: 18px;
     font-weight: 400;
-    font-family: Fira Sans,serif;
+    font-family: Fira Sans, serif;
     padding: 0px 0px 5px 50px;
 }
 
