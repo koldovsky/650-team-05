@@ -1,9 +1,9 @@
 #faq {
     display: flex;
-    max-width: 1200px;
     justify-content: center;
-
+    max-width: 1200px;
 }
+
 
 #faq .faq-text-hidden {
     color: var(--faq-text-hidden);
@@ -45,12 +45,4 @@
     width: 100px;
     vertical-align: baseline;
     margin: 10px 0px 10px 0px;
-}
-
-
-@media (min-width:990px) {
-    .faq-answers {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
 }
