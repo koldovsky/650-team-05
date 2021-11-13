@@ -30,8 +30,20 @@
     --faq-text-small: #4f4f4f;
     --faq-text-question: #4f4f4f;
     --a-dash-color: #bb2528;
+    --bestsellers-title-name-color: #bb2528;
+    --bestsellers-big-text-color: #232323;
+    --bestsellers-text-color: #737373;
+    --bestsellers-frame-color: rgb(249, 244, 238);
+    --bestsellers-products-name-color: #737373;
+    --bestsellers-products-name-hover-color: #bb2528;
+    --bestsellers-price-color: #bb2528;
+    --bestseller-button-border-color: #bb2528;
+    --bestsellers-button-text-color: #bb2528;
+    --bestseller-button-backgraund-color: #fff;
+    --bestsellers-button-background-hover-color: #bb2528;
+    --bestsellers-button-text-hover-color: #fff;
     --block-girl: #fff;
-    --a-darkgreycolor: #232323;
+    /* --a-darkgreycolor: #232323;
     --a-grey: #737373;
     --a-redcolor: #bb2528;
     --a-whitecolor: #fff;
@@ -41,7 +53,7 @@
     --redcolor: #bb2528;
     --whitecolor: #fff;
     --a-light-grey: rgb(249, 244, 238);
-}
+} */
 
 /* 
 body {

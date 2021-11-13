@@ -18,14 +18,14 @@ main .bestsellers {
     font-size: 22px;
     font-family: Grand Hotel, undefined;
     font-weight: 400;
-    color: var(--a-redcolor);
+    color: var(--bestsellers-title-name-color);
 }
 
 .bestsellers-big-text {
     font-size: 42px;
     font-family: Playfair Display, serif;
     font-weight: 600;
-    color: var(--a-darkgreycolor);
+    color: var(--bestsellers-big-text-color);
     margin-top: 20px;
 }
 
@@ -39,7 +39,7 @@ main .bestsellers {
     font-size: 18px;
     font-family: Fira Sans, sans-serif;
     font-weight: 400;
-    color: var(--a-grey);
+    color: var(--bestsellers-text-color);
     margin-top: 20px;
 }
 
@@ -49,7 +49,7 @@ main .bestsellers {
 
 .shop-bestsellers-products {
     border-width: 2px;
-    border-color: var(--a-light-grey);
+    border-color: var(--bestsellers-frame-color);
     border-style: solid;
     padding: 25px 25px 25px 25px;
     text-align: center;
@@ -59,41 +59,41 @@ main .bestsellers {
     font-size: 18px;
     font-family: Fira Sans, sans-serif;
     font-weight: 400;
-    color: var(--a-grey);
+    color: var(--bestsellers-products-name-color);
     margin-top: 8px;
 }
 
 .shop-bestsellers-products-name:hover {
-    color: var(--a-redcolor);
+    color: var(--bestsellers-products-name-hover-color);
 }
 
 .shop-bestsellers-price {
     font-size: 18px;
     font-family: Fira Sans, sans-serif;
     font-weight: 400;
-    color: var(--a-redcolor);
+    color: var(--bestsellers-price-color);
     margin-top: 16px;
 }
 
 .shop-bestsellers-button {
     border-width: 2px;
     border-radius: 0;
-    border-color: var(--a-redcolor);
+    border-color: var(--bestseller-button-border-color);
     border-style: solid;
     text-align: center;
     margin-top: 24px;
-    color: var(--a-redcolor);
+    color: var(--bestsellers-button-text-color);
     font-family: Fira Sans, sans-serif;
     font-size: 10.8px;
     font-weight: 700;
     width: 120.219px;
     height: 45px;
-    background-color: var(--whitecolor);
+    background-color: var(--bestseller-button-backgraund-color);
 }
 
 .shop-bestsellers-button:hover {
-    background-color: var(--a-redcolor);
-    color: var(--a-whitecolor);
+    background-color: var(--bestsellers-button-background-hover-color);
+    color: var(--bestsellers-button-text-hover-color);
 }
 
 
