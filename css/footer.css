@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Grand+Hotel&family=PT+Sans&family=Playfair+Display:wght@600&display=swap");
 
+:root {
+	--background-color: #232323;
+	--a-redcolor: #bb2528;
+	--a-whitecolor: #fff;
+	--whitecolor: #fff;
+}
+
 footer {
-	background-color: var(--a-darkgreycolor);
+	background-color: var(--background-color);
 	color: var(--a-whitecolor);
 	width: auto;
 }
