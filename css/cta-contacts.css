@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Grand+Hotel&family=Playfair+Display:ital,wght@0,600;1,600&display=swap'); 
+
+/* NATALIA block */
+#cta-contacts {
+    display: block;
+    /* border: 0;
+    flex-basis: 100%;
+    flex-shrink: 0;
+    font: inherit;
+    vertical-align: baseline;
+    overflow: hidden;
+    z-index: 0;
+    border-radius: inherit; */
+    
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 24px;
+    padding-right: 24px; 
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#cta-contacts a, #cta-contacts ul {
+    text-decoration: none; 
+    color: #fff;
+}
+
+.contacts{
+    /* justify-content: center;
+    display: flex; */
+    background-image: url(../img/cta-contacts/contacts.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 457px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    width: calc(100% + 30px);
+    
+   
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.contacts-container {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 457px;
+}
+
+.contacts {
+    display: block;
+    justify-content: flex-start;
+    /* max-width: 100%;
+    width: 0;
+    min-width: 0; */
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-left: 51px;
+    padding-right: 51px;
+}
+
+.contacts-title {
+    color: #fff;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-family: Grand Hotel, undefined;
+    font-size: 14px;
+    text-transform: none;
+    text-decoration: none;
+    max-width: 100%;
+    margin-top: 22px;
+}
+.contacts-information {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    color: #fff;
+    font-size: 34px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    font-family: Playfair Display,serif;
+    font-weight: 600;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.contacts-form {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    margin: 10px 10px 10px 10px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    max-width: 100%;
+    padding-top: 12.5px; 
+    padding-bottom: 12.5px; 
+    justify-self: center;
+    font-size: 13.2px;
+    
+    font-family: Fira Sans,sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* .contacts-pointer {
+    display: flex;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+} */
+
+.pointer {
+    width: 15%;
+    fill: #fff;
+   
+}

@@ -1,20 +1,22 @@
-/*block3-feature*/
+/*NATALIA block3-feature*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@0;1&family=Playfair+Display:wght@500&display=swap');
+
 main #features {
-    margin-left: 23px;
-    margin-right: 23px;
-    padding: 60px 40px 55px 40px;
     display: flex;
     flex-direction: column;
-    padding-left: 34px;
-    padding-right: 34px;
-    width: auto;
     justify-content: center;
+    width: auto;
+    padding: 90px 24px 55px 24px;
+    text-align: justify;
 }
 
 .features-block {
-    padding: 0px 15px 0px 15px;
-    /* width: 100%; */
+    margin-left: -15px; 
+    margin-right: -15px;
+    padding: 0px 25px 0px 25px;
+    /*width: 100%; */
     margin-top: 50px;
+    
 }
 
 .features-icon-frame {
@@ -25,8 +27,8 @@ main #features {
     border-radius: 50%;
     width: 50px;
     height: 50px;
-    background-color: #f9f4ee;
-    color: #f9f4ee;
+    background-color: var(--features-icon-frame-color);
+    color: var(--features-icon-frame-color);
     align-items: center;
     justify-content: center;
 }
@@ -37,27 +39,29 @@ main .features-icon {
 }
 
 .features-title-name {
-    font-size: 24px;
+    font-size: 22px;
     font-family: Playfair Display, serif;
     font-weight: 500;
-    color: var(--darkgreycolor);
+    color: var(--features-title-color);
     margin-top: 20px;
+    margin-bottom: 15px;
     line-height: 32.64px;
 }
 
 .dash {
     display: block;
     border-bottom: 3px var(--a-dash-color) solid;
-    width: 50px;
+    width: 33px;
 }
 
 .features-text {
     font-size: 16px;
     font-family: Fira Sans, sans-serif;
     font-weight: 400;
-    color: var(--a-grey);
+    color: var(--features-text-color);
     line-height: 25.6px;
     padding-top: 15px;
+    text-align: left;
 }
 
 
