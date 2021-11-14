@@ -1,157 +1,158 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
-}
-
-#services-baners {
-    display: flex;
-    flex-direction: column;
-    margin-left: 100px;
-    margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.services-form a {
-    text-transform: uppercase;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
-}
-
-@media (min-width: 600px) {
-    .services-baners-background {
-        display: flex;
-        align-items: center;
-    }
-
-    /*сдля того щоб блок переносився вниз коли екран буде зменшений*/
-    #services-baners {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        flex: 1;
-    }
-}
-
-.services-baners-background {
-    background-image: url(../img/services-baners/toys-first.png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.services-background-right {
-    background-image: url(../img/services-baners/toys-second.png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.foto-cervices-baners-background {
-    display: block;
-    margin: auto;
-}
-
-.second-foto-cervices-baners-background {
-    display: block;
-    margin: auto;
-}
-
-.services-form {
-    height: 50%;
-    width: 50%;
-}
-
-.services-baners-form-right {
-    height: 50%;
-    width: 50%;
-}
-
-.services-baners-text-curved {
-    text-align: center;
-    color: var(--a-whitecolor);
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-    font-family: 'Fira Sans', sans-serif;
-    padding: 10px;
-}
-
-.services-baners-text-curved {
-    text-align: center;
-    color: var(--a-whitecolor);
-    font: inherit;
-    vertical-align: baseline;
-    font-family: 'Fira Sans', sans-serif;
-    padding: 12px;
-    position: relative;
-    right: 250px;
-}
-
-.services-baners-text-large {
-    font-size: 60px;
-    font-family: 'Playfair Display', serif;
-    padding: 10px;
-    color: white;
-    position: relative;
-    right: 150px;
-}
-
-.services-baners-text-large {
-    font-size: 60px;
-    font-family: 'Playfair Display', serif;
-    padding: 10px;
-    color: white;
-}
-
-.services-baners-buttons {
-    background-color: var(--a-transparent);
-    color: white;
-    font-size: 10px;
-    font-family: 'Fira Sans', sans-serif;
-    border-color: white;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 2px;
-    padding: 15px;
-    margin: 8px;
-    ;
-    position: relative;
-    right: 150px;
-}
-
-.services-baners-buttons:hover {
-    font-weight: bold;
-    /*жирний шрифт при наведенні мишкою на кнопку*/
-}
-
-.services-baners-buttons {
-    background-color: var(--a-transparent);
-    color: white;
-    font-size: 10px;
-    font-family: 'Fira Sans', sans-serif;
-    border-color: white;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 2px;
-    padding: 15px;
-    margin: 8px;
-}
-
-.services-baners-buttons:hover {
-    font-weight: bold;
-    /*жирний шрифт при наведенні мишкою на кнопку*/
-    background: white;
-    font-size: 10pt;
-    margin: 5px;
-    color: black;
-}
+                                                                                                                                                                                                                                                                                                      * {
+                                                                                                                                                                                                                                                                                                      margin: 0;
+                                                                                                                                                                                                                                                                                                      padding: 0;
+                                                                                                                                                                                                                                                                                                      box-sizing: content-box;
+                                                                                                                                                                                                                                                                                                  }
+                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                  #services-baners {
+                                                                                                                                                                                                                                                                                                      display: flex;
+                                                                                                                                                                                                                                                                                                      flex-direction: column;
+                                                                                                                                                                                                                                                                                                      margin-left: 100px;
+                                                                                                                                                                                                                                                                                                      margin-left: 100px;
+                                                                                                                                                                                                                                                                                                      margin-top: 100px;
+                                                                                                                                                                                                                                                                                                      margin-bottom: 100px;
+                                                                                                                                                                                                                                                                                                      border: 1px;
+                                                                                                                                                                                                                                                                                                      padding: 5px;
+                                                                                                                                                                                                                                                                                                      /*display: grid;
+                                                                                                                                                                                                                                                                                                                                        grid-template-columns: 1fr 1fr;*/
+                                                                                                                                                                                                                                                                                                  }
+                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                  .services-form a {
+                                                                                                                                                                                                                                                                                                      text-transform: uppercase;
+                                                                                                                                                                                                                                                                                                      margin: 10px 10px 10px 10px;
+                                                                                                                                                                                                                                                                                                      padding: 10px 10px 10px 10px;
+                                                                                                                                                                                                                                                                                                  }
+                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                  @media (min-width: 320px) {
+                                                                                                                                                                                                                                                                                                      .services-baners-background {
+                                                                                                                                                                                                                                                                                                          /*display: flex;*/
+                                                                                                                                                                                                                                                                                                          align-items: center;
+                                                                                                                                                                                                                                                                                                          display: table-column;
+                                                                                                                                                                                                                                                                                                          margin: 20px 20px 20px 20px;
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      @media (min-width: 320px) {
+                                                                                                                                                                                                                                                                                                          .services-baners-background-right {
+                                                                                                                                                                                                                                                                                                              display: table-column;
+                                                                                                                                                                                                                                                                                                              align-items: center;
+                                                                                                                                                                                                                                                                                                              width: 100%;
+                                                                                                                                                                                                                                                                                                              margin: 20px 20px 20px 20px;
+                                                                                                                                                                                                                                                                                                          }
+                                                                                                                                                                                                                                                                                                          /*сдля того щоб блок переносився вниз коли екран буде зменшений*/
+                                                                                                                                                                                                                                                                                                          #services-baners {
+                                                                                                                                                                                                                                                                                                              flex-direction: row;
+                                                                                                                                                                                                                                                                                                              align-items: center;
+                                                                                                                                                                                                                                                                                                              justify-content: space-around;
+                                                                                                                                                                                                                                                                                                              flex: 1;
+                                                                                                                                                                                                                                                                                                          }
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .services-baners-background {
+                                                                                                                                                                                                                                                                                                          background-image: url(../img/services-baners/toys-first.png);
+                                                                                                                                                                                                                                                                                                          background-size: cover;
+                                                                                                                                                                                                                                                                                                          background-position: center;
+                                                                                                                                                                                                                                                                                                          /* display: flex;
+                                                                                                            */
+                                                                                                                                                                                                                                                                                                          justify-content: center;
+                                                                                                                                                                                                                                                                                                          align-items: center;
+                                                                                                                                                                                                                                                                                                          flex-direction: column;
+                                                                                                                                                                                                                                                                                                          min-height: 400px;
+                                                                                                                                                                                                                                                                                                          /* width: 100%;
+                                                                                                                            */
+                                                                                                                                                                                                                                                                                                          display: block;
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .services-background-right {
+                                                                                                                                                                                                                                                                                                          background-image: url(../img/services-baners/toys-second.png);
+                                                                                                                                                                                                                                                                                                          background-size: cover;
+                                                                                                                                                                                                                                                                                                          background-position: center;
+                                                                                                                                                                                                                                                                                                          /*display: flex;
+                                                                                                                                                */
+                                                                                                                                                                                                                                                                                                          justify-content: center;
+                                                                                                                                                                                                                                                                                                          align-items: center;
+                                                                                                                                                                                                                                                                                                          flex-direction: column;
+                                                                                                                                                                                                                                                                                                          min-height: 400px;
+                                                                                                                                                                                                                                                                                                          /* width: 100%;
+                                                                                                                                        */
+                                                                                                                                                                                                                                                                                                          display: block;
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .foto-cervices-baners-background {
+                                                                                                                                                                                                                                                                                                          display: block;
+                                                                                                                                                                                                                                                                                                          margin: auto;
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .second-foto-cervices-baners-background {
+                                                                                                                                                                                                                                                                                                          display: block;
+                                                                                                                                                                                                                                                                                                          margin: auto;
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .services-form {
+                                                                                                                                                                                                                                                                                                          height: 50%;
+                                                                                                                                                                                                                                                                                                          width: 50%;
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .services-baners-form-right {
+                                                                                                                                                                                                                                                                                                          height: 50%;
+                                                                                                                                                                                                                                                                                                          width: 50%;
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .services-baners-text-curved {
+                                                                                                                                                                                                                                                                                                          text-align: center;
+                                                                                                                                                                                                                                                                                                          color: var(--a-whitecolor);
+                                                                                                                                                                                                                                                                                                          margin: 0;
+                                                                                                                                                                                                                                                                                                          padding: 0;
+                                                                                                                                                                                                                                                                                                          border: 0;
+                                                                                                                                                                                                                                                                                                          font: inherit;
+                                                                                                                                                                                                                                                                                                          vertical-align: baseline;
+                                                                                                                                                                                                                                                                                                          font-family: 'Fira Sans', sans-serif;
+                                                                                                                                                                                                                                                                                                          padding: 10px;
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .services-baners-text-curved {
+                                                                                                                                                                                                                                                                                                          text-align: center;
+                                                                                                                                                                                                                                                                                                          color: var(--a-whitecolor);
+                                                                                                                                                                                                                                                                                                          font: inherit;
+                                                                                                                                                                                                                                                                                                          vertical-align: baseline;
+                                                                                                                                                                                                                                                                                                          font-family: 'Fira Sans', sans-serif;
+                                                                                                                                                                                                                                                                                                          padding: 12px;
+                                                                                                                                                                                                                                                                                                          /*position: relative;*/
+                                                                                                                                                                                                                                                                                                          right: 250px;
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .services-baners-text-large {
+                                                                                                                                                                                                                                                                                                          font-size: 60px;
+                                                                                                                                                                                                                                                                                                          font-family: 'Playfair Display', serif;
+                                                                                                                                                                                                                                                                                                          padding: 10px;
+                                                                                                                                                                                                                                                                                                          color: white;
+                                                                                                                                                                                                                                                                                                          /* position: relative;*/
+                                                                                                                                                                                                                                                                                                          right: 150px;
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .services-baners-buttons {
+                                                                                                                                                                                                                                                                                                          background-color: var(--a-transparent);
+                                                                                                                                                                                                                                                                                                          color: white !important;
+                                                                                                                                                                                                                                                                                                          font-size: 15px;
+                                                                                                                                                                                                                                                                                                          font-family: 'Fira Sans', sans-serif;
+                                                                                                                                                                                                                                                                                                          border-color: white;
+                                                                                                                                                                                                                                                                                                          /* border-width: 1px;*/
+                                                                                                                                                                                                                                                                                                          border-style: solid;
+                                                                                                                                                                                                                                                                                                          border-radius: 2px;
+                                                                                                                                                                                                                                                                                                          padding: 10px;
+                                                                                                                                                                                                                                                                                                          margin: 10px;
+                                                                                                                                                                                                                                                                                                          /*position: relative;*/
+                                                                                                                                                                                                                                                                                                          right: 170px;
+                                                                                                                                                                                                                                                                                                          text-align: center;
+                                                                                                                                                                                                                                                                                                          text-decoration: none;
+                                                                                                                                                                                                                                                                                                          text-transform: uppercase;
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .services-baners-buttons:hover {
+                                                                                                                                                                                                                                                                                                          font-weight: bold;
+                                                                                                                                                                                                                                                                                                          text-decoration: none;
+                                                                                                                                                                                                                                                                                                          /*жирний шрифт при наведенні мишкою на кнопку*/
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .services-baners-buttons:hover {
+                                                                                                                                                                                                                                                                                                          font-weight: bold;
+                                                                                                                                                                                                                                                                                                          /*жирний шрифт при наведенні мишкою на кнопку*/
+                                                                                                                                                                                                                                                                                                          background: white;
+                                                                                                                                                                                                                                                                                                          font-size: 15pt;
+                                                                                                                                                                                                                                                                                                          margin: 5px;
+                                                                                                                                                                                                                                                                                                          color: black;
+                                                                                                                                                                                                                                                                                                          text-decoration: none;
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .good-button {
+                                                                                                                                                                                                                                                                                                          color: white;
+                                                                                                                                                                                                                                                                                                          text-decoration: none;
+                                                                                                                                                                                                                                                                                                      }
+                                                                                                                                                                                                                                                                                                      .good-button:hover {
+                                                                                                                                                                                                                                                                                                          color: black;
+                                                                                                                                                                                                                                                                                                      }
