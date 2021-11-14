@@ -6,8 +6,8 @@ main #bestsellers {
     margin: auto;
 }
 
-, #bestsellers ul {
-text-decoration: none;#bestsellers a
+#bestsellers a, #bestsellers ul {
+text-decoration: none;
 }
 
 #bestsellers {
