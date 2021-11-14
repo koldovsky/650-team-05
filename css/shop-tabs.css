@@ -63,7 +63,7 @@ section .shop-tabs-text-click {
 section .shop-tabs-buttons {
     margin-top: 50px;
     margin-bottom: 50px;
-    color: var(--a-text-click);
+    color: #9C979F;
     font-size: 18px;
     font-weight: 400;
     font-family: Fira Sans, serif;
@@ -72,6 +72,14 @@ section .shop-tabs-buttons {
     align-self: flex-start;
     width: min-content;
     gap: 30px;
+}
+
+section .shop-tabs-buttons div:hover {
+    color: var(--a-text-click);
+}
+
+section .shop-tabs-buttons div{
+    width: max-content;
 }
 
 section .shop-tabs-product {
