@@ -18,10 +18,11 @@
                     
                     .christmas-block {
                         background-color: var(--whitecolor);
-                        margin: 90px 20px 0px 20px;
+                        margin: 90px 20px 0px 450px;
                         max-width: 500px;
                         padding: 60px;
                         width: fit-content;
+                        position: relative;
                     }
                     
                     .christmas {
@@ -123,7 +124,58 @@
                     @media (min-width: 600px) {
                         #christmas-decor {
                             display: flex;
-                            margin: 0% 5% 0% 5%;
+                        }
+                    }
+                    
+                    @media (min-width:320px) and (max-width: 600px) {
+                        #christmas-decor {
+                            text-align: center;
+                        }
+                        .christmas-block {
+                            width: 320px;
+                            /* height: 850px;
+                            */
+                            padding: 120px;
+                            margin-left: 3px;
+                            margin-right: 3px;
+                        }
+                        .our-christmas-text {
+                            text-align: left;
+                            margin-right: 100px;
+                            padding-right: 100px;
+                            font-size: 10px;
+                        }
+                        .christmas-buttons {
+                            display: flex;
+                            font-size: small;
+                            flex-wrap: unset;
+                            margin: 0px;
+                            margin-top: 5px;
+                            box-sizing: none;
+                            font-size: small;
+                            font-size: 10px;
+                            margin-left: auto;
+                            margin-right: 100px;
+                            display: block;
+                            display: table-cell;
+                        }
+                        .christmas-text {
+                            box-sizing: none;
+                            font-size: small;
+                            font-size: 10px;
+                            text-align: center;
+                            margin-left: auto;
+                            margin-right: auto;
+                            width: 6em;
+                        }
+                        p {
+                            font-size: 16px;
+                            /* text-align: center;
+                            */
+                        }
+                        .christmas-buttons {
+                            display: flex;
+                            margin: 20 px 0 px 20 px 0 px;
                         }
                     }
                     /* @media (min-width: 600px) {

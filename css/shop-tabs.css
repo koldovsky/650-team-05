@@ -6,6 +6,7 @@
     --a-text-click: #4f4f4f;
     --a-whitecolor: #FFFFFF;
     --a-shop-tabs-product-border: #F9F4EE;
+    --a-shop-tabs-product-name: #737373;
 }
 
 .shop-tabs {
@@ -78,6 +79,10 @@ section .shop-tabs-product {
     text-align: center;
 }
 
+section .shop-tabs-product a {
+    text-decoration: none;
+}
+
 @media (min-width: 751px) {
     section .shop-tabs-products {
         display: grid;
@@ -113,7 +118,7 @@ section .shop-tabs-product-name {
     font-size: 18px;
     font-family: Fira Sans, sans-serif;
     font-weight: 400;
-    color: var(--a-grey);
+    color: var(--a-shop-tabs-product-name);
 }
 
 section .shop-tabs-product-name:hover {
