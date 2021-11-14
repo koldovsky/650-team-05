@@ -21,7 +21,7 @@
 }
 
 #cta-offer .cta-form-inner {
-    padding: 10% 10% 10% 10%;
+    padding: 10% 10% 10% 0%;
 }
 
 .cta-buttons {
@@ -87,6 +87,12 @@
     color: var(--darkgreycolor);
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
+}
+
+@media (min-width: 400px) {
+    #cta-offer .cta-form-inner {
+        padding: 10% 10% 10% 10%;
+    }
 }
 
 @media (min-width: 550px) {
