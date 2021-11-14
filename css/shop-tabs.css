@@ -69,7 +69,7 @@ section .shop-tabs-buttons {
     font-family: Fira Sans, serif;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* align-self: flex-start; */
+    align-self: flex-start;
     width: min-content;
     gap: 30px;
 }
