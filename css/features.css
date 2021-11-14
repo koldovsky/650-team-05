@@ -7,6 +7,7 @@ main #features {
     justify-content: center;
     width: auto;
     padding: 90px 24px 55px 24px;
+    text-align: justify;
 }
 
 .features-block {
@@ -78,9 +79,6 @@ main .features-icon {
         display: flex;
         flex-direction: row;
         justify-content: start;
-    }
-    .distance {
-        margin: 0px;
     }
 }
 
