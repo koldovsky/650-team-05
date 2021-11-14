@@ -66,6 +66,7 @@
                                         font-family: 'Fira Sans', sans-serif;
                                         padding: 10px;
                                         text-align: left;
+                                        margin-top: 20px;
                                     }
                                     
                                     .testimonials-text-large {
@@ -74,6 +75,7 @@
                                         font-family: 'Playfair Display', serif;
                                         padding: 10px;
                                         text-align: left;
+                                        margin-top: 20px;
                                     }
                                     
                                     .shop-bestsellers-symbol {
@@ -89,10 +91,12 @@
                                         font-size: 18px;
                                         font-family: 'Fira Sans', sans-serif;
                                         text-align: left;
+                                        margin-top: 20px;
                                     }
-                                    
-                                    @media (min-width: 600px) {
+                                    /*  @media (min-width: 600px) {
                                         .testimonials-top {
                                             display: flex;
                                         }
                                     }
+                                    
+                                    */
