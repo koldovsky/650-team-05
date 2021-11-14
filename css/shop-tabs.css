@@ -76,6 +76,7 @@ section .shop-tabs-buttons {
 
 section .shop-tabs-buttons div:hover {
     color: var(--a-text-click);
+    transition: 0.5s;
 }
 
 section .shop-tabs-buttons div{
@@ -147,12 +148,15 @@ section .shop-tabs-product-button {
     margin-top: 10px;
     color: var(--a-redcolor);
     font-size: 10.8px;
+    font-weight: 600;
     border: var(--a-redcolor) 2px solid;
     padding: 10px;
     background: var(--a-whitecolor);
+    width: 110px;
 }
 
 section .shop-tabs-product-button:hover {
     background: var(--a-redcolor);
     color: var(--a-whitecolor);
+    transition: 0.7s;
 }
