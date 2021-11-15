@@ -42,8 +42,13 @@ main #partners-blog {
     margin-top: 25px;
 }
 
+.partner-blog-all-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
 .partners-blog-symbol {
-    margin-top: ;
+    margin-top: 20px;
     width: 10%;
     display: flex;
     justify-self: center;
