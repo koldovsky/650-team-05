@@ -17,6 +17,14 @@
     .shop-tabs-title {
         padding: 25px;
     }
+
+    .shop-tabs-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-self: flex-start;
+        width: min-content;
+        gap: 30px;
+    }
 }
 
 @media (min-width:980px) {
@@ -63,15 +71,19 @@ section .shop-tabs-text-click {
 section .shop-tabs-buttons {
     margin-top: 50px;
     margin-bottom: 50px;
-    color: var(--a-text-click);
+    color: #9C979F;
     font-size: 18px;
     font-weight: 400;
     font-family: Fira Sans, serif;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-self: flex-start;
-    width: min-content;
-    gap: 30px;
+}
+
+section .shop-tabs-buttons div:hover {
+    color: var(--a-text-click);
+    transition: 0.5s;
+}
+
+section .shop-tabs-buttons div {
+    width: max-content;
 }
 
 section .shop-tabs-product {
@@ -139,12 +151,15 @@ section .shop-tabs-product-button {
     margin-top: 10px;
     color: var(--a-redcolor);
     font-size: 10.8px;
+    font-weight: 600;
     border: var(--a-redcolor) 2px solid;
     padding: 10px;
     background: var(--a-whitecolor);
+    width: 110px;
 }
 
 section .shop-tabs-product-button:hover {
     background: var(--a-redcolor);
     color: var(--a-whitecolor);
+    transition: 0.7s;
 }

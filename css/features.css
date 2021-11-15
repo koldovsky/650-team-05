@@ -79,6 +79,7 @@ main .features-icon {
         display: flex;
         flex-direction: row;
         justify-content: start;
+        padding: 110px 40px 55px 40px;
     }
 }
 
@@ -87,4 +88,5 @@ main .features-icon {
         display: flex;
         flex-direction: column;
     }
+  
 }

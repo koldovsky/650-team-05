@@ -23,6 +23,7 @@
     --button-shop-bg-hover: #232323;
     --button-shop-text: #fff;
     --cta-form: #fff;
+    --h2-text: #bb2528;
     --header-contacts-background: #bb2528;
     --header-text-default: rgb(35, 35, 35);
     --faq-text-hidden: #737373;
@@ -46,6 +47,13 @@
     --bestsellers-button-background-hover-color: #bb2528;
     --bestsellers-button-text-hover-color: #fff;
     --block-girl: #fff;
+    --contacts-title-color: white;
+    --contacts-information-color: white;
+    --contacts-button-color: white;
+    --contacts-text-color: white;
+    --contacts-form-background-color: white;
+    --contacts-text-hover-color: black;
+
     /* --------------- */
     /* --a-darkgreycolor: #232323;
     --a-grey: #737373;
@@ -77,7 +85,7 @@ h1 {
 }
 
 h2 {
-    color: var(--redcolor);
+    color: var(--h2-text);
     font-size: 22px;
     font-family: 'Grand Hotel', cursive;
 }
