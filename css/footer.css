@@ -62,7 +62,8 @@ footer li {
 
 @media (min-width: 320px) {
 	.footer-container {
-		padding: 90px 24px 90px 24px;
+		padding: 90px 24px 90px 24px; 
+		/* atention */
 	}
 
 	.footer-container {
