@@ -23,6 +23,7 @@
     --button-shop-bg-hover: #232323;
     --button-shop-text: #fff;
     --cta-form: #fff;
+    --h2-text: #bb2528;
     --header-contacts-background: #bb2528;
     --header-text-default: rgb(35, 35, 35);
     --faq-text-hidden: #737373;
@@ -84,7 +85,7 @@ h1 {
 }
 
 h2 {
-    color: var(--redcolor);
+    color: var(--h2-text);
     font-size: 22px;
     font-family: 'Grand Hotel', cursive;
 }
