@@ -1,23 +1,18 @@
 /*block10-partner-blog*/
 main #partners-blog {
     max-width: 1200px;
-    padding: 60px 24px 60px 24px;
-
+    margin: 60px 24px 60px 24px;
 }
 
 .partners-blog-girl {
     background-image: url(../img/partner-blog/girl.webp);
-    background-origin: padding-box;
-    width: 302px;
-    height: 630px;
     background-size: cover;
-    /* background-position: center; */
-    padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    background-position: center;
+    height: 667px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    justify-content: end;
 }
 
 .partners-blog-girl-decoration {
@@ -36,18 +31,24 @@ main #partners-blog {
     font-family: Playfair Display, serif;
     font-weight: 700;
     text-align: left;
+    margin-top: 20px;
 }
 
 .partners-blog-girl-date {
     font-size: 14px;
     font-family: PT Sans, sans-serif;
     font-weight: 400;
-    color: var(--block-girl)
+    color: var(--block-girl);
+    margin-top: 25px;
 }
 
 .partners-blog-symbol {
-    height: 20px;
-    width: 24px;
+    margin-top: ;
+    width: 10%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+
 }
 
 .partners-blog-symbol-name {
