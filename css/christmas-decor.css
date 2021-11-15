@@ -1,184 +1,186 @@
-                    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
-                    @import url('https://fonts.googleapis.com');
-                    /* додати картинку до html і зробити так щоб вона була не видима*/
-                    
+                @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+                @import url('https://fonts.googleapis.com');
+                /* додати картинку до html і зробити так щоб вона була не видима*/
+                
+                #christmas-decor {
+                    background-image: url(../img/block-christmas-decore/christmas.jpeg);
+                    height: 100%;
+                    padding: 20px 20px 20px 20px;
+                    width: 100%;
+                    background-size: cover;
+                    background-position: right;
+                    max-width: none;
+                }
+                
+                #christmas-decor a {
+                    padding: 0;
+                }
+                
+                .christmas-block {
+                    background-color: var(--whitecolor);
+                    margin: 90px 20px 0px 450px;
+                    max-width: 500px;
+                    padding: 60px;
+                    width: fit-content;
+                    position: relative;
+                }
+                
+                .christmas {
+                    height: 899px;
+                    width: 1174px;
+                }
+                
+                section .our-christmas-text {
+                    margin: 10px;
+                    padding: 40px;
+                }
+                
+                element.style {
+                    text-align: right;
+                    padding-left: 10px;
+                }
+                
+                .christmas-text-curved {
+                    color: #bb2528 !important;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    font: inherit;
+                    vertical-align: baseline;
+                    font-family: 'Fira Sans', sans-serif;
+                    padding: 10px;
+                }
+                
+                .christmas-text-large {
+                    color: var(--blackcolor);
+                    font-size: 42px;
+                    font-family: 'Playfair Display', serif;
+                    padding: 10px;
+                    font-weight: bold;
+                }
+                
+                .shop-bestsellers-symbol {
+                    font-weight: 700;
+                    display: inline-block;
+                    position: relative;
+                    max-width: 100%;
+                    word-wrap: break-word;
+                }
+                
+                .christmas-text-small {
+                    color: var(--darkgreycolor);
+                    font-size: 18px;
+                    font-family: 'Fira Sans', sans-serif;
+                    padding: 10px;
+                }
+                
+                .christmas-buttons {
+                    display: flex;
+                    margin: 20px 0px 20px 0px;
+                }
+                
+                .christmas-button-red:hover {
+                    background: black;
+                    font-size: 15pt;
+                    margin: 5px;
+                    color: white;
+                    font-family: 'Fira Sans', sans-serif;
+                }
+                
+                .christmas-botton-white:hover {
+                    background: black;
+                    font-size: 15pt;
+                    margin: 5px;
+                    color: white;
+                    font-family: 'Fira Sans', sans-serif;
+                }
+                
+                .christmas-botton-red {
+                    background-color: var(--a-redcolor);
+                    color: white;
+                    font-size: 10px;
+                    font-family: 'Fira Sans', sans-serif;
+                    border-color: red;
+                    border-width: 2px;
+                    border-style: solid;
+                    border-radius: 2px;
+                    padding: 15px;
+                    margin: 8px;
+                }
+                
+                .christmas-botton-white {
+                    background-color: var(--a-darkwhite);
+                    color: black;
+                    font-size: 10px;
+                    font-family: 'Fira Sans', sans-serif;
+                    border-color: black;
+                    border-width: 2px;
+                    border-style: solid;
+                    border-radius: 2px;
+                    padding: 15px;
+                    margin: 8px;
+                }
+                
+                @media (min-width: 600px) {
                     #christmas-decor {
-                        background-image: url(../img/block-christmas-decore/christmas.jpeg);
-                        height: 100%;
-                        padding: 20px 20px 20px 20px;
-                        width: 100%;
-                        background-size: cover;
-                        background-position: right;
-                        max-width: none;
+                        display: flex;
                     }
-                    
-                    #christmas-decor a {
-                        padding: 0;
+                }
+                
+                @media (min-width:320px) and (max-width: 600px) {
+                    #christmas-decor {
+                        text-align: center;
                     }
-                    
                     .christmas-block {
-                        background-color: var(--whitecolor);
-                        margin: 90px 20px 0px 450px;
-                        max-width: 500px;
-                        padding: 60px;
-                        width: fit-content;
-                        position: relative;
+                        width: 320px;
+                        /* height: 850px;
+                            */
+                        /* padding: 120px;*/
+                        margin-left: 3px;
+                        margin-right: 3px;
+                        vertical-align: top;
                     }
-                    
-                    .christmas {
-                        height: 899px;
-                        width: 1174px;
+                    .our-christmas-text {
+                        text-align: left;
+                        margin-right: 100px;
+                        padding-right: 100px;
+                        font-size: 10px;
+                        vertical-align: top;
                     }
-                    
-                    section .our-christmas-text {
-                        margin: 10px;
-                        padding: 40px;
+                    .christmas-buttons {
+                        display: grid;
+                        font-size: small;
+                        flex-wrap: unset;
+                        margin: 0px;
+                        margin-top: 5px;
+                        /* box-sizing: none;*/
+                        font-size: small;
+                        font-size: 10px;
+                        margin-left: auto;
+                        margin-right: 100px;
+                        display: block;
+                        display: table-cell;
                     }
-                    
-                    element.style {
-                        text-align: right;
-                        padding-left: 10px;
+                    .christmas-text {
+                        /* box-sizing: none;*/
+                        font-size: small;
+                        font-size: 10px;
+                        /*text-align: center;*/
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 6em;
                     }
-                    
-                    .christmas-text-curved {
-                        color: #bb2528 !important;
-                        margin: 0;
-                        padding: 0;
-                        border: 0;
-                        font: inherit;
-                        vertical-align: baseline;
-                        font-family: 'Fira Sans', sans-serif;
-                        padding: 10px;
+                    p {
+                        font-size: 16px;
+                        /* text-align: center;
+                            */
                     }
-                    
-                    .christmas-text-large {
-                        color: var(--blackcolor);
-                        font-size: 42px;
-                        font-family: 'Playfair Display', serif;
-                        padding: 10px;
-                        font-weight: bold;
-                    }
-                    
-                    .shop-bestsellers-symbol {
-                        font-weight: 700;
-                        display: inline-block;
-                        position: relative;
-                        max-width: 100%;
-                        word-wrap: break-word;
-                    }
-                    
-                    .christmas-text-small {
-                        color: var(--darkgreycolor);
-                        font-size: 18px;
-                        font-family: 'Fira Sans', sans-serif;
-                        padding: 10px;
-                    }
-                    
                     .christmas-buttons {
                         display: flex;
-                        margin: 20px 0px 20px 0px;
+                        margin: 20 px 0 px 20 px 0 px;
                     }
-                    
-                    .christmas-button-red:hover {
-                        background: black;
-                        font-size: 15pt;
-                        margin: 5px;
-                        color: white;
-                        font-family: 'Fira Sans', sans-serif;
-                    }
-                    
-                    .christmas-botton-white:hover {
-                        background: black;
-                        font-size: 15pt;
-                        margin: 5px;
-                        color: white;
-                        font-family: 'Fira Sans', sans-serif;
-                    }
-                    
-                    .christmas-botton-red {
-                        background-color: var(--a-redcolor);
-                        color: white;
-                        font-size: 10px;
-                        font-family: 'Fira Sans', sans-serif;
-                        border-color: red;
-                        border-width: 2px;
-                        border-style: solid;
-                        border-radius: 2px;
-                        padding: 15px;
-                        margin: 8px;
-                    }
-                    
-                    .christmas-botton-white {
-                        background-color: var(--a-darkwhite);
-                        color: black;
-                        font-size: 10px;
-                        font-family: 'Fira Sans', sans-serif;
-                        border-color: black;
-                        border-width: 2px;
-                        border-style: solid;
-                        border-radius: 2px;
-                        padding: 15px;
-                        margin: 8px;
-                    }
-                    
-                    @media (min-width: 600px) {
-                        #christmas-decor {
-                            display: flex;
-                        }
-                    }
-                    
-                    @media (min-width:320px) and (max-width: 600px) {
-                        #christmas-decor {
-                            text-align: center;
-                        }
-                        .christmas-block {
-                            width: 320px;
-                            /* height: 850px;
-                            */
-                            padding: 120px;
-                            margin-left: 3px;
-                            margin-right: 3px;
-                        }
-                        .our-christmas-text {
-                            text-align: left;
-                            margin-right: 100px;
-                            padding-right: 100px;
-                            font-size: 10px;
-                        }
-                        .christmas-buttons {
-                            display: flex;
-                            font-size: small;
-                            flex-wrap: unset;
-                            margin: 0px;
-                            margin-top: 5px;
-                            box-sizing: none;
-                            font-size: small;
-                            font-size: 10px;
-                            margin-left: auto;
-                            margin-right: 100px;
-                            display: block;
-                            display: table-cell;
-                        }
-                        .christmas-text {
-                            box-sizing: none;
-                            font-size: small;
-                            font-size: 10px;
-                            text-align: center;
-                            margin-left: auto;
-                            margin-right: auto;
-                            width: 6em;
-                        }
-                        p {
-                            font-size: 16px;
-                            /* text-align: center;
-                            */
-                        }
-                        .christmas-buttons {
-                            display: flex;
-                            margin: 20 px 0 px 20 px 0 px;
-                        }
-                    }
-                    /* @media (min-width: 600px) {
+                }
+                /* @media (min-width: 600px) {
         .christmas-text-curved {
             display: flex;
         }
