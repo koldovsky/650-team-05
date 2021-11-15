@@ -17,6 +17,14 @@
     .shop-tabs-title {
         padding: 25px;
     }
+
+    .shop-tabs-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-self: flex-start;
+        width: min-content;
+        gap: 30px;
+    }
 }
 
 @media (min-width:980px) {
@@ -67,11 +75,6 @@ section .shop-tabs-buttons {
     font-size: 18px;
     font-weight: 400;
     font-family: Fira Sans, serif;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-self: flex-start;
-    width: min-content;
-    gap: 30px;
 }
 
 section .shop-tabs-buttons div:hover {
@@ -79,7 +82,7 @@ section .shop-tabs-buttons div:hover {
     transition: 0.5s;
 }
 
-section .shop-tabs-buttons div{
+section .shop-tabs-buttons div {
     width: max-content;
 }
 
