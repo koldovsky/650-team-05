@@ -71,7 +71,7 @@
     text-transform: none;
     text-decoration: none;
     max-width: 100%;
-    margin-top: 72px; /*додається висота пустого блоку+відстань від нього до верху*/
+    margin-top: 32px; /*додається висота пустого блоку+відстань від нього до верху*/
 }
 .contacts-information {
     margin-top: 20px;
@@ -124,11 +124,18 @@
 }
 
 /* .pointer:hover {
-   fill: /треба щоб була чорна*/
+    /треба щоб була чорна*/
 } */
 
-@media (min-width: 1200px) {
+@media (min-width: 980px) {
     .contacts-form {
-    max-width: calc (170px + (211 - 170) * (100vw-320px) / (1200-320));
+        max-width: calc (170px + (211 - 170) * (100vw-320px) / (1200-320));
+    }
+    .contacts-title {
+        margin-top: 72px;
+    }
+    .contacts {
+        padding-left: 90px;
+        padding-right: 90px;
     }
 }

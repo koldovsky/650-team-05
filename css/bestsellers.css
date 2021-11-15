@@ -2,7 +2,7 @@
 
 /*block5-shop-bestsellers*/
 main #bestsellers {
-    max-width: 980px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -114,6 +114,10 @@ text-decoration: none;
     main .shop-bestsellers {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
+    }
+    .shop-bestsellers-products {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
