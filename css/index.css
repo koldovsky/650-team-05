@@ -80,12 +80,17 @@ img {
     width: 100%;
 }
 
-h1 {
-    display: none;
-}
-
 h2 {
     color: var(--h2-text);
     font-size: 22px;
     font-family: 'Grand Hotel', cursive;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
 }
