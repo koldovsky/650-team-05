@@ -120,9 +120,6 @@
     width: 15%;
 }
 
-/* .pointer:hover {
-    /треба щоб була чорна*/
-} */
 
 @media (min-width: 768px) and (max-width: 991px) {
     .contacts-form {
