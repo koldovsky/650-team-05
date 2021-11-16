@@ -1,7 +1,8 @@
 #faq {
     display: flex;
     justify-content: center;
-    max-width: none;
+    margin: auto;
+    max-width: 1200px;
 }
 
 
