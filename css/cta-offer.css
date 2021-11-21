@@ -3,7 +3,8 @@
     background-image: url(../img/cta-offer/cta-offer-background.png);
     background-position: right;
     background-size: cover;
-    max-width: none;
+    margin: auto;
+    max-width: 4096px;
     padding: 20% 0% 20% 0%;
     width: 100%;
 }
