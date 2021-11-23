@@ -48,7 +48,7 @@
     margin: 10px 0px 10px 0px;
 }
 
-@media (min-width:750px) {
+@media (min-width:751px) {
     .faq-answers {
         display: grid;
         grid-template-columns: 1fr 1fr;
