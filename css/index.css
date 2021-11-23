@@ -23,15 +23,39 @@
     --button-shop-bg-hover: #232323;
     --button-shop-text: #fff;
     --cta-form: #fff;
+    --h2-text: #bb2528;
     --header-contacts-background: #bb2528;
     --header-text-default: rgb(35, 35, 35);
     --faq-text-hidden: #737373;
     --faq-text-large: #232323;
     --faq-text-small: #4f4f4f;
     --faq-text-question: #4f4f4f;
+    --features-icon-frame-color: #f9f4ee;
+    --features-title-color: rgb(35, 35, 35);
+    --features-text-color: rgb(115, 115, 115);
     --a-dash-color: #bb2528;
+    --bestsellers-title-name-color: #bb2528;
+    --bestsellers-big-text-color: #232323;
+    --bestsellers-text-color: #737373;
+    --bestsellers-frame-color: rgb(249, 244, 238);
+    --bestsellers-products-name-color: #737373;
+    --bestsellers-products-name-hover-color: #bb2528;
+    --bestsellers-price-color: #bb2528;
+    --bestseller-button-border-color: #bb2528;
+    --bestsellers-button-text-color: #bb2528;
+    --bestseller-button-backgraund-color: #fff;
+    --bestsellers-button-background-hover-color: #bb2528;
+    --bestsellers-button-text-hover-color: #fff;
     --block-girl: #fff;
-    --a-darkgreycolor: #232323;
+    --contacts-title-color: white;
+    --contacts-information-color: white;
+    --contacts-button-color: white;
+    --contacts-text-color: white;
+    --contacts-form-background-color: white;
+    --contacts-text-hover-color: black;
+
+    /* --------------- */
+    /* --a-darkgreycolor: #232323;
     --a-grey: #737373;
     --a-redcolor: #bb2528;
     --a-whitecolor: #fff;
@@ -40,7 +64,7 @@
     --darkgreycolor: #232323;
     --redcolor: #bb2528;
     --whitecolor: #fff;
-    --a-light-grey: rgb(249, 244, 238);
+    --a-light-grey: rgb(249, 244, 238); */
 }
 
 /* 
@@ -56,12 +80,22 @@ img {
     width: 100%;
 }
 
-h1 {
-    display: none;
-}
-
 h2 {
-    color: var(--redcolor);
+    color: var(--h2-text);
     font-size: 22px;
     font-family: 'Grand Hotel', cursive;
+}
+
+.mw-1200 {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
 }

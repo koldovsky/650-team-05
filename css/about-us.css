@@ -31,6 +31,10 @@
         object-fit: cover;
         object-position: 25.129% 10.276%;
     }
+
+    section div .about-us-text-on-img {
+        width: 45vw;
+    }
 }
 
 section .about-us-elements-on-img {
@@ -38,6 +42,7 @@ section .about-us-elements-on-img {
 }
 
 section div #about-us-text-header {
+    text-align: left;
     color: var(--a-textheader);
     font-size: 22px;
     font-family: 'Grand Hotel', cursive;
@@ -46,6 +51,8 @@ section div #about-us-text-header {
 }
 
 section div .about-us-text-all-kind {
+    word-wrap: break-word;
+    text-align: left;
     font-size: 56px;
     font-family: Playfair Display, serif;
     font-weight: 600;
@@ -58,8 +65,14 @@ section div .about-us-img-symbol {
     margin: 0px 0px 5px 50px;
 }
 
+@media (max-width:751px) {
+    section div .about-us-text-on-img {
+        width: 88vw;
+    }
+}
+
 section div .about-us-text-on-img {
-    width: 45vw;
+    text-align: left;
     color: var(--a-text-on-img);
     font-size: 18px;
     font-weight: 400;
@@ -68,6 +81,7 @@ section div .about-us-text-on-img {
 }
 
 section div #about-us-carousel-img {
+    text-align: left;
     margin: 0px 0px 5px 50px;
     width: 20%;
 }
