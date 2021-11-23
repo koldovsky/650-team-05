@@ -11,7 +11,29 @@
 	height: 100%;
 }
 
-
-.modal-body {
+.firstModal {
+	color: white;
 	background-image: url(https://res2.weblium.site/res/5fb4fa60d6615a0022f13eb1/5fcf55410ef3910021ee65ce);
+	background-size: cover;
+}
+
+.modal_header {
+	display: flex;
+	flex-shrink: 0;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 1rem;
+	border-top-left-radius: calc(0.3rem - 1px);
+	border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.modal_footer {
+	display: flex;
+	flex-wrap: wrap;
+	flex-shrink: 0;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 0.75rem;
+	border-bottom-right-radius: calc(0.3rem - 1px);
+	border-bottom-left-radius: calc(0.3rem - 1px);
 }
