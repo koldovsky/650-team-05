@@ -1,45 +1,44 @@
-                                    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
-                                    /*додати розширення на телефон правильно, щоб картинки були по вертикалі*/
-                                    
-                                    * {
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap");
+/*додати розширення на телефон правильно, щоб картинки були по вертикалі*/
+/* * {
                                         margin: 0;
                                         padding: 0;
                                         box-sizing: content-box;
-                                    }
-                                    
-                                    .testimonials-top {
-                                        text-align: left;
-                                    }
-                                    
-                                    .reviews-testemonials {
-                                        display: flex;
-                                        flex-direction: column;
-                                        margin-left: 5px;
-                                        padding: 5px;
-                                        display: flex;
-                                    }
-                                    
-                                    @media (min-width: 600px) {
-                                        .reviews-testemonials {
-                                            display: flex;
-                                        }
-                                        .reviews-testemonials {
-                                            flex-direction: row;
-                                            align-items: center;
-                                            justify-content: space-around;
-                                            flex: 1;
-                                        }
-                                    }
-                                    
-                                    .testimonials-testimonials {
-                                        max-width: 980px;
-                                        margin: auto;
-                                    }
-                                    
-                                    .reviews-testemonials {
-                                        gap: 5px;
-                                    }
-                                    /*
+                                    }*/
+
+.testimonials-top {
+	text-align: left;
+}
+
+.reviews-testemonials {
+	display: flex;
+	flex-direction: column;
+	margin-left: 5px;
+	padding: 5px;
+	display: flex;
+}
+
+@media (min-width: 600px) {
+	.reviews-testemonials {
+		display: flex;
+	}
+	.reviews-testemonials {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+		flex: 1;
+	}
+}
+
+.testimonials-testimonials {
+	max-width: 980px;
+	margin: auto;
+}
+
+.reviews-testemonials {
+	gap: 5px;
+}
+/*
 @media (min-width: 500px) {
 .reviews-testemonials {
     display:grid;
@@ -55,48 +54,56 @@
     flex-wrap: wrap;
 }
 */
-                                    
-                                    .testimonials-text-curved {
-                                        color: #bb2528!important;
-                                        margin: 0;
-                                        padding: 0;
-                                        border: 0;
-                                        font: inherit;
-                                        vertical-align: baseline;
-                                        font-family: 'Fira Sans', sans-serif;
-                                        padding: 10px;
-                                        text-align: left;
-                                        margin-top: 20px;
-                                    }
-                                    
-                                    .testimonials-text-large {
-                                        color: var(--blackcolor);
-                                        font-size: 42px;
-                                        font-family: 'Playfair Display', serif;
-                                        padding: 10px;
-                                        text-align: left;
-                                        margin-top: 20px;
-                                    }
-                                    
-                                    .shop-bestsellers-symbol {
-                                        font-weight: 700;
-                                        display: inline-block;
-                                        position: relative;
-                                        max-width: 100%;
-                                        word-wrap: break-word;
-                                    }
-                                    
-                                    .testimonials-text-small {
-                                        color: var(--darkgreycolor);
-                                        font-size: 18px;
-                                        font-family: 'Fira Sans', sans-serif;
-                                        text-align: left;
-                                        margin-top: 20px;
-                                    }
-                                    /*  @media (min-width: 600px) {
-                                        .testimonials-top {
-                                            display: flex;
-                                        }
-                                    }
-                                    
-                                    */
+
+.testimonials-text-curved {
+	color: #bb2528 !important;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: "Fira Sans", sans-serif;
+	padding: 10px;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.testimonials-text-large {
+	color: var(--blackcolor);
+	font-size: 42px;
+	font-family: "Playfair Display", serif;
+	padding: 10px;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.shop-bestsellers-symbol {
+	font-weight: 700;
+	display: inline-block;
+	position: relative;
+	max-width: 100%;
+	word-wrap: break-word;
+}
+
+.testimonials-text-small {
+	color: var(--darkgreycolor);
+	font-size: 18px;
+	font-family: "Fira Sans", sans-serif;
+	text-align: left;
+	margin-top: 20px;
+}
+/*  @media (min-width: 600px) {
+.testimonials-top {
+    display: flex;
+}
+}
+
+*/
+
+#testemonials-testemonials {
+	padding: 90px 25px;
+}
+
+.testimonials-top {
+	padding: 20px 25px;
+}

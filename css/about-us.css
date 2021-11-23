@@ -51,6 +51,7 @@ section div #about-us-text-header {
 }
 
 section div .about-us-text-all-kind {
+    word-wrap: break-word;
     text-align: left;
     font-size: 56px;
     font-family: Playfair Display, serif;
