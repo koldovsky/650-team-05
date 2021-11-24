@@ -1,9 +1,4 @@
- .slides-container {
+.carousel-instagram .slides-container {
     display: flex;
     justify-content: space-around;
-}
-
-.carousel-instagram {
-    display: grid;
-    grid-template-columns: 0.01fr 1fr 0.01fr;
 }

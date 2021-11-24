@@ -1,16 +1,4 @@
 #services-instagram {
     margin: auto;
-    max-width: none;
-    padding-right: 0;
-    padding-left: 0;
-}
-
-
-
-.prev-btn {
-  border: none ;
-}
-
-.next-btn {
-    border: none;
+    max-width: 1200px;
 }

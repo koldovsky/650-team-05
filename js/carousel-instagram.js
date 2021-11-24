@@ -17,29 +17,16 @@
         if (window.innerWidth > 462) {
             const slide2Idx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
             slidesContainer.innerHTML += slides[slide2Idx];
-            if (window.innerWidth > 550) {
+            if (window.innerWidth > 750) {
                 const slide3Idx = slide2Idx + 1 >= slides.length ? 0 : slide2Idx + 1;
                 slidesContainer.innerHTML += slides[slide3Idx];    
-                if (window.innerWidth > 650) {
-                    const slide4Idx = slide3Idx + 1 >= slides.length ? 0 : slide3Idx + 1;
-                    slidesContainer.innerHTML += slides[slide4Idx];
-                    if (window.innerWidth > 750) {
-                        const slide5Idx = slide4Idx + 1 >= slides.length ? 0 : slide4Idx + 1;
-                        slidesContainer.innerHTML += slides[slide5Idx];
-                        if (window.innerWidth > 850) {
-                            const slide6Idx = slide5Idx + 1 >= slides.length ? 0 : slide5Idx + 1;
-                            slidesContainer.innerHTML += slides[slide6Idx];
-                            if (window.innerWidth > 950) {
-                                const slide7Idx = slide6Idx + 1 >= slides.length ? 0 : slide6Idx + 1;
-                                slidesContainer.innerHTML += slides[slide7Idx];
-                             }
-                         }
-                     }
-                 }
+                if (window.innerWidth > 975) {
+                    const slide4Idx = slide3Idx + 3 >= slides.length ? 0 : slide3Idx + 3;
+                    slidesContainer.innerHTML += slides[slide4Idx]; }
             }
         }
     }
-    
+
     function nextSlide() {
         currentSlideIdx++;
         if (currentSlideIdx >= slides.length) currentSlideIdx = 0;
@@ -52,9 +39,9 @@
         renderSlides();
     }
 
-    setInterval(nextSlide, 300000);
-    document.querySelector('.carousel-instagram .prev-btn').addEventListener('click', prevSlide);
-    document.querySelector('.carousel-instagram .next-btn').addEventListener('click', nextSlide);
+    setInterval(nextSlide, 3000);
+    document.querySelector('.carousel-instagram .prev').addEventListener('click', prevSlide);
+    document.querySelector('.carousel-instagram .next').addEventListener('click', nextSlide);
 
     renderSlides();
 
