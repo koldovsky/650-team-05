@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Grand+Hotel&family=Playfair+Display:ital,wght@0,600;1,600&display=swap'); 
 
 /* NATALIA block */
+#cta-contacts a, #cta-contacts ul {
+    text-decoration: none;
+    }
 #cta-contacts {
     display: block;
     border: 0;
@@ -25,8 +28,6 @@
 }
 
 .contacts{
-    /* justify-content: center;
-    display: flex; */
     background-image: url(../img/cta-contacts/contacts.png);
     background-size: cover;
     background-position: center;
@@ -53,9 +54,6 @@
 .contacts {
     display: block;
     justify-content: flex-start;
-    /* max-width: 100%;
-    width: 0;
-    min-width: 0; */
     padding-top: 31px;
     padding-bottom: 31px;
     padding-left: 51px;
@@ -67,6 +65,7 @@
     letter-spacing: 0.84px;
     line-height: 14px;
     font-family: Grand Hotel, undefined;
+    font-weight: 400;
     font-size: 14px;
     text-transform: none;
     text-decoration: none;
@@ -86,52 +85,58 @@
     font-style: normal;
 }
 
-.contacts-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 10px 10px 10px;
-    border-color: var(--contacts-button-color);
-    border-style: solid;
-    border-width: 2px;
-    padding-top: 12.5px; 
-    padding-bottom: 12.5px; 
-    justify-self: center;
-    max-width: 170px;
-    height: 62px;
-}
-
 .contacts-text {
     font-family: Fira Sans,sans-serif;
     font-weight: 500;
     font-size: 13.2px;
     color: var(--contacts-text-color);
     line-height: 16.5px;
+    border-width: 2px;
+    border-radius: 0;
+    border-color: var(--contacts-button-color);
+    border-style: solid;
+    text-align: center;
+    color: var(--contacts-button-color);
+    width: 166px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0);
 }
 
-.contacts-form:hover {
-    background-color: var(--contacts-form-background-color);
-}
 .contacts-text:hover {
     color: var( --contacts-text-hover-color);
+    background-color: var(--contacts-form-background-color);
 }
 
-.contacts-pointer {
-    width: 15%;
-}
-
-
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) {
     .contacts-form {
         max-width: calc (170px + (211 - 170) * (100vw-320px) / (1200-320));
     }
 
     .contacts-title {
         margin-top: 52px;
+        font-family: "Grand Hotel", undefined;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 1.08px;
+        line-height: 18px;
     }
     
+    .contacts-information {
+        font-family: "Playfair Display", serif;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 45.6px;
+    }
+
+    .contacts-text {
+        font-family: "Fira Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+    }
     .contacts {
         padding-left: 64px;
         padding-right: 64px;
+        margin-top: 32px;
     }
 }
