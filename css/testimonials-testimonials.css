@@ -16,6 +16,8 @@
                                         margin-left: 5px;
                                         padding: 5px;
                                         display: flex;
+                                        /*grid-template-columns: 1fr 1fr;
+                                        */
                                     }
                                     
                                     @media (min-width: 600px) {
@@ -36,7 +38,10 @@
                                     }
                                     
                                     .reviews-testemonials {
-                                        gap: 5px;
+                                        gap: 0px;
+                                        /*grid-template-columns: 600px 600px;
+                                        display: grid;
+                                        */
                                     }
                                     /*
 @media (min-width: 500px) {
@@ -107,3 +112,33 @@
                                     .testimonials-top {
                                         padding: 20px 25px;
                                     }
+                                    /*.prev {
+                                            display: flex;
+                                            margin: 5 px 0 px 5 px 0 px;
+                                            font-size: 10px;
+                                            padding: 15px;
+                                            margin: 8px;
+                                            border-color: black;
+                                            border-width: 2px;
+                                            border-style: solid;
+                                            border-radius: 1px;
+                                            background-color: transparent;*/
+                                    
+                                    .carousel .slides-container {
+                                        display: flex;
+                                        justify-content: space-around;
+                                        /*grid-template-columns: 1fr 1fr;*/
+                                    }
+                                    /*  @media (min-width:600) {
+                                        .carousel .slides-container {
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr;
+                                        }
+                                    }
+                                    
+                                    @media (min-width:800) {
+                                        .carousel .slides-container {
+                                            display: grid;
+                                            grid-template-columns: 1fr 1fr;
+                                        }
+                                    }*/
