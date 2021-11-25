@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@0;1&family=Grand+Hotel&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+#services-baners a,
+#services-baners ul {
+    text-decoration: none;
+}
+
+#services-baners {
+    /*display: flex;*/
+    flex-direction: row-reverse;
+    margin-left: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.services-form a {
+    text-transform: uppercase;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+p {
+    text-align: center;
+}
+
+.services-form a {
+    text-transform: uppercase;
+}
+
+.services-baners-first-photo-background {
+    background-image: url(../img/services-baners/toys-first.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    /*flex-direction: row-reverse;*/
+    /* margin: auto;*/
+    padding: 60px 50px 20px 20px;
+    justify-content: space-around;
+    margin-block: 10px;
+    /* align-direction: row-reverse;*/
+    margin: 60px 250px 60px 20px;
+}
+
+.services-form {
+    height: 50%;
+    width: 50%;
+}
+
+.services-baners-form-right {
+    height: 50%;
+    width: 50%;
+}
+
+
+/* img {
+        /* display: inline-block;
+    margin: 0;
+    /* height: 100%;*/
+
+
+/*background-color: transparent;
+
+/* width: 100%;*/
+
+
+/*text-align: center;
+
+}*/
+
+.services-baners-second-photo-background {
+    background-image: url(../img/services-baners/toys-second.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center;*/
+    /*flex-direction: row-reverse;*/
+    /*margin: auto;*/
+    padding: 60px 50px 20px 20px;
+    margin-block: 10px;
+    justify-content: space-around;
+    /* align-direction: row-reverse;*/
+    margin: 60px 20px 60px 20px;
+}
+
+@media (min-width: 320px) {
+    #services-baners {
+        display: flex;
+        /* flex-direction: column;*/
+        margin-left: 50px;
+        margin-right: 50px;
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        flex-direction: row-reverse;
+    }
+}
+
+@media (min-width: 600px) {
+    #services-baners {
+        display: flex;
+        /* flex-direction: column;*/
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-direction: row-reverse;
+    }
+}
+
+.services-baners-text-curved {
+    text-align: center;
+    color: var(--a-whitecolor);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 10px;
+    font: inherit;
+    position: relative;
+    right: 170px;
+}
+
+.services-baners-text-large {
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    padding: 10px;
+    color: white;
+    position: relative;
+    right: 150px;
+}
+
+.services-baners-buttons {
+    background-color: var(--a-transparent);
+    color: white !important;
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px;
+    /*position: relative;*/
+    /*  right: 100px;*/
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    right: 150px;
+}
+
+.services-baners-buttons:hover {
+    font-weight: bold;
+    text-decoration: none;
+    /*жирний шрифт при наведенні мишкою на кнопку*/
+}
+
+.services-baners-buttons:hover {
+    font-weight: bold;
+    background: white;
+    font-size: 15pt;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.good-button {
+    color: white;
+    text-decoration: none;
+}
+
+.good-button:hover {
+    color: black;
+}
