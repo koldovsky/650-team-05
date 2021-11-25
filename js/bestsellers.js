@@ -27,22 +27,20 @@
             title: "White Deer",
             price: "$12,00",
             button: "Add to cart"
-        },
-    ]
-    
+        }
+    ];
+
     function renderBestsellersProducts(bestsellersProducts) {
-    const shopBestsellersContainer = document.querySelector('.shop-bestsellers');
-    for (const bestsellersProduct of bestsellersProducts) {
-        shopBestsellersContainer.innerHTML += ' 
-        <div class="shop-bestsellers-products">
-        <a href="shop.html"><img src="${bestsellersProducts.image}" alt="${bestsellersProducts.title}" /></a>
-        <a href="shop.html"><p>${bestsellersProducts.title}</p></a>
-        <p >${bestsellersProducts.price}</p>
-        <button>${bestsellersProducts.button}</button>
-    </div>'
+        const bestsellersProductsContainer = document.querySelector('.shop-bestsellers');
+        for (const bestsellersProduct of bestsellersProducts) {
+            bestsellersProductsContainer.innerHTML += ` 
+            <article class="shop-bestsellers-products">
+                <a href="shop.html"><img class="shop-bestsellers-image" src="${bestsellersProduct.image}" alt="${bestsellersProduct.title}" /></a>
+                <a href="shop.html"><p class="shop-bestsellers-products-name">${bestsellersProduct.title}</p></a>
+                <p class="shop-bestsellers-price">${bestsellersProduct.price}</p>
+                <button class="shop-bestsellers-button">${bestsellersProduct.button}</button>
+            </article>`
+            }
     }
-    }
-    
-    
-    
-    })();
+    renderBestsellersProducts(bestsellersProducts)
+})();
