@@ -31,9 +31,9 @@
         for (const product of sortedProducts) {
             html += `
             <article class="shop-product">
-                <a href="../shop.html"><img class="shop-product-img" src="${product.image}"
+                <a href="shop.html"><img class="shop-product-img" src="${product.image}"
                  alt="${product.title}"></a>
-                <a class="shop-product-name" href="../shop.html">
+                <a class="shop-product-name" href="shop.html">
                     <p>${product.title}</p>
                 </a>
                 <p class="shop-product-price">$${product.price}</p>
