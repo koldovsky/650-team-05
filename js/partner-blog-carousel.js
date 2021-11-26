@@ -1,6 +1,6 @@
 // Natalia partner-blog
 (function() {
-    const partnerBlogSlides = [
+    const slides = [
         {
             id: "1",
             image: "img/partner-blog/family_with_gifts.webp",
@@ -30,35 +30,36 @@
         }
     ];
 
-    function renderPartnerBlogSlides(partnerBlogSlides) {
-        const partnerBlogSlidesContainer = document.querySelector('.partners-blog-carousel-slides-container');
-        for (const partnerBlogSlide of partnerBlogSlides) {
-            partnerBlogSlidesContainer.innerHTML += ` 
+    function renderSlides(slides) {
+        const slidesContainer = document.querySelector('.partners-blog-carousel-slides-container');
+        for (const slide of slides) {
+            slidesContainer.innerHTML += ` 
             <div class="partners-blog-slide-1">
             <div class="partners-blog-image">
-                <img src="${partnerBlogSlide.image}" alt="Family with gifts" />
+                <img src="${slide.image}" alt="Family with gifts" />
             </div>
             <div class="partners-blog-symbol">
-                <img class="partner-blog-star" src="${partnerBlogSlide.symbol}" alt="Star" />
-                <p class="partners-blog-symbol-name">${partnerBlogSlide.text}</p>
+                <img class="partner-blog-star" src="${slide.symbol}" alt="Star" />
+                <p class="partners-blog-symbol-name">${slide.text}</p>
             </div>
-            <h3 class="partners-blog-title">${partnerBlogSlide.title}</h3>
-            <p class="partners-blog-text">${partnerBlogSlide.description}
+            <h3 class="partners-blog-title">${slide.title}</h3>
+            <p class="partners-blog-text">${slide.description}
             </p>
-            <p class="partners-blog-date">${partnerBlogSlide.date}</p>
+            <p class="partners-blog-date">${slide.date}</p>
         </div>`
             }
     }
-    renderPartnerBlogSlides(partnerBlogSlides)
+    renderSlides(slides)
 
     (function renderSlides() {
         let currentSlideIdx = 0;
-        const partnerBlogSlidesContainer = document.querySelector('.partners-blog-carousel .partners-blog-carousel-slides-container');
-        partnerBlogSlidesContainer.innerHTML = slides[currentSlideIdx];
+        const slidesContainer = document.querySelector('.partners-blog-carousel .partners-blog-carousel-slides-container');
+        slidesContainer.innerHTML = slides[currentSlideIdx];
         if (window.innerWidth > 767) {
             const slide2Idx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
-            partnerBlogSlidesContainer.innerHTML += slides[slide2Idx];
+            slidesContainer.innerHTML += slides[slide2Idx];
         }
+        
 
         function goToSlide (num) {
             currentSlideIdx = num;
