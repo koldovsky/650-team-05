@@ -59,13 +59,11 @@
             const slide2Idx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
             partnerBlogSlidesContainer.innerHTML += slides[slide2Idx];
         }
-        
-    
+
         function goToSlide (num) {
             currentSlideIdx = num;
             renderSlides();
         }
-
         document.querySelector('.partners-blog-carousel-button-1').addEventListener('click',
             () => goToSlide(0)
         )

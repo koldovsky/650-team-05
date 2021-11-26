@@ -140,6 +140,8 @@
 }
 
 .partners-blog-carousel-slides-container {
+    display: flex;
+    flex-direction: column;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -161,11 +163,11 @@
     border-radius: 50%;
     background-color: var(--features-icon-frame-color);
     color: var(--features-icon-frame-color);
-    width: 20px;
-    height: 20px;
-    margin: 25px 10px 10px 25px;
+    width: 10px;
+    height: 10px;
+    margin: 15px 7px 7px 5px;
+    background-color: var(--partners-blog-carousel-button-color);
     opacity: .25;
-    background: #bb2528;
 }
 
 .partners-blog-carousel-button-1:hover,
@@ -180,7 +182,6 @@
     .partners-blog-carousel-slides-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 5px;
     }
 }
 
