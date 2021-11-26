@@ -35,6 +35,10 @@
     section div .about-us-text-on-img {
         width: 45vw;
     }
+    section div .about-us-slides-container {
+        width: 20%;
+    }
+
 }
 
 section .about-us-elements-on-img {
@@ -43,11 +47,11 @@ section .about-us-elements-on-img {
 
 section div #about-us-text-header {
     text-align: left;
-    color: var(--a-textheader);
+    color: var(--a-text-header);
     font-size: 22px;
     font-family: 'Grand Hotel', cursive;
     font-weight: 100;
-    padding: 100px 0px 0px 50px;
+    padding: 100px 0 0 50px;
 }
 
 section div .about-us-text-all-kind {
@@ -56,16 +60,16 @@ section div .about-us-text-all-kind {
     font-size: 56px;
     font-family: Playfair Display, serif;
     font-weight: 600;
-    margin: 0px 0px 5px 50px;
+    margin: 0 0 5px 50px;
     line-height: 70px;
 }
 
 section div .about-us-img-symbol {
     width: 15%;
-    margin: 0px 0px 5px 50px;
+    margin: 0 0 5px 50px;
 }
 
-@media (max-width:751px) {
+@media (max-width: 751px) {
     section div .about-us-text-on-img {
         width: 88vw;
     }
@@ -77,11 +81,29 @@ section div .about-us-text-on-img {
     font-size: 18px;
     font-weight: 400;
     font-family: Fira Sans, serif;
-    padding: 0px 0px 5px 50px;
+    padding: 0 0 5px 50px;
 }
 
-section div #about-us-carousel-img {
-    text-align: left;
-    margin: 0px 0px 5px 50px;
-    width: 20%;
+section div .about-us-carousel {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 20px;
+
+}
+section div .about-us-slides-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+section div .about-us-slides-container img{
+    width: 50%;
+}
+@media (min-width: 751px) {
+    section div .about-us-slides-container img{
+        width: 20%;
+    }
+}
+section div .about-us-prev, .about-us-next {
+    background-color: var(--a-background);
+    border: none;
 }
