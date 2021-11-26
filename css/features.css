@@ -46,6 +46,7 @@ main .features-icon {
     margin-top: 20px;
     margin-bottom: 15px;
     line-height: 32.64px;
+    text-align: start;
 }
 
 .dash {

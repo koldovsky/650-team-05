@@ -80,9 +80,8 @@
     line-height: 40.8px;
     font-family: Playfair Display,serif;
     font-weight: 600;
-    text-transform: none;
-    text-decoration: none;
     font-style: normal;
+    text-align: left;
 }
 
 .contacts-text {
@@ -103,7 +102,7 @@
 }
 
 .contacts-text:hover {
-    color: var( --contacts-text-hover-color);
+    color: var(--contacts-text-hover-color);
     background-color: var(--contacts-form-background-color);
 }
 
@@ -113,7 +112,8 @@
     }
 
     .contacts-title {
-        margin-top: 52px;
+       margin-top: 65px;
+        margin-bottom: 32px;
         font-family: "Grand Hotel", undefined;
         font-size: 18px;
         font-weight: 400;
@@ -135,8 +135,7 @@
         line-height: 25.6px;
     }
     .contacts {
-        padding-left: 64px;
+        padding-left: 40px;
         padding-right: 64px;
-        margin-top: 32px;
     }
 }
