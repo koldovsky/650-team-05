@@ -26,6 +26,14 @@ h1 {
     display: block;
 }
 
+section .button-sort-asc {
+    margin-bottom: 10px;
+}
+
+section .button-sort-desc {
+    margin-bottom: 10px;
+}
+
 section .shop-text-header {
     padding-left: 10px;
     color: black;
@@ -60,6 +68,11 @@ section .shop-buttons {
     font-weight: 400;
     font-family: Fira Sans, serif;
     display: flex;
+}
+
+section .selected {
+    font-weight: 600;
+    color: #FF8585;
 }
 
 @media (min-width: 751px) {

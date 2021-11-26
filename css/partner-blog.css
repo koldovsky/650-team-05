@@ -1,8 +1,10 @@
 /*Natalia's block-partner-blog*/
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Sans:ital@0;1&family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+
 #partners-blog a, #partners-blog ul {
     text-decoration: none;
     margin: none;
+    font-style: none;
 }
 
 #partners-blog{
@@ -27,17 +29,18 @@
 }
 
 .partners-blog-girl {
-    display: grid;
-    grid-template-columns: 10% 90%;
-    column-gap: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 10px;
+    align-items: center;
     grid-area: 2 / 1 / 3 / 2;
 }
 
 .partner-blog-hat,
 .partner-blog-star {
-    margin-top: 3px;
-    width: 70%;
-    grid-area: 1 / 1 / 2 / 2;
+    margin-right: 10px;
+    width: 20px;
 }
 
 .partners-blog-girl-decoration {
@@ -46,6 +49,7 @@
     font-weight: 700;
     color: var(--block-girl);
     text-transform: uppercase;
+    margin-bottom: 0px;
 }
 
 .partners-blog-girl-text {
@@ -57,6 +61,7 @@
     grid-area: 3 / 1 / 4 / 4;
     margin-top: 10px;
     margin-bottom: 35px;
+    text-align: left;
 }
 
 .partners-blog-girl-date {
@@ -66,16 +71,16 @@
     color: var(--block-girl);
     grid-area: 4 / 1 / 5 / 4;
     margin: 0px;
+    text-align: left;
 }
 /*carousel begins*/
 
-.partners-blog-family-with-gifts,
-.partners-blog-christmas-tree,
-.partners-blog-santa {
+.partners-blog-slide-1,
+.partners-blog-slide-2,
+.partners-blog-slide-3 {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    margin-left: 25px;
     margin-right: 15px;
     padding-left: 15px;
     padding-right: 15px;
@@ -84,14 +89,17 @@
 .partners-blog-image {
     display: block;
     width: 100%;
+    padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 .partners-blog-symbol {
-    display: grid;
-    grid-template-columns: 10% 90%;
-    column-gap: 5px;
-    grid-area: 2 / 1 / 3 / 2; 
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
     margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
 }
 
 .partners-blog-symbol-name {
@@ -100,6 +108,7 @@
     font-weight: 700;
     color: var(--partners-blog-symbol-name);
     text-transform: uppercase;
+    margin-bottom: 0px;
 }
 
 .partners-blog-title {
@@ -107,13 +116,17 @@
     font-family: Playfair Display, serif;
     font-weight: 500;
     color: var(--partners-blog-title-color);
+    margin-bottom: 15px;
 }
 
 .partners-blog-text {
     font-size: 16px;
     font-family: Fira Sans, sans-serif;
     font-weight: 400;
-    color: var(-partners-blog-text-color);
+    color: var(--partners-blog-text-color);
+    text-align: left;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .partners-blog-date {
@@ -122,9 +135,49 @@
     font-weight: 400;
     line-height: 23.8px;
     color: var(--partners-blog-date-color);
+    text-align: left;
+    margin-bottom: 0px;
 }
+
+.partners-blog-carousel-slides-container {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.partners-blog-carousel-button {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+}
+
+.partners-blog-carousel-button-1,
+.partners-blog-carousel-button-2,
+.partners-blog-carousel-button-3 {
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: var(--features-icon-frame-color);
+    color: var(--features-icon-frame-color);
+    width: 20px;
+    height: 20px;
+    margin: 25px 10px 10px 25px;
+    opacity: .25;
+    background: #bb2528;
+}
+
+.partners-blog-carousel-button-1:hover,
+.partners-blog-carousel-button-2:hover,
+.partners-blog-carousel-button-3:hover {
+    background-color: var(--partners-blog-carousel-button-color);
+    opacity: 1;
+}
+
+
 @media (min-width: 768px) {
-    .partners-blog-carousel {
+    .partners-blog-carousel-slides-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 5px;
@@ -145,9 +198,9 @@
         margin-right: 15px;
     }
 
-    .partners-blog-family-with-gifts,
-    .partners-blog-christmas-tree,
-    .partners-blog-santa {
+    .partners-blog-slide-1,
+    .partners-blog-slide-2,
+    .partners-blog-slide-3 {
         margin-left: 0px;
         margin-right: 0px;
     } 
