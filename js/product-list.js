@@ -1,118 +1,8 @@
-(function () {
-    const products = [
-        {
-            id: "1",
-            title: "Red Boot",
-            image: "../img/shop/red-boot.jpg",
-            price: "18.00",
-            category:"interior"
-        },
-        {
-            id: "2",
-            title: "White Deer",
-            image: "../img/shop/white-deer.jpg",
-            price: "12.00",
-            category:"interior"
-        },
-        {
-            id: "3",
-            title: "Gift Box",
-            image: "../img/shop/gift-box.jpg",
-            price: "12.00",
-            category:"interior"
-        },
-        {
-            id: "4",
-            title: "Snowman",
-            image: "../img/shop/snowman.jpg",
-            price: "10.00",
-            category:"interior"
-        },
-        {
-            id: "5",
-            title: "Elegant Wreath",
-            image: "../img/shop/elegant-wreath.png",
-            price: "78.00",
-            category: "wreaths"
-        },
-        {
-            id: "6",
-            title: "Wreath With Pine Cons",
-            image: "../img/shop/wreath-with-pine-cons.png",
-            price: "98.00",
-            category: "wreaths"
-        },
-        {
-            id: "7",
-            title: "Cinnamon Wreath",
-            image: "../img/shop/cinnamon-wreath.png",
-            price: "95.00",
-            category: "wreaths"
-        },
-        {
-            id: "8",
-            title: "Citrus Wreath",
-            image: "../img/shop/citrus-wreath.png",
-            price: "89.00",
-            category: "wreaths"
-        },
-        {
-            id: "9",
-            title: "Red Christmas Balls",
-            image: "../img/shop/red-christmas-balls.png",
-            price: "20.00",
-            category: "christmas-balls"
-        },
-        {
-            id: "10",
-            title: "Silver Christmas Balls",
-            image: "../img/shop/silver-christmas-balls.png",
-            price: "10.00",
-            category: "christmas-balls"
-        },
-        {
-            id: "11",
-            title: "Green Christmas Balls",
-            image: "../img/shop/green-christmas-balls.png",
-            price: "10.00",
-            category: "christmas-balls"
-        },
-        {
-            id: "12",
-            title: "Gold Christmas Balls",
-            image: "../img/shop/gold-christmas-balls.png",
-            price: "10.00",
-            category: "christmas-balls"
-        },
-        {
-            id: "13",
-            title: "Santa Claus Stocking",
-            image: "../img/shop/santa-claus-stocking.png",
-            price: "15.00",
-            category: "stockings"
-        },
-        {
-            id: "14",
-            title: "Christmas Red Stocking",
-            image: "../img/shop/christmas-red-stocking.png",
-            price: "22.00",
-            category: "stockings"
-        },
-        {
-            id: "15",
-            title: "Stocking With Pompons",
-            image: "../img/shop/stocking-with-pompons.png",
-            price: "22.00",
-            category: "stockings"
-        },
-        {
-            id: "16",
-            title: "Stocking With Balls",
-            image: "../img/shop/stocking-with-balls.png",
-            price: "18.00",
-            category: "stockings"
-        }
-    ];
+(async function () {
+
+    const response = await fetch('products.json');
+    const products = await response.json();
+
 
     let sortDirection = '';
     let category;
@@ -122,7 +12,7 @@
         const filteredProducts = products.filter(
             (product) => {
                 if(category) {
-                    return category === product.category
+                    return category === product.category;
                 }else {
                     return true;
                 }
