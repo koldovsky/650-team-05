@@ -78,7 +78,18 @@ section .shop-tabs-buttons {
     font-family: Fira Sans, serif;
 }
 
-section .shop-tabs-buttons div:hover {
+section .shop-tabs-buttons .selected {
+    color: var(--a-text-click);
+}
+
+section .shop-tabs-buttons button{
+    text-wrap: none;
+    background-color: white;
+    border: none;
+    color: #9C979F;
+}
+
+section .shop-tabs-buttons button:hover {
     color: var(--a-text-click);
     transition: 0.5s;
 }
