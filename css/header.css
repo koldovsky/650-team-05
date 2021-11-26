@@ -39,6 +39,7 @@ header .header-contacts {
     font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
     justify-content: space-around;
+    max-width: none;
     padding: 20px;
     text-align: center;
     text-decoration: none;
