@@ -23,9 +23,9 @@
         for (const product of filteredProducts) {
             html += `
             <div class="shop-tabs-product">
-                    <a href="../shop.html"><img class="shop-tabs-product-img" src="${product.image}"
+                    <a href="shop.html"><img class="shop-tabs-product-img" src="${product.image}"
                             alt="${product.title}" /></a>
-                    <a href="../shop.html">
+                    <a href="shop.html">
                         <p class="shop-tabs-product-name">${product.title}</p>
                     </a>
                     <p class="shop-tabs-product-price">$${product.price}</p>
