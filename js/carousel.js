@@ -50,46 +50,31 @@
             }
     }
     renderPartnerBlogSlides(partnerBlogSlides)
-})();
 
-let currentSlideIdx = 0;
+    (function renderSlides() {
+        let currentSlideIdx = 0;
+        const partnerBlogSlidesContainer = document.querySelector('.partners-blog-carousel .partners-blog-carousel-slides-container');
+        partnerBlogSlidesContainer.innerHTML = slides[currentSlideIdx];
+        if (window.innerWidth > 767) {
+            const slide2Idx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+            partnerBlogSlidesContainer.innerHTML += slides[slide2Idx];
+        }
+        
+    
+        function goToSlide (num) {
+            currentSlideIdx = num;
+            renderSlides();
+        }
 
-function renderSlides() {
-const partnerBlogSlidesContainer = document.querySelector('.partners-blog-carousel .partners-blog-carousel-slides-container');
-partnerBlogSlidesContainer.innerHTML = slides[currentSlideIdx];
-if (window.innerWidth > 767) {
-    const slide2Idx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
-    partnerBlogSlidesContainer.innerHTML += slides[slide2Idx];
-}
-}
-
-function goToSlide (num) {
-    currentSlideIdx = num;
-    renderSlides();
-}
-
-function nextSlide() {
-currentSlideIdx++;
-if (currentSlideIdx >= slides.length) currentSlideIdx = 0;
-renderSlides();
-}
-
-function prevSlide() {
-    currentSlideIdx--;
-    if (currentSlideIdx < 0) currentSlideIdx = slides.length - 1;
-    renderSlides();
-    }
-
-    document.querySelector('.partners-blog-carousel-1').addEventListener('click',
-        () => goToSlide(0)
-    );
-    document.querySelector('.partners-blog-carousel-2').addEventListener('click',
-    () => goToSlide(1)
-    );
-    document.querySelector('.partners-blog-carousel-3').addEventListener('click', 
-    () => goToSlide(2)
-    )
-    renderSlides()
-
-
-
+        document.querySelector('.partners-blog-carousel-button-1').addEventListener('click',
+            () => goToSlide(0)
+        )
+        document.querySelector('.partners-blog-carousel-button-2').addEventListener('click',
+        () => goToSlide(1)
+        )
+        document.querySelector('.partners-blog-carousel-button-3').addEventListener('click', 
+        () => goToSlide(2)
+        )
+        renderSlides()
+    })();
+})()
