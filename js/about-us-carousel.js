@@ -1,11 +1,11 @@
 (function () {
 
     const slides = [
-        '<../img/about-us/canadian-home.svg" alt="Canadian Home" />',
-        '<../img/about-us/hallmark.svg" alt="Hallmark" />',
-        '<../img/about-us/home-interiors.svg" alt="Home Interiors" />',
-        '<../img/about-us/home-shoping.svg" alt="Home Shoping" />',
-        '<../img/about-us/irwirs.svg" alt="Irwirs" />'
+        '<img src="../img/about-us/canadian-home.svg" alt="Canadian Home" />',
+        '<img src="../img/about-us/hallmark.svg" alt="Hallmark" />',
+        '<img src="../img/about-us/home-interiors.svg" alt="Home Interiors" />',
+        '<img src="../img/about-us/home-shoping.svg" alt="Home Shoping" />',
+        '<img src="../img/about-us/irwirs.svg" alt="Irwirs" />'
     ]
 
     let currentSlideIdx = 0;
