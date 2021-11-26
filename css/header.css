@@ -1,6 +1,5 @@
 header {
     margin: auto;
-    max-width: 1200px;
 }
 
 header .a-social-icons {
@@ -23,6 +22,8 @@ header .header {
         "header-burger header-burger";
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
     vertical-align: baseline;
 }
 
@@ -109,10 +110,6 @@ header img {
 
     .burger-icon {
         display: none;
-    }
-
-    header .header {
-        margin: 0;
     }
 
     header a.header-contacts-text {
