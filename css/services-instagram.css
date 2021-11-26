@@ -9,8 +9,10 @@
 
 .prev-btn {
   border: none ;
+  position: absolute;
 }
 
 .next-btn {
     border: none;
+    position: absolute;
 }
