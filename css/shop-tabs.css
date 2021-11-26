@@ -62,6 +62,7 @@ section .shop-tabs-symbol {
 }
 
 section .shop-tabs-text-click {
+    text-align: left;
     color: var(--a-text-click);
     font-size: 18px;
     font-weight: 400;
