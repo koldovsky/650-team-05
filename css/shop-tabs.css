@@ -62,6 +62,7 @@ section .shop-tabs-symbol {
 }
 
 section .shop-tabs-text-click {
+    text-align: left;
     color: var(--a-text-click);
     font-size: 18px;
     font-weight: 400;
@@ -77,7 +78,18 @@ section .shop-tabs-buttons {
     font-family: Fira Sans, serif;
 }
 
-section .shop-tabs-buttons div:hover {
+section .shop-tabs-buttons .selected {
+    color: var(--a-text-click);
+}
+
+section .shop-tabs-buttons button{
+    text-wrap: none;
+    background-color: white;
+    border: none;
+    color: #9C979F;
+}
+
+section .shop-tabs-buttons button:hover {
     color: var(--a-text-click);
     transition: 0.5s;
 }
