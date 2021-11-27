@@ -1,23 +1,111 @@
 #services-instagram {
-    margin: auto;
+  display: block;
     max-width: none;
     padding-right: 0;
     padding-left: 0;
 }
 
 .slides-container {
-  position: relative;
-  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.carousel-instagram {
+  display: block;
+  width: 100%;
+  /* display: grid;
+  grid-template-columns: 0.01fr 1fr 0.01fr; */
 }
 
 .prev-btn {
+  background-color: transparent;
   border: none ;
-  position: relative;
-  z-index: 2;
+  display: block;
+  filter: hue-rotate(145deg);
+  opacity: .75;
+  position: absolute;
+  margin-top: 30%;
+  z-index: 1;
 }
 
 .next-btn {
+    background-color: transparent;
     border: none;
-    position: relative;
-    z-index: 2;
+    display: block;
+    filter: hue-rotate(145deg);
+    margin-top: 30%;
+    opacity: .75;
+    position: absolute;
+    z-index: 1;
+}
+
+.prev {
+  left : 5px;
+}
+
+.next {
+  right : 5px;
+}
+
+@media (min-width:463px) {
+  .prev-btn {
+    margin-top: 15%;
+  }
+  .next-btn {
+    margin-top: 15%;
+  }
+}
+
+@media (min-width:551px) {
+  .prev-btn {
+    margin-top: 9%;
+  }
+  .next-btn {
+    margin-top: 9%;
+  }
+}
+
+@media (min-width:651px) {
+  .prev-btn {
+    margin-top: 6.5%;
+  }
+  .next-btn {
+    margin-top: 6.5%;
+  }
+}
+
+@media (min-width:751px) {
+  .prev-btn {
+    margin-top: 5%;
+  }
+  .next-btn {
+    margin-top: 5%;
+  }
+}
+
+@media (min-width:851px) {
+  .prev-btn {
+    margin-top: 4%;
+  }
+  .next-btn {
+    margin-top: 4%;
+  }
+}
+
+@media (min-width:951px) {
+  .prev-btn {
+    margin-top: 3.5%;
+  }
+  .next-btn {
+    margin-top: 3.5%;
+  }
+}
+
+@media (min-width:1200px) {
+  .prev-btn {
+    margin-top: 4%;
+  }
+  .next-btn {
+    margin-top: 4%;
+  }
 }
