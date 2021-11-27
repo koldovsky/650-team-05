@@ -5,14 +5,19 @@
     padding-left: 0;
 }
 
-
+.slides-container {
+  position: relative;
+  z-index: 1;
+}
 
 .prev-btn {
   border: none ;
-  position: absolute;
+  position: relative;
+  z-index: 2;
 }
 
 .next-btn {
     border: none;
-    position: absolute;
+    position: relative;
+    z-index: 2;
 }
