@@ -97,6 +97,10 @@ h2 {
     max-width: 1200px;
 }
 
+.mh-800 {
+max-height: 800px;
+}
+
 .sr-only {
     position: absolute;
     left: -10000px;
