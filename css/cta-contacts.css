@@ -14,7 +14,6 @@
     z-index: 0;
     border-radius: inherit;
     width: 100%;
-    max-width: 1200px;
     margin: auto;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -107,6 +106,11 @@
 }
 
 @media (min-width: 768px) {
+    #cta-contacts {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    
     .contacts-form {
         max-width: calc (170px + (211 - 170) * (100vw-320px) / (1200-320));
     }
@@ -138,4 +142,11 @@
         padding-left: 40px;
         padding-right: 64px;
     }
+}
+
+@media (min-width: 992px) {
+#cta-contacts {
+    padding-left: 40px;
+    padding-right: 40px;
+}
 }
