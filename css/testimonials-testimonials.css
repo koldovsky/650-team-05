@@ -153,9 +153,8 @@ display: flex;
     border: none;
     display: block;
     filter: hue-rotate(145deg);
-    margin-top: 30%;
-    opacity: .75;
     position: absolute;
+    margin-top: -27%;
     z-index: 1;
 }
 
@@ -164,8 +163,7 @@ display: flex;
     border: none;
     display: block;
     filter: hue-rotate(145deg);
-    opacity: .75;
     position: absolute;
-    margin-top: 30%;
+    margin-top: 10%;
     z-index: 1;
 }
