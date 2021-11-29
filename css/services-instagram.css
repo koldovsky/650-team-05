@@ -39,11 +39,11 @@
     z-index: 1;
 }
 
-.prev {
+.prev-inst {
   left : 5px;
 }
 
-.next {
+.next-inst {
   right : 5px;
 }
 
