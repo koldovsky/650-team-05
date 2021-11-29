@@ -154,7 +154,7 @@ display: flex;
     display: block;
     filter: hue-rotate(145deg);
     position: absolute;
-    margin-top: -27%;
+    margin-top: -17%;
     z-index: 1;
 }
 
