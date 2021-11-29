@@ -110,7 +110,8 @@
     margin-bottom: 0px;
 }
 
-.partners-blog-title {
+.partners-blog-title,
+.partners-blog-title1 {
     font-size: 22px;
     font-family: Playfair Display, serif;
     font-weight: 500;
@@ -191,7 +192,12 @@
         margin-right: 5px;
 }
 }
-
+@media (min-width: 917px) {
+.partners-blog-title1{
+    margin-top: 24px;
+     margin-bottom: 24px;
+    }
+}
 
 @media (min-width: 992px) {
     #partners-blog {
@@ -205,7 +211,7 @@
         margin-right: 0px;
         min-width: 270px;
         display: grid;
-    grid-template-rows: 60% 8% 24% 8%;;
+        grid-template-rows: 60% 8% 24% 8%;
     }
 
     .partners-blog-girl-text {
@@ -218,4 +224,18 @@
         margin-left: 0px;
         margin-right: 0px;
     } 
+}
+
+@media (min-width: 1005px) {
+.partners-blog-title1{
+    margin-top: 0px;
+     margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1225px) {
+    .partners-blog-title1{
+        margin-left: 24px;
+         margin-right: 24px;
+    }
 }
