@@ -1,4 +1,3 @@
-let map;
 function initMap() {
 	//location option
 	const options = {
