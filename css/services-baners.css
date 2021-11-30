@@ -1,30 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@0;1&family=Grand+Hotel&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
-#services-baners a,
-#services-baners ul {
-    text-decoration: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
 }
 
 #services-baners {
-    /*display: flex;*/
-    flex-direction: row-reverse;
+    display: flex;
+    flex-direction: column;
     margin-left: 100px;
     margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    /* margin-top: 100px;
+margin-bottom: 100px;*/
+    border: 1px;
+    padding: 5px;
+    /*display: grid;
+grid-template-columns: 1fr 1fr;*/
 }
 
 .services-form a {
     text-transform: uppercase;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
-}
-
-p {
-    text-align: center;
-}
-
-.services-form a {
-    text-transform: uppercase;
+    /* margin: 10px 10px 10px 10px;
+padding: 10px 10px 10px 10px;*/
 }
 
 .services-baners-first-photo-background {
@@ -33,14 +29,38 @@ p {
     background-position: center;
     display: flex;
     justify-content: center;
-    /*align-items: center;*/
-    /*flex-direction: row-reverse;*/
-    /* margin: auto;*/
-    padding: 60px 50px 20px 20px;
-    justify-content: space-around;
-    margin-block: 10px;
-    /* align-direction: row-reverse;*/
-    margin: 60px 250px 60px 20px;
+    align-items: center;
+    flex-direction: column;
+    min-height: 400px;
+    width: 70%;
+    display: block;
+    margin: 10px 0px 10px 7px;
+    padding: 20px 30px 40px 30px;
+}
+
+.services-baners-second-photo-background {
+    background-image: url(../img/services-baners/toys-second.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 400px;
+    width: 70%;
+    display: block;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 30px 85px 50px;
+}
+
+.foto-cervices-baners-background {
+    display: block;
+    margin: auto;
+}
+
+.second-foto-cervices-baners-background {
+    display: block;
+    margin: auto;
 }
 
 .services-form {
@@ -53,60 +73,6 @@ p {
     width: 50%;
 }
 
-
-/* img {
-        /* display: inline-block;
-    margin: 0;
-    /* height: 100%;*/
-
-
-/*background-color: transparent;
-
-/* width: 100%;*/
-
-
-/*text-align: center;
-
-}*/
-
-.services-baners-second-photo-background {
-    background-image: url(../img/services-baners/toys-second.png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    /* align-items: center;*/
-    /*flex-direction: row-reverse;*/
-    /*margin: auto;*/
-    padding: 60px 50px 20px 20px;
-    margin-block: 10px;
-    justify-content: space-around;
-    /* align-direction: row-reverse;*/
-    margin: 60px 20px 60px 20px;
-}
-
-@media (min-width: 320px) {
-    #services-baners {
-        display: flex;
-        /* flex-direction: column;*/
-        margin-left: 50px;
-        margin-right: 50px;
-        margin: 10px 10px 10px 10px;
-        padding: 10px 10px 10px 10px;
-        flex-direction: row-reverse;
-    }
-}
-
-@media (min-width: 600px) {
-    #services-baners {
-        display: flex;
-        /* flex-direction: column;*/
-        margin-left: 50px;
-        margin-right: 50px;
-        flex-direction: row-reverse;
-    }
-}
-
 .services-baners-text-curved {
     text-align: center;
     color: var(--a-whitecolor);
@@ -117,17 +83,25 @@ p {
     vertical-align: baseline;
     font-family: 'Fira Sans', sans-serif;
     padding: 10px;
+}
+
+.services-baners-text-curved {
+    text-align: center;
+    color: var(--a-whitecolor);
     font: inherit;
-    position: relative;
-    right: 170px;
+    vertical-align: baseline;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 12px;
+    /*position: relative;*/
+    right: 250px;
 }
 
 .services-baners-text-large {
-    font-size: 60px;
+    font-size: 30px;
     font-family: 'Playfair Display', serif;
     padding: 10px;
     color: white;
-    position: relative;
+    /* position: relative;*/
     right: 150px;
 }
 
@@ -137,18 +111,16 @@ p {
     font-size: 15px;
     font-family: 'Fira Sans', sans-serif;
     border-color: white;
-    border-width: 1px;
+    /* border-width: 1px;*/
     border-style: solid;
     border-radius: 2px;
     padding: 10px;
     margin: 10px;
     /*position: relative;*/
-    /*  right: 100px;*/
+    right: 170px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    position: relative;
-    right: 150px;
 }
 
 .services-baners-buttons:hover {
@@ -159,6 +131,7 @@ p {
 
 .services-baners-buttons:hover {
     font-weight: bold;
+    /*жирний шрифт при наведенні мишкою на кнопку*/
     background: white;
     font-size: 15pt;
     margin: 5px;
@@ -173,4 +146,35 @@ p {
 
 .good-button:hover {
     color: black;
+}
+
+@media (min-width: 1000px) {
+    #services-baners {
+        margin: 40px 40px 40px 40px;
+        padding: 40px 40px 40px 40px;
+    }
+}
+
+@media (min-width: 360px) {
+    #services-baners {
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media (min-width: 751px) {
+    main #services-baners {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+}
+
+@media (min-width: 975px) {
+    main #services-baners {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        padding: 60px 70px 55px 80px;
+    }
 }

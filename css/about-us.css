@@ -8,8 +8,6 @@
 }
 
 .about-us {
-    margin-top: 150px;
-    margin-bottom: 150px;
     display: block;
 }
 
@@ -18,8 +16,6 @@
     .about-us {
         display: flex;
         height: 113vh;
-        margin-top: 150px;
-        margin-bottom: 150px;
     }
 
     .about-us div {
