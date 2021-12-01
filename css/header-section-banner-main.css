@@ -1,4 +1,4 @@
-section div .banner {
+/* section div .banner {
     padding: 100px 0 130px 0;
   }
   section div .banner__text {
@@ -159,7 +159,7 @@ section div .banner {
       line-height: 5.82rem;
       margin-top: 0;
       /* min-width: 449px; */
-      max-width: 507px;
+    /*  max-width: 507px;
     }
     div .banner__text p {
       font-size: 1.11rem;
@@ -178,7 +178,7 @@ section div .banner {
     section div .banner__text {
       width: 50%;
       /* max-width: 585px; */
-    }
+    /*}
     div .banner__text h1 {
       font-size: 5.3rem;
       line-height: 5.82rem;
@@ -188,4 +188,4 @@ section div .banner {
     div .banner__text p {
       font-size: 1.11rem;
     }
-  }
+  } */

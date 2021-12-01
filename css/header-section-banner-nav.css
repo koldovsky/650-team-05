@@ -1,191 +1,263 @@
-section div .banner {
-    padding: 100px 0 130px 0;
+/* Navigation styles */
+
+.container-top {
+  max-width: 380px;
+  margin: auto;
+}
+
+.container-top_flex {
+  display: flex;
+  flex-direction: column;
+  max-width: 332px;
+  margin: auto;
+}
+header .banner-bg {
+  background-size: cover;
+  background-position: 43.44% 84.95%;
+}
+header .banner-bg_origin {
+  background: url(../img/header-bg.webp) no-repeat;
+  padding: 0 24px;
+  background-position: 48.44% 35.95%;
+}
+
+section div nav .navigation-logo img {
+  max-width: 114px;
+}
+
+@media (max-width: 990px) {
+  body.lock {
+    overflow: hidden;
   }
-  section div .banner__text {
+  section div nav .navigation-logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    z-index: 10;
+  }
+  section div nav .navigation-burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    padding: 12px;
+    cursor: pointer;
+    z-index: 5;
+  }
+  section div nav .navigation-burger span,
+  section div nav .navigation-burger::before,
+  section div nav .navigation-burger::after {
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--banner-h-color);
+    transition: all 0.5s ease-in-out;
+  }
+  section div nav .navigation-burger span {
+    transform: scale(1);
+  }
+  section div nav .navigation-burger::before,
+  section div nav .navigation-burger::after {
+    content: " ";
+  }
+  section div nav .navigation-burger::before {
+    top: 0;
+  }
+  section div nav .navigation-burger::after {
+    bottom: 0;
+  }
+  section div nav .navigation-burger.active span {
+    transform: scale(0);
+  }
+  section div nav .navigation-burger.active::before {
+    top: 50%;
+    transform: rotate(-45deg);
+  }
+  section div nav .navigation-burger.active::after {
+    bottom: 40%;
+    transform: rotate(45deg);
+  }
+  header section div.container-section {
+    position: relative;
+  }
+  section div nav.navigation .navigation-wrapper {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--button-contact-bg);
+    z-index: 2;
+    transition: top 0.3s ease-in;
+    padding: 15px 24px 50px 24px;
+    transition: top 0.3s ease-in 0.01s;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  section div nav.navigation .navigation-wrapper.active {
+    top: 0;
+  }
+
+  section div nav.navigation.active {
+    top: 0;
+  }
+  section div nav .navigation-pages {
+    position: relative;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    line-height: 3rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-  }
-  
-  div .banner__text h1 {
-    font-family: var(--additional-font);
-    font-size: 3.52rem;
-    font-weight: 900;
-    line-height: 66px;
-    color: var(--banner-h-color);
-    max-width: 332px;
+    justify-content: space-around;
+    align-items: center;
     height: auto;
+    z-index: 10;
+    padding-top: 200px;
+    padding-bottom: 100px;
   }
-  div .banner__text p {
-    font-size: 1rem;
-    color: var(--banner-p-color);
-    line-height: 1.55rem;
-    margin-bottom: 40px;
-    height: auto;
-    letter-spacing: normal;
-    text-align: left;
-  }
-  div .links {
-    margin-top: 25px;
-  }
-  div .links a {
-    font-size: 0.85rem;
-    letter-spacing: 1px;
-    font-weight: 700;
-    line-height: 1rem;
-    letter-spacing: 1px;
+  body
+    > header
+    > section
+    > div
+    > nav
+    > div.navigation-wrapper.active
+    > div.navigation-pages
+    > a {
+    color: var(--a-text-default);
     text-decoration: none;
-    text-transform: uppercase;
-    padding: 20px;
   }
-  div .links__about {
-    background-color: var(--button-blue-color);
-    color: var(--light-text-color);
-    transition: 1s;
+  body
+    > header
+    > section
+    > div
+    > nav
+    > div.navigation-wrapper.active
+    > div.navigation-pages
+    > a:hover {
+    color: var(--a-text-default-hover);
   }
-  div .links__about:hover {
-    background-color: var(--button-black-color);
-    transition: 1.5s;
+
+  section div nav .navigation-pages a:hover {
+    color: var(--a-text-default-hover);
   }
-  
-  div .links__shop {
-    color: var(--contacts-links-color);
+
+  section div nav .navigation-social {
+    position: relative;
+    min-width: 172px;
+    max-width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
   }
-  div .links__shop span::after {
+
+  section div nav .navigation-social img {
+    max-width: 28px;
+    border-radius: 0.4rem;
+  }
+}
+@media (min-width: 480px) {
+  .container-top_flex {
+    display: flex;
+    flex-direction: column;
+    max-width: 431px;
+  }
+}
+@media (min-width: 768px) {
+  header .banner-bg {
+    min-height: 200px;
+    margin: auto;
+    max-width: 1200px;
+  }
+  .container-top_flex {
+    max-width: 785px;
+  }
+}
+
+@media (min-width: 991px) {
+  .container-top_flex {
+    max-width: 944px;
+    margin: auto;
+  }
+  section div nav .navigation-burger {
+    display: none;
+  }
+  section div nav.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+
+  section div nav .navigation-pages,
+  .navigation-social {
+    display: flex;
+  }
+
+  section div .navigation .navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+  }
+
+  section div nav .navigation-pages {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    color: var(--nav-pages-color);
+    min-width: 480px;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+  }
+  section div nav .navigation-pages a {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    position: relative;
+    color: var(--nav-pages-color);
+    text-decoration: none;
+    line-height: 1.5rem;
+  }
+  section div nav .navigation-pages a:hover {
+    color: var(--a-header-nav-text-hover);
+    cursor: pointer;
+  }
+  section div nav .navigation-pages a:after {
     content: " ";
-    display: inline-block;
-    width: 24px;
-    margin: 0 0 3px 10px;
-    border: 2px solid var(--button-colorfull-color);
-    background-color: var(--button-colorfull-color);
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-radius: 0.1rem;
+    background-color: var(--button-black-color);
+    transition: width 0.2s ease-in;
   }
-  div .links__shop span:hover:after {
-    border: 2px solid var(--button-after-color);
-    background-color: var(--button-after-color);
-  
-    transition: 1.5s;
+  section div nav .navigation-pages a:hover:after {
+    width: 100%;
   }
-  div .links__shop span:hover:active:after {
-    background-color: var(--button-after-color);
-    transform: rotate(360deg);
-    transition: 0.5s;
+  section div nav .navigation-social {
+    min-width: 172px;
+    display: flex;
+    justify-content: space-around;
   }
-  
-  @media (min-width: 381px) {
-    .container-top,
-    .container-section {
-      max-width: 431px;
-    }
-    div .banner__text h1 {
-      max-width: 431px;
-    }
+
+  section div nav .navigation-social img {
+    max-width: 28px;
+    border-radius: 0.4rem;
   }
-  
-  @media (min-width: 480px) {
-    .container-top,
-    .container-section {
-      max-width: 719px;
-    }
-    div .banner__text h1 {
-      max-width: 530px;
-    }
+  section div nav .navigation-social a:hover {
+    max-width: 32px;
+    border: 1px solid var(--button-black-color);
+    border-radius: 0.2rem;
+    box-shadow: 0 0 2px var(--offer-jbl-color);
+    transform: scale(1.2);
   }
-  @media (min-width: 768px) {
-    .container-top,
-    .container-section {
-      max-width: 785px;
-    }
-  
-    section div .banner__text {
-      width: 50%;
-    }
-    div .banner__text h1 {
-      font-size: 4.41rem;
-      line-height: 4.85rem;
-      margin-top: 0;
-      max-width: 301px;
-    }
-  }
-  @media (min-width: 846px) {
-    .container-top,
-    .container-section {
-      max-width: 926px;
-    }
-  
-    section div .banner__text {
-      width: 50%;
-      max-width: 463px;
-    }
-    div .banner__text h1 {
-      max-width: 422px;
-    }
-  }
-  
-  @media (min-width: 991px) {
-    .container-top,
-    .container-section {
-      max-width: 1120px;
-      margin: auto;
-      padding: 0 24px;
-    }
-  
-    section div .banner__text {
-      width: 50%;
-      max-width: 472px;
-    }
-    div .banner__text h1 {
-      font-size: 5.3rem;
-      line-height: 5.82rem;
-      margin-top: 0;
-      min-width: 301px;
-      max-width: 449px;
-    }
-    div .banner__text p {
-      font-size: 1.11rem;
-    }
-  }
-  @media (min-width: 1025px) {
-    .container-top,
-    .container-section {
-      max-width: 1120px;
-    }
-  
-    section div .banner__text {
-      width: 50%;
-      max-width: 560px;
-    }
-    div .banner__text h1 {
-      font-size: 5.3rem;
-      line-height: 5.82rem;
-      margin-top: 0;
-      /* min-width: 449px; */
-      max-width: 507px;
-    }
-    div .banner__text p {
-      font-size: 1.11rem;
-    }
-  }
-  @media (min-width: 1280px) {
-    .container-top,
-    .container-section {
-      min-width: 1120px;
-      max-width: 60%;
-    }
-    .container-section {
-      padding: 0;
-    }
-  
-    section div .banner__text {
-      width: 50%;
-      /* max-width: 585px; */
-    }
-    div .banner__text h1 {
-      font-size: 5.3rem;
-      line-height: 5.82rem;
-      margin-top: 0;
-      width: 100%;
-    }
-    div .banner__text p {
-      font-size: 1.11rem;
-    }
-  }
+}
