@@ -96,7 +96,11 @@
                 <button class="button-all category-button selected shop-product-button">All</button>
                 <button class="shop-product-button refresh-products">Refresh Products</button>
                 <br>
-                <input type="text" value="USD" class="currency">
+                <select name="select" class="currency shop-product-button" style="border: 2px solid black;"> <!--Supplement an id here instead of using 'name'-->
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="UAH">UAH</option>
+                  </select>
                 <button class="convert shop-product-button">Convert</button>
                 <div class="shop-products"> </div>
             </section>
