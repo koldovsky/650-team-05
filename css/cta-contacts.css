@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Grand+Hotel&family=Playfair+Display:ital,wght@0,600;1,600&display=swap'); 
 
-/* NATALIA block */
+/* NATALIA'S block - contacts us*/
 #cta-contacts a, #cta-contacts ul {
     text-decoration: none;
     }
@@ -74,7 +74,7 @@
 }
 .contacts-information {
     margin-top: 20px;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
     color: var(--contacts-information-color);
     font-size: 34px;
     line-height: 40.8px;
@@ -99,6 +99,11 @@
     width: 166px;
     height: 60px;
     background-color: rgba(0, 0, 0, 0);
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
 }
 
 .contacts-text:hover {
@@ -106,6 +111,16 @@
     background-color: var(--contacts-form-background-color);
 }
 
+@media (min-width: 462px) {
+    .contacts {
+        padding-top: 65px;
+    }
+}
+@media (min-width: 576px) {
+    .contacts {
+        padding-top: 65px;
+    }
+}
 @media (min-width: 768px) {
     #cta-contacts {
         padding-left: 32px;
@@ -131,6 +146,7 @@
         font-size: 38px;
         font-weight: 600;
         line-height: 45.6px;
+        margin-bottom: 70px;
     }
 
     .contacts-text {
@@ -138,11 +154,17 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 25.6px;
+        padding-top: 23px;
+        padding-bottom: 23px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
+
     .contacts {
-        padding-left: 40px;
+        padding-top: 10px;
+        padding-left: 120px;
         padding-right: 64px;
-    }
+    }  
 }
 
 @media (min-width: 992px) {
