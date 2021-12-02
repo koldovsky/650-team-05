@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@0;1&family=Grand+Hotel&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
 
-/*block5-shop-bestsellers*/
+/*Natalia's block-bestsellers*/
 main #bestsellers {
     max-width: 1200px;
     margin: auto;
 }
 
 #bestsellers a, #bestsellers ul {
-text-decoration: none;
+    text-decoration: none;
 }
 
 #bestsellers {
