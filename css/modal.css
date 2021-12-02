@@ -43,7 +43,7 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	flex-basis: 50%;
-	max-width: 50%;
+	max-width: 100%;
 }
 
 .modal-footer {
@@ -178,3 +178,37 @@
 	align-self: stretch;
 }
 /* style form */
+
+/* validyty */
+
+/* 
+  validaty 
+<span class="validity"></span>  */
+
+
+/* .form-name {
+	
+  margin-bottom: 10px;
+  position: relative;
+}
+
+input[type="number"] {
+  width: 100px;
+}
+
+input + span {
+  padding-right: 30px;
+}
+
+input:invalid+span:after {
+  position: absolute; content: '✖';
+  padding-left: 5px;
+  color: #8b0000;
+}
+
+input:valid+span:after {
+  position: absolute;
+  content: '✓';
+  padding-left: 5px;
+  color: #009000;
+} */
