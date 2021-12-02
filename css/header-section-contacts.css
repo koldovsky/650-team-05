@@ -43,9 +43,23 @@ header .contacts-header {
   header .contacts__item_white a:hover {
     text-decoration: underline;
   }
+  header .container-bottom_contacts {
+    padding-bottom: 50px;
+  }
+  header .contacts--bottom__item {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    line-height: 3rem;
+  }
+  header .container-bottom_contacts a {
+    text-decoration: underline;
+  }
   @media (min-width: 991px) {
     header .contacts-header {
       display: block;
+    }
+    header .container-bottom_contacts {
+      display: none;
     }
     header div .container-top_contacts {
       display: grid;
@@ -66,3 +80,5 @@ header .contacts-header {
       max-width: 60%;
     }
   }
+
+  
