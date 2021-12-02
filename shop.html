@@ -23,46 +23,62 @@
     <link rel="stylesheet" href="css/services-instagram.css">
     <link rel="stylesheet" href="css/testimonials-testimonials.css">
     <link rel="stylesheet" href="css/cta-contacts.css">
+    <link rel="icon" type="image/png" href="img/title/title-img.png">
 </head>
 
 <body>
     <header>
-        <h1 class="sr-only">Christmas Decorations Shop</h1>
-        <div class="header">
-            <div class="header-logo">
-                <a href="/"><img class="header-logo" src="img/header/logo.svg" alt="christmas decorations shop" /></a>
-            </div>
-            <label class="burger-icon" for="burger-checkbox">☰</label>
-            <input type="checkbox" id="burger-checkbox" />
-            <div class="header-burger">
-                <div class="header-nav">
-                    <nav class="navbar">
-                        <a class="header-nav-text" href="#bestsellers">Bestsellers</a>
-                        <a class="header-nav-text" href="#cover-about">About Us</a>
-                        <a class="header-nav-text" href="#shop-tabs">Decorations</a>
-                        <a class="header-nav-text" href="#faq">FAQ</a>
-                        <a class="header-nav-text" href="#cta-contacts">Contacts</a>
-                    </nav>
+        <div class="contacts-header contacts_black">
+            <div class="container-top_contacts">
+                <div class="contacts__item contacts__item_white contacts__item_white_r">
+                    <span class="contacts__mail contacts__mail_black">Open 8 am - 8 pm</span>
                 </div>
-                <div class="header-contacts">
-                    <span class="header-span"> Open 8 am - 8 pm </span>
-                    <span class="header-span"><a class="header-contacts-text" href="tel:+12345678900">+1 (234) 567 89
-                            00</a></span>
-                    <span class="header-span"><a class="header-contacts-text" href="mailto:christmasdecor@email.com">christmasdecor@email.com</a></span>
+                <div class="contacts__item contacts__item_white contacts__item_white_c">
+                    <a href="tel:+12345678900">+1 (234) 567 89 00</a>
                 </div>
-                <div class="header-social">
-                    <a class="a-social-icons" href="https://facebook.com/" target="_blank">
-                        <img class="img-social-icons" src="img/header/facebook.png" alt="facebook link" />
-                    </a>
-                    <a class="a-social-icons" href="https://instagram.com/" target="_blank">
-                        <img class="img-social-icons" src="img/header/instagram.png" alt="instagram link" />
-                    </a>
-                    <a class="a-social-icons" href="https://youtube.com/" target="_blank">
-                        <img class="img-social-icons" src=" img/header/youtube.png" alt="youtube link" />
-                    </a>
+                <div class="contacts__item contacts__item_white contacts__item_white_l">
+                    <a href="mailto:christmasdecor@email.com">christmasdecor@email.com</a>
                 </div>
             </div>
         </div>
+        <section class="banner-bg banner-bg_origin">
+            <div class="container-section">
+                <nav class="navigation">
+                    <div class="navigation-logo">
+                        <a class="header-logo" href="#"><img width="150" src="img/header/logo.svg" alt="logo"></a>
+                        <div class="navigation-burger"><span></span></div>
+                    </div>
+                    <div class="navigation-wrapper">
+                        <div class="navigation-pages">
+                            <a href="#bestsellers" class="navigations__speakers navigation__link">Bestsellers</a>
+                            <a href="#cover-about" class="navigations__news navigation__link">About Us</a>
+                            <a href="#shop-tabs" class="navigations__testimonials navigation__link">Decorations</a>
+                            <a href="#faq" class="navigations__headphones navigation__link">FAQ</a>
+                            <a href="#cta-contacts" class="navigations__footer navigation__link">Contacts</a>
+                        </div>
+                        <div class="container-bottom_contacts">
+                            <div class="contacts--bottom__item contacts__item_white_c">
+                                <span class="contacts__mail contacts__mail_black">Open 8 am - 8 pm</span>
+                            </div>
+                            <div class="contacts--bottom__item contacts__item_white_c">
+                                <a class="navigations__footer navigation__link" href="tel:+12345678900">+1 (234) 567 89 00</a>
+                            </div>
+                            <div class="contacts--bottom__item contacts__item_white_c">
+                                <a class="navigations__footer navigation__link" href="mailto:christmasdecor@email.com">christmasdecor@email.com</a>
+                            </div>
+                        </div>
+                        <div class="navigation-social">
+                            <a class="img-social-icons" href="https://www.facebook.com/" target="blank"><img src="img/header/facebook.png"
+                                    alt="facebook"></a>
+                            <a class="img-social-icons" href="https://www.instagram.com/" target="blank"><img src="img/header/instagram.png"
+                                    alt="instagram"></a>
+                            <a class="img-social-icons" href="https://www.youtube.com/" target="blank"><img src="img/header/youtube.png"
+                                    alt="youtube"></a>
+                        </div>   
+                    </div>
+                </nav>
+            </div>
+        </section>
     </header>
 
     <main>
@@ -78,6 +94,10 @@
                 <button class="button-christmas-balls category-button shop-product-button">Christmas Balls</button>
                 <button class="button-stockings category-button shop-product-button">Stockings</button>
                 <button class="button-all category-button selected shop-product-button">All</button>
+                <button class="shop-product-button refresh-products">Refresh Products</button>
+                <br>
+                <input type="text" value="USD" class="currency">
+                <button class="convert shop-product-button">Convert</button>
                 <div class="shop-products"> </div>
             </section>
         </section>

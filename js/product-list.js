@@ -1,11 +1,28 @@
 (async function () {
-
-    const response = await fetch('products.json');
-    const products = await response.json();
-
-
     let sortDirection = '';
     let category;
+    let products;
+    let currencyRatio = 1;
+    let convertTo = 'USD';
+
+
+    async function refreshProducts(){
+        const response = await fetch('products.json');
+        products = await response.json();
+        renderProducts(products,sortDirection,category);
+    }
+
+    async function convertCurrency() {
+    const responce = await fetch('https://api.exchangerate-api.com/v4/latest/USD');
+    const rates = await responce.json();
+    convertTo = document.querySelector('.currency').value.toUpperCase();
+    currencyRatio = rates.rates[convertTo];
+    renderProducts(products, sortDirection, category);
+  }
+
+    await refreshProducts();
+
+    // setInterval(refreshProducts, 10000);
 
     function renderProducts(products, sortDirection, category) {
 
@@ -36,14 +53,12 @@
                 <a class="shop-product-name" href="shop.html">
                     <p>${product.title}</p>
                 </a>
-                <p class="shop-product-price">$${product.price}</p>
+                <p class="shop-product-price">${(product.price * currencyRatio).toFixed(2) + ' ' + convertTo}</p>
                 <button class="shop-product-button">Buy</button>
             </article>`;
         }
         productsContainer.innerHTML = html;
     }
-
-    renderProducts(products,sortDirection,category);
 
     const buttonSortAscending = document.querySelector('.button-sort-asc');
     buttonSortAscending.addEventListener('click', sortAscending);
@@ -98,6 +113,8 @@
         category = ''
         renderProducts(products,sortDirection,category);
     });
+    document.querySelector('.refresh-products').addEventListener('click', refreshProducts);
+    document.querySelector('.convert').addEventListener('click', convertCurrency);
 
 
 })();
