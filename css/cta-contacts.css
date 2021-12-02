@@ -111,6 +111,12 @@
     background-color: var(--contacts-form-background-color);
 }
 
+@media (min-width: 414px) {
+    .contacts {
+        padding-top: 45px;
+    }
+}
+
 @media (min-width: 462px) {
     .contacts {
         padding-top: 65px;
@@ -121,6 +127,7 @@
         padding-top: 65px;
     }
 }
+
 @media (min-width: 768px) {
     #cta-contacts {
         padding-left: 32px;
@@ -162,14 +169,19 @@
 
     .contacts {
         padding-top: 10px;
-        padding-left: 120px;
+        padding-left: 80px;
         padding-right: 64px;
     }  
 }
 
 @media (min-width: 992px) {
-#cta-contacts {
-    padding-left: 40px;
-    padding-right: 40px;
-}
+    #cta-contacts {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .contacts {
+        padding-top: 10px;
+        padding-left: 120px;
+        padding-right: 64px;
+    }  
 }
