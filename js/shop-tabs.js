@@ -28,7 +28,7 @@
                     <a href="shop.html">
                         <p class="shop-tabs-product-name">${product.title}</p>
                     </a>
-                    <p class="shop-tabs-product-price">$${product.price}</p>
+                    <p class="shop-tabs-product-price">$${(product.price).toFixed(2)}</p>
                     <button class="shop-tabs-product-button">Add to card</button>
             </div>`
         }
